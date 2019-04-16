@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#top div{
+display: inline-block;
+font-size: 15px;
+padding: 1px 1px;
+margin: 0px 0px;
+
+
+}
+
+#search{
+    float: right;
+    margin-top: 20px;
+    
+}
+
+ul li{
+    display: inline-block;
+    padding: 20px;
+    padding-left: 50px;
+    text-decoration: none;
+    
+}
+
+#list{
+    padding: 50px;
+    text-align: center;
+}
+
+h1{
+    color:grey;
+    padding-left: 550px;
+    text-shadow: 10px 15px 20px blue;
+    margin-top: 80px;
+    font-size: 50px;  
+}
+
+
+ 
+ul{
+    border: 1px solid black;
+    margin: 15px 15px;
+}
+
+#images{}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#contact{
+
+}
