@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    margin: 0px;
+}
+.leftSection{
+    width: 20%;
+    border: 1px;
+    height: 600px;
+    background: blue;
+    position: fixed;
+}
+.leftSection .photo{
+    height: 30%;
+    padding-top:50px;
+    padding-bottom: 30px;
+}
+.leftSection .photo img{
+    border-radius: 50%;
+    width: 150PX;
+    height: 150PX;
+}
+.leftSection .menu{
+    border: 1px;
+    height: 65%;
+    margin: 10px;
+}
+.leftSection .menu a{
+    color: white;
+    font-size: 45px;
+    display: fixed;
+}
+.rightSection{
+    width:80%;
+    border: 1px solid blue;
+    height: 545px;
+    background-image: url(../images/backgroundPhoto.png);
+    margin-left:270px;
+    background-size: 100%;
+}
+.rightSection .about{
+    width: 90%;
+    height: 500px;
+    margin-top:35px;
+    text-align: left;
+}
+.rightSection .about .socialMedia img{
+    width: 35;
+    height: 35px;
+    border-radius: 50%;
+    padding-top: 100px;
+}
+.rightSection .about .aboutMe{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100px;
+    color: white;
+}
+.rightSection .about .myName{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 25px;
+}
+.rightSection .about .myName .name{
+    font-size: 75px;
+    color: black;
+}
+.rightSection .about .myName .nameDescription{
+    font-size: 20px;
+    color: black;
+}
+.rightSection .about .myDescription{
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50pxpx;
+    width: 500px;
+    font-size: 31px;
+    background-color: red;
+}
+.rightSection .skills{
+    border: 1px solid aqua;
+    height: 545px;
+}
+.rightSection .experience{
+    border: 1px solid aqua;
+    height: 545px;
+}
+.rightSection .projects{
+    border: 1px solid aqua;
+    height: 545px;
+}
+.rightSection .gallery{
+    border: 1px solid aqua;
+    height: 545px;
+}
+.rightSection .contactMe{
+    height: 545px;
+    background-color: burlywood;
+}
+.rightSection .contactMe table{
+    border:  1px solid black;
+    padding-top: 50px;
+}
+span{
+    color: blue;
+}
