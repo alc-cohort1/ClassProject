@@ -1,0 +1,99 @@
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: olive;
+    color: orangered;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+
+.all{
+    width: 400px;
+    margin: auto;
+
+}
+
+option{
+    background-color: orange;
+}
+
+
+
+input{
+    border-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 5px;
+    margin-top:20px;
+}
+
+.hello{
+margin-left: 89px;
+margin-bottom: 15px;
+}
+
+.country{
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+
+.drop{
+    margin-left: 94px;
+}
+
+.fieldOne{
+    padding: 20px;
+    width: 10em;
+    margin-left: 74px;
+}
+
+
+.fieldTwo{
+    padding: 20px;
+    width: 10em;
+    margin-left: 74px;
+}
+
+.form{
+    float: right;
+}
+
+textarea{
+    width: 400px; 
+    border: 1px solid grey;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    margin-right: 20px;
+    margin-left: 87px;
+
+}
+
+
+.submit{
+ background-color: rgb(203, 224, 12);
+  padding: 12px 20px;
+  border-radius: 5px;
+  width: 80px;
+  margin-left: 85px;
+}
+
+.submit:hover{
+    background-color: #f3a006fa;
+}
+
+
+
+.para{
+    font-size: 30px;
+}
