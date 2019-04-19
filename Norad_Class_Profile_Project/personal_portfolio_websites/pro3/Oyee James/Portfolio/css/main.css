@@ -16,8 +16,8 @@
 }
 .leftSection .photo img{
     border-radius: 50%;
-    width: 150PX;
-    height: 150PX;
+    width: 150px;
+    height: 150px;
 }
 .leftSection .menu{
     border: 1px;
@@ -47,7 +47,7 @@
     width: 35;
     height: 35px;
     border-radius: 50%;
-    padding-top: 100px;
+    padding-top: 135px;
 }
 .rightSection .about .aboutMe{
     margin-top: 10px;
@@ -73,26 +73,30 @@
     margin-top: 50px;
     margin-left: 10px;
     margin-right: 10px;
-    height: 50pxpx;
-    width: 500px;
+    height: 40px;
+    width: 525px;
     font-size: 31px;
     background-color: red;
 }
 .rightSection .skills{
     border: 1px solid aqua;
     height: 545px;
+    background-color: chocolate;
 }
 .rightSection .experience{
     border: 1px solid aqua;
     height: 545px;
+    background-color: cadetblue;
 }
 .rightSection .projects{
     border: 1px solid aqua;
     height: 545px;
+    background-color: green;
 }
 .rightSection .gallery{
     border: 1px solid aqua;
     height: 545px;
+    background-color: aqua;
 }
 .rightSection .contactMe{
     height: 545px;
@@ -104,4 +108,4 @@
 }
 span{
     color: blue;
-}
+} 
