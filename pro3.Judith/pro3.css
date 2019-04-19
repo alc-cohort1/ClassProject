@@ -2,6 +2,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     border: 1px  solid black;
     margin: 0px;
+    font-size: 20px;
 }
 
 
@@ -9,18 +10,28 @@ body{
 #top div{
 display: inline-block;
 padding: 0px;
+margin: 0px;
+
 
 
 }
 
 #search{
     float: right;
-    padding: 100px;
-    
-    
-
-    
+    padding: 100px;  
 }
+
+
+#hellop{}
+
+
+input{
+    padding: 7px;
+}
+
+
+
+
 
 ul li{
     display: inline-block;
@@ -55,6 +66,8 @@ ul{
 a{
     text-decoration: none;
     color: black;
+    padding: 10px;
+
 }
 
 #hello{
@@ -69,4 +82,13 @@ p{
 #div{
     border: 1px solid black;
     margin-bottom: 50px;
+}
+a:hover{
+    color: orange;
+    background-color: lightgray;
+}
+
+
+#contact{
+    border: 1px solid black;
 }
