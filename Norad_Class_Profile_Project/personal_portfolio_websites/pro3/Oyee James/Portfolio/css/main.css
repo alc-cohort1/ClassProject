@@ -1,12 +1,10 @@
 .container{
     display: flex;
-    margin: 0px;
 }
 .leftSection{
     width: 20%;
-    border: 1px;
     height: 600px;
-    background: blue;
+    background: linear-gradient(to bottom, blue, red);
     position: fixed;
 }
 .leftSection .photo{
@@ -28,20 +26,22 @@
     color: white;
     font-size: 45px;
     display: fixed;
+    text-decoration: none;
+}
+.leftSection .menu a:hover{
+    color: black;
+    background-color: white;
 }
 .rightSection{
     width:80%;
-    border: 1px solid blue;
-    height: 545px;
-    background-image: url(../images/backgroundPhoto.png);
-    margin-left:270px;
-    background-size: 100%;
+    margin-left:270px;    
 }
 .rightSection .about{
-    width: 90%;
-    height: 500px;
-    margin-top:35px;
+    width: 100%;
+    height: 600px;
     text-align: left;
+    background-size: 100%;
+    background-image: url(../images/backgroundPhoto.png);
 }
 .rightSection .about .socialMedia img{
     width: 35;
@@ -50,11 +50,14 @@
     padding-top: 135px;
 }
 .rightSection .about .aboutMe{
-    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     height: 100px;
     color: white;
+}
+.rightSection .about .aboutMe .profile img{
+    width: 250px; 
+    height: 100px;
 }
 .rightSection .about .myName{
     margin-left: 10px;
@@ -76,35 +79,92 @@
     height: 40px;
     width: 525px;
     font-size: 31px;
-    background-color: red;
 }
 .rightSection .skills{
-    border: 1px solid aqua;
-    height: 545px;
-    background-color: chocolate;
+    height: 600px;
+    background-image: url(../images/skills.jpeg);
+    background-size: 100%;
+}
+.rightSection .skills .skillsHead{
+    height: 70px;
+}
+.rightSection .skills .skillsHead p{
+    color: white;
+    font-size: 30px;
+}
+.rightSection .skills .skillsBody{
+    height: 350px;
+    margin: 45px;
+    display: flex;
+    padding-top: 10px;
+}
+.rightSection .skills .skillsBody .htmlSkills{
+    height: 75%;
+    width: 20%;
+    margin: 10px;
+    background-color: white;
+    opacity: .6;
+}
+.rightSection .skills .skillsBody .htmlSkills p{
+    color: black;
+    font-size: 30px;
+}
+.rightSection .skills .skillsBody .htmlSkills img{
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+.rightSection .skills .skillsBody .cssSkills{
+    height: 75%;
+    width: 20%;
+    margin: 10px;
+    background-color: white;
+    opacity: .6;
+}
+.rightSection .skills .skillsBody .cssSkills img{
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+.rightSection .skills .skillsBody .cssSkills p{
+    color: black;
+    font-size: 30px;
+}
+.rightSection .skills .skillsBody .jsSkills{
+    height: 75%;
+    width: 20%;
+    margin: 10px;
+    background-color: white;
+    opacity: .6;
+}
+.rightSection .skills .skillsBody .jsSkills img{
+    width: 100px;
+    height: 100px;
+    padding-top: 10px;
+}
+.rightSection .skills .skillsBody .jsSkills p{
+    color: black;
+    font-size: 30px;
 }
 .rightSection .experience{
-    border: 1px solid aqua;
-    height: 545px;
+    height: 600px;
     background-color: cadetblue;
+    background-size: 100%;
 }
 .rightSection .projects{
-    border: 1px solid aqua;
-    height: 545px;
+    height: 600px;
     background-color: green;
+    background-size: 100%;
 }
 .rightSection .gallery{
-    border: 1px solid aqua;
-    height: 545px;
+    height: 600px;
     background-color: aqua;
+    background-size: 100%;
 }
 .rightSection .contactMe{
-    height: 545px;
+    height: 600px;
     background-color: burlywood;
-}
-.rightSection .contactMe table{
-    border:  1px solid black;
-    padding-top: 50px;
+    background-size: 100%;
 }
 span{
     color: blue;
