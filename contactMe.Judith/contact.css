@@ -8,8 +8,32 @@
 
 
 
+
+.adress{
+    margin-left: 50px;
+    text-align: left;
+}
+
+
+.feet{
+    float: right;
+    position: sticky;
+}
+
+
+
+p{
+   padding-left: 0px;
+   margin-inline-end: 0px;
+}
+
+
+
+
+
+
 body{
-    background-color: olive;
+    background-color: lightgoldenrodyellow;
     color: orangered;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -17,7 +41,7 @@ body{
 }
 
 
-.all{
+all{
     width: 400px;
     margin: auto;
 
@@ -27,6 +51,10 @@ option{
     background-color: lightyellow;
     border: none;
     box-shadow: 0px 18px 20px 0px;
+}
+
+#drop{
+    margin-bottom: 30px;
 }
 
 
@@ -59,10 +87,6 @@ margin-bottom: 15px;
 }
 
 
-.drop{
-    margin-left: 94px;
-}
-
 .fieldOne{
     padding: 20px;
     width: 10em;
@@ -76,9 +100,6 @@ margin-bottom: 15px;
     margin-left: 74px;
 }
 
-.form{
-    float: right;
-}
 
 textarea{
     width: 420px; 
@@ -93,10 +114,10 @@ textarea{
 
 
 button{
-    border: none;
+    border: 1px solid orange;
     border-radius: 5px;
     background-color: lightyellow;
-    color: orange;
+    color: green;
     padding: 20px;
     margin-right: 20px;
     margin-left: 87px;
@@ -112,11 +133,5 @@ button{
 
 button:hover{
     background-color: yellowgreen;
-    color: green;
-}
-
-
-
-.para{
-    font-size: 30px;
+    color: orange;
 }
