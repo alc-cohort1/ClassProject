@@ -10,15 +10,15 @@
 
 
 .adress{
-    margin-left: 50px;
-    text-align: left;
+margin-top: 100px;
 }
+    
 
 
 .feet{
-    position: absolute;
-    padding: 0px;
-    margin: 0px;
+  float: right;
+  margin-top: 0px;
+
 }
 
 
