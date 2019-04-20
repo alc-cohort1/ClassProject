@@ -16,8 +16,9 @@
 
 
 .feet{
-    float: right;
-    position: sticky;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
 }
 
 
@@ -41,16 +42,16 @@ body{
 }
 
 
-all{
+
     width: 400px;
     margin: auto;
 
-}
+
 
 option{
     background-color: lightyellow;
     border: none;
-    box-shadow: 0px 18px 20px 0px;
+    color: antiquewhite;
 }
 
 #drop{
