@@ -150,21 +150,71 @@
     height: 600px;
     background-color: cadetblue;
     background-size: 100%;
+    padding-top: 1px;
 }
 .rightSection .projects{
     height: 600px;
     background-color: green;
     background-size: 100%;
+    padding-top: 1px;
 }
 .rightSection .gallery{
     height: 600px;
     background-color: aqua;
     background-size: 100%;
+    padding-top: 1px;
 }
 .rightSection .contactMe{
     height: 600px;
-    background-color: burlywood;
+    background-color: grey;
     background-size: 100%;
+    padding-top: 1px;
+    opacity: .9;
+}
+.rightSection .contactMe .contactHead .red p{
+    color: red;
+    font-size: 30px;
+}
+.rightSection .contactMe .contactHead .black p{
+    color:black;
+    font-size: 18px;
+}
+.rightSection .contactMe .contactBody{
+    display: flex;
+    size: 80%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.rightSection .contactMe .contactBody .left{
+    width: 250px;
+    padding: 10px;
+    padding-top: 350x;
+}
+.rightSection .contactMe .contactBody .middle{
+    width: 300px;
+    padding: 10px;
+}
+.rightSection .contactMe .contactBody .right{
+    width: 200px;
+    padding: 10px;
+}
+.contactInput{
+    width: 250px;
+    height: 20px;
+    border-radius: 5px;
+}
+textarea{
+    border-radius: 5px;
+}
+button{
+    background-color: red;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: blue;
 }
 span{
     color: blue;
