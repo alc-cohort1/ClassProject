@@ -30,6 +30,11 @@ display: inline-block;
 
 }
 
+a:hover{
+    background-color:plum;
+    padding: 10px;
+}
+
 #logo{
     font-family: sans-serif;
     font-size: 18px;
