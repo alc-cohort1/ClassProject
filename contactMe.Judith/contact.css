@@ -24,17 +24,28 @@ body{
 }
 
 option{
-    background-color: orange;
+    background-color: lightyellow;
+    border: none;
+    box-shadow: 0px 18px 20px 0px;
 }
 
 
 
 input{
     border-radius: 5px;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
     padding: 5px;
     margin-top:20px;
+    width: 400px;
+}
+
+select{
+    color: brown;
+    background-color: lightyellow;
+    width: 420px;
+    border-radius: 50px;
+    padding: 5px;
+   
+
 }
 
 .hello{
@@ -70,7 +81,7 @@ margin-bottom: 15px;
 }
 
 textarea{
-    width: 400px; 
+    width: 420px; 
     border: 1px solid grey;
     border-radius: 5px;
     margin-bottom: 16px;
@@ -80,16 +91,28 @@ textarea{
 }
 
 
-.submit{
- background-color: rgb(203, 224, 12);
-  padding: 12px 20px;
-  border-radius: 5px;
-  width: 80px;
-  margin-left: 85px;
+
+button{
+    border: none;
+    border-radius: 5px;
+    background-color: lightyellow;
+    color: orange;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 87px;
+    font-size: 30px;
+
 }
 
-.submit:hover{
-    background-color: #f3a006fa;
+
+::placeholder{
+    font-style: italic;
+    color: brown;
+}
+
+button:hover{
+    background-color: yellowgreen;
+    color: green;
 }
 
 

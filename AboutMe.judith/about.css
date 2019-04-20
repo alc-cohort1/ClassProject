@@ -1,10 +1,13 @@
 body{
-  background-color: indigo;
+  background-color: deeppink;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: unset;
+  font-size: 20px;
 }
 
 html { 
     box-sizing: border-box;
-    background-color: indigo;
+    background-color: darkmagenta
 
   }
 
@@ -21,7 +24,7 @@ html {
   }
 
    
-  @media screen and (max-width: 650px) {
+   {
     .column {
       width: 100%;
       display: block;
@@ -29,7 +32,9 @@ html {
   }
 
   .card {
-    box-shadow: 0 4px 8px 0 purple;
+    box-shadow: 0 4px 8px 0 black;
+    background-color: white;
+    border-radius: 30px;
   }
 
   .container {
@@ -66,7 +71,7 @@ img{
   }
 
   .button:hover {
-    background-color:yellowgreen;
+    background-color:goldenrod;
   }
 
   a{
@@ -75,3 +80,6 @@ img{
   }
 
 
+h2{
+  color: gold;
+}
