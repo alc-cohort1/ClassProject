@@ -27,6 +27,7 @@
     font-size: 45px;
     display: fixed;
     text-decoration: none;
+    border-radius: 10px;
 }
 .leftSection .menu a:hover{
     color: black;
@@ -38,7 +39,7 @@
 }
 .rightSection .about{
     width: 100%;
-    height: 600px;
+    height: 585px;
     text-align: left;
     background-size: 100%;
     background-image: url(../images/backgroundPhoto.png);
@@ -47,7 +48,7 @@
     width: 35;
     height: 35px;
     border-radius: 50%;
-    padding-top: 135px;
+    padding-top: 225px;
 }
 .rightSection .about .aboutMe{
     margin-left: 10px;
@@ -71,6 +72,7 @@
 .rightSection .about .myName .nameDescription{
     font-size: 20px;
     color: black;
+    padding-top: 20px;
 }
 .rightSection .about .myDescription{
     margin-top: 50px;
@@ -81,7 +83,7 @@
     font-size: 31px;
 }
 .rightSection .skills{
-    height: 600px;
+    height: 585px;
     background-image: url(../images/skills.jpeg);
     background-size: 100%;
 }
@@ -147,59 +149,184 @@
     font-size: 30px;
 }
 .rightSection .experience{
-    height: 600px;
-    background-color: cadetblue;
+    height: 585px;
+    background-color: grey;
     background-size: 100%;
     padding-top: 1px;
 }
+.rightSection .experience .experienceHeading p{
+    font-size: 30px;
+    color: white;
+}
+.rightSection .experience .experienceContent{
+    width: 90%;
+    display: flex;
+    padding: 5px;
+}
+.rightSection .experience .ieee{
+    height: 215px;
+    width: 300px;
+    border: 3px solid black;
+    background-color: white;
+    opacity: .8;
+    border-radius: 5px;
+}
+.rightSection .experience .ieee .ieeeHead{
+    display: flex;
+}
+.rightSection .experience .ieee .ieeeHead p{
+    font-size: 20px;
+}
+.rightSection .experience .ieee .ieeeHead img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.rightSection .experience .commanet{
+    height: 215px;
+    width: 300px;
+    border: 3px solid red;
+    background-color: white;
+    opacity: .8;
+    border-radius: 5px;
+}
+.rightSection .experience .commanet .commanetHead{
+    display: flex;
+}
+.rightSection .experience .commanet .commanetHead p{
+    font-size: 20px;
+}
+.rightSection .experience .commanet .commanetHead img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border: 1px solid red;
+}
+.rightSection .experience .ciu{
+    height: 215px;
+    width: 33% ;
+    border: 3px solid green;
+    background-color: white;
+    opacity: .8;
+    border-radius: 5px;
+}
+.rightSection .experience .ciu .ciuHead{
+    display: flex;
+}
+.rightSection .experience .ciu .ciuHead p{
+    font-size: 20px;
+}
+.rightSection .experience .ciu .ciuHead img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border: 1px solid green;
+}
+.rightSection .experience .africell{
+    height: 215px;
+    width: 33%;
+    border: 3px solid orange;
+    background-color: white;
+    opacity: .8;
+    border-radius: 5px;
+}
+.rightSection .experience .africell .africellHead{
+    display: flex;
+}
+.rightSection .experience .africell .africellHead p{
+    font-size: 20px;
+}
+.rightSection .experience .africell .africellHead img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border: 1px solid orange;
+}
+.rightSection .experience .telekonet{
+    height: 215px;
+    width: 33%;
+    border: 3px solid blue;
+    background-color: white;
+    opacity: .8;
+    border-radius: 5px;
+}
+.rightSection .experience .telekonet .telekonetHead{
+    display: flex;
+}
+.rightSection .experience .telekonet .telekonetHead p{
+    font-size: 20px;
+}
+.rightSection .experience .telekonet .telekonetHead img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border:1px solid blue;
+}
 .rightSection .projects{
-    height: 600px;
+    height: 585px;
     background-color: green;
     background-size: 100%;
     padding-top: 1px;
 }
 .rightSection .gallery{
-    height: 600px;
+    height: 585px;
     background-color: aqua;
     background-size: 100%;
     padding-top: 1px;
 }
 .rightSection .contactMe{
-    height: 600px;
-    background-color: grey;
+    height: 585px;
     background-size: 100%;
-    padding-top: 1px;
-    opacity: .9;
+    padding-top: 10px;
+    background-image: url(../images/contactMe.jpg);
+}
+.rightSection .contactMe .contactHead{
+    background-color:blue;
+    width: 90%;
+    border-radius: 5px;
 }
 .rightSection .contactMe .contactHead .red p{
-    color: red;
-    font-size: 30px;
+    color: white;
+    font-size: 40px;
+    padding-top: 40px;
 }
 .rightSection .contactMe .contactHead .black p{
     color:black;
-    font-size: 18px;
+    font-size: 20px;
+    padding-bottom: 40px;
 }
 .rightSection .contactMe .contactBody{
     display: flex;
-    size: 80%;
-    padding-left: 100px;
-    padding-top: 50px;
+    width: 90%;
+    height: 90%;
+    padding-left: 50px;
 }
 .rightSection .contactMe .contactBody .left{
-    width: 250px;
-    padding: 10px;
-    padding-top: 350x;
+    width: 35%;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 5px;
 }
 .rightSection .contactMe .contactBody .middle{
-    width: 300px;
-    padding: 10px;
+    width: 35%;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 5px;
 }
 .rightSection .contactMe .contactBody .right{
-    width: 200px;
-    padding: 10px;
+    width: 30%;
+    padding: 20px;
+    background-color: grey;
+    border-radius: 5px;
 }
 .contactInput{
-    width: 250px;
+    width: 90%;
     height: 20px;
     border-radius: 5px;
 }
@@ -219,3 +346,19 @@ button:hover{
 span{
     color: blue;
 } 
+.space{
+    width: 10px;
+}
+.date{
+    color: blue;
+}
+.rightSection .footer{
+  position: fixed;
+  padding-left: 10px;
+  bottom: 0;
+  width: 1055px;
+  height: 35px;;
+  background: linear-gradient(to right, red, blue);
+  color: white;
+  text-align: center;
+}
