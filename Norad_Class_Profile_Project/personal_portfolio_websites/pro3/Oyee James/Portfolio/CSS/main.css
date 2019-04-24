@@ -278,10 +278,60 @@
 }
 .rightSection .projects{
     height: 568px;
-    background-color: green;
     background-size: 100%;
+    background-color: grey;
     padding-top: 1px;
 }
+.rightSection .projects .projectContent{
+    width:95%;
+}
+.rightSection .projects .projectContent .projectHead{
+    display:flex;
+    padding-left: 100px;
+}
+.rightSection .projects .projectContent .projectHead .descriptionHead{
+    background-color: blue;
+    width:33%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.rightSection .projects .projectContent .projectHead .descriptionHead p{
+    color:white;
+}
+.rightSection .projects .projectContent .projectHead .statusHead{
+    background-color:red;
+    width:33%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.rightSection .projects .projectContent .projectHead .statusHead p{
+    color:white;
+}
+.rightSection .projects .projectContent .projectHead .teamHead{
+    background-color: green;
+    width:33%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.rightSection .projects .projectContent .projectHead .teamHead p{
+    color: white;
+}
+.rightSection .projects .projectContent .projectBody{
+    display: flex;
+}
+.rightSection .projects .projectContent .projectBody .easyMeals{
+    background-color: black;
+    width:100px;
+    height: 100px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+}
+.rightSection .projects .projectContent .projectBody .easyMeals p{
+    color: white; 
+}
+
+
+
 .rightSection .gallery{
     height: 568px;
     background-image:url(../Images/gallery.jpeg);
