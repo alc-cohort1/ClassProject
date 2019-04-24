@@ -52,7 +52,7 @@
     width: 35;
     height: 35px;
     border-radius: 50%;
-    padding-top: 190px;
+    padding-top: 215px;
 }
 .rightSection .about .aboutMe{
     margin-left: 10px;
@@ -277,9 +277,9 @@
     border:1px solid blue;
 }
 .rightSection .projects{
-    height: 568px;
+    height: 725px;
     background-size: 100%;
-    background-color: grey;
+    background-image: url(../Images/backgroundp.png);
     padding-top: 1px;
 }
 .rightSection .projects .projectContent{
@@ -291,25 +291,16 @@
 }
 .rightSection .projects .projectContent .projectHead .descriptionHead{
     background-color: blue;
-    width:33%;
+    width:80%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 .rightSection .projects .projectContent .projectHead .descriptionHead p{
     color:white;
 }
-.rightSection .projects .projectContent .projectHead .statusHead{
-    background-color:red;
-    width:33%;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-.rightSection .projects .projectContent .projectHead .statusHead p{
-    color:white;
-}
 .rightSection .projects .projectContent .projectHead .teamHead{
-    background-color: green;
-    width:33%;
+    background-color: red;
+    width:20%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -320,15 +311,90 @@
     display: flex;
 }
 .rightSection .projects .projectContent .projectBody .easyMeals{
-    background-color: black;
+    background-color: green;
     width:100px;
-    height: 100px;
+    height: 218px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px; 
 }
 .rightSection .projects .projectContent .projectBody .easyMeals p{
-    color: white; 
+    color: white;
 }
+.rightSection .projects .projectContent .projectBody .easyMealsDescription{
+    background-color: black;
+    width: 72%;
+}
+.rightSection .projects .projectContent .projectBody .easyMealsDescription p{
+    color: white;
+}
+.rightSection .projects .projectContent .projectBody .easyMealsTeam{
+    background-color: green;
+    width: 18%;
+}
+.rightSection .projects .projectContent .projectBody .loanCalculator{
+    background-color: purple;
+    width:100px;
+    height: 265px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+}
+.rightSection .projects .projectContent .projectBody .loanCalculator p{
+    color: white;
+}
+.rightSection .projects .projectContent .projectBody .loanCalculatorDescription{
+    background-color: white;
+    width: 72%;
+}
+.rightSection .projects .projectContent .projectBody .loanCalculatorDescription p{
+    color: black;
+}
+.rightSection .projects .projectContent .projectBody .loanCalculatorTeam{
+    background-color: purple;
+    width: 18%;
+    border: 1px solid red;
+}
+.rightSection .projects .projectContent .projectBody .loanCalculatorTeam .teamNames{
+    display: flex;
+}
+.rightSection .projects .projectContent .projectBody .loanCalculatorTeam .ourTeam p{
+    background-color: red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.rightSection .projects .projectContent .projectBody .loanCalculatorTeam .teamNames .teamPhoto img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+.rightSection .projects .projectContent .projectBody .footerDesign{
+    background-color: black;
+    width:100px;
+    height: 175px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+}
+.rightSection .projects .projectContent .projectBody .footerDesign p{
+    color: white;
+}
+.rightSection .projects .projectContent .projectBody .footerDesignDescription{
+    background-color: black;
+    width: 72%;
+    opacity: .5;
+}
+.rightSection .projects .projectContent .projectBody .footerDesignTeam{
+    background-color: black;
+    width: 18%;
+    opacity: .6;
+}
+
+
 
 
 
@@ -407,7 +473,7 @@
 }
 .rightSection .contactMe .contactBody .left{
     width: 35%;
-    padding: 20px;
+    padding:20px;
     background-color: gray;
     border-radius: 5px;
 }
@@ -418,10 +484,34 @@
     border-radius: 5px;
 }
 .rightSection .contactMe .contactBody .right{
-    width: 30%;
-    padding: 20px;
+    width: 20%;
     background-color: grey;
     border-radius: 5px;
+    padding: 20px;
+}
+.rightSection .contactMe .contactBody .right .phoneNumber{
+    display: flex;
+}
+.rightSection .contactMe .contactBody .right .phoneNumber img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.rightSection .contactMe .contactBody .right .address{
+    display: flex;
+}
+.rightSection .contactMe .contactBody .right .address img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.rightSection .contactMe .contactBody .right .skype{
+    display: flex;
+}
+.rightSection .contactMe .contactBody .right .skype img{
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
 }
 .contactInput{
     width: 90%;
