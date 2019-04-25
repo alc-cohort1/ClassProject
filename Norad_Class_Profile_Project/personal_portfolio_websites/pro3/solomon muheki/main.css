@@ -1,0 +1,38 @@
+body,html{
+    padding: 0px;
+    margin: 0px;
+}
+.navOne{
+    border: 1px solid black;    
+}
+.navOne div{
+    display: inline-block;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+#welcome{
+    width: 350px;
+    border-right: 1px solid black;
+}
+#mail{
+    width: 150px;
+    border-right: 1px solid black;
+}
+#Search{
+    width: 211px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.rightNav{
+    padding-left: 480px;
+}
+.navTwo{
+    border: 1px solid black;   
+    text-align: center; 
+}
+.navTwo div ul li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
