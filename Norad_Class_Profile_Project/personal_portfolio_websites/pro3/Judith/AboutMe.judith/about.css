@@ -1,13 +1,14 @@
 body{
-  background-color: deeppink;
+  background-color: darkgoldenrod;
   font-family: 'Courier New', Courier, monospace;
   font-style: unset;
   font-size: 20px;
+  color: olivedrab;
 }
 
 html { 
     box-sizing: border-box;
-    background-color: darkmagenta
+    background-color: lightslategray;
 
   }
 
@@ -16,6 +17,9 @@ html {
     box-sizing: inherit;
   }
 
+
+
+  
   .column {
     float: left;
     width: 33.3%;
@@ -23,13 +27,6 @@ html {
     padding: 0 8px;
   }
 
-   
-   {
-    .column {
-      width: 100%;
-      display: block;
-    }
-  }
 
   .card {
     box-shadow: 0 4px 8px 0 black;
@@ -58,8 +55,7 @@ img{
     outline: 0;
     display: inline-block;
     padding: 8px;
-    color: white;
-    background-color: plum;
+    background-color: lightslategray;
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -72,6 +68,7 @@ img{
 
   .button:hover {
     background-color:goldenrod;
+    color: rgb(138, 53, 98);
   }
 
   a{
