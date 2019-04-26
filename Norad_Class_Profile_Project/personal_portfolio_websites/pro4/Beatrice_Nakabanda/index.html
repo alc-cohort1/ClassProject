@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Beatrice Nakabanda</title>
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
+     <!-- links to Bootstrap -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 </head>
 <body>
@@ -18,16 +19,43 @@
             <header class="site-header">
                 <div class="top-header-bar">
                     <div class="row">
-                        <div class="col-lg-6 flex align-items-center">
-                            <div class="header-bar-text d-none d-lg-block">
-                                <!-- .header-bar-text -->
-                                <p>Hello world, My name is Beatrice</p>
+                       <div class="col-sm-12">
+                           <!-- site brand -->
+                           <center>
+                               <div class="site-brand">
+                                   <h1 class="site-title">Beatrice</h1>
+                                   <p class="site-description"><b>Personal Blog</b></p>
+                                </div>
+                            </center>   
+                       </div>
+
+                    </div>
+                    <div class="row">
+                            <div class="col-sm-12">
+                                    <nav class="navbar navbar-default" >
+                                    <!-- navigation bar -->
+                                        <div class="container-fluid" id="menu">
+                                            <div class="navbar-header">   
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">  
+                                                    <span class="sr-only">Toggle navigation</span>      
+                                                    <span class="icon-bar"></span>      
+                                                    <span class="icon-bar"> </span>      
+                                                    <span class="icon-bar"></span>    
+                                                    </button>
+                                            </div>
+                                            <div class="collapse navbar-collapse" id="navbar1">
+                                                <ul class="nav navbar-nav" >
+                                                    <li><a href="#"><b>HOME</b></a></li>
+                                                    <li><a href="#"><b>SKILLS</b></a></li>
+                                                    <li><a href="#"><b>PROJECTS</b></a></li>
+                                                    <li><a href="#"><b>REFERENCES</b></a></li>
+                                                    <li><a href="#"><b>CONTACT ME</b></a></li>
+                                                    <li><a href="#"><b>GALLERY</b></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </nav> <!--navigation bar end-->  
                             </div>
-                                <!-- .header-bar-email -->
-                            <div class="header-bar-email d-none d-lg-block">
-                                <a href="#">nakabandabeatrice@gmail.com</a>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </header>
