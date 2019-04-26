@@ -187,7 +187,51 @@ li a{
               cursor: pointer;
             }
             .refSlides {display:none;}
+/*about us*/
+.about-container{
+    background:;
+    border-radius: 5px;
+    display:flex;
+    height: auto;
 
+    
+}
+.about-container1{
+    background-color: cornflowerblue;
+    width: 50%;
+    opacity: 0.3
+    margin: 10px;
+}
+.about-container1 p{
+  
+    font-size: 18px;
+    margin: 30px;
+    color: BLUE;
+    font-weight: bold;
+}
+.about-container1 h3{
+    margin: 30px;
+    color: #7D0552;
+    
+}
+.about-container1 p{
+    margin: 15px;
+    color: #2B1B17;
+    font-family: cursive;
+    
+}
+
+
+.about-container button{
+    width: 70%;
+    background-color: #368BC1;;
+    color: white;
+    padding: 14px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
 /*styling the about section*/
 .about-container{
@@ -218,7 +262,7 @@ li a{
         margin: 20px;
 
     }
-
+  
     /*Gallery*/
    div.gallery {
   border: 1px solid #ccc;
@@ -277,13 +321,13 @@ div.desc {
     
 }
 .services-container1{
-    background-color: lightgrey;
+    background-color: white;
     width: 25%;
     border-radius: 5%;
     margin: 10px;
 }
 .services-container1:hover{
-    background-color:B048B5 ;
+    background-color:lightgrey ;
     width: 30%;
     border-radius: 5%;
     margin: 10px;
@@ -370,6 +414,68 @@ div.desc {
     cursor: pointer;
 }
 
+/*Projects*/
+.projects-container{
+    background:;
+    border-radius: 5px;
+    display:flex;
+    height: auto;
+    
+}
+.projects-container1{
+    background-color: white;
+    width: 25%;
+    border-radius: 5%;
+    margin: 10px;
+}
+.projects-container1:hover{
+    background-color:lightgrey ;
+    width: 30%;
+    border-radius: 5%;
+    margin: 10px;
+    color: #461B7E;
+}
+.projects-container1 p{
+  
+    font-size: 18px;
+    margin: 30px;
+    color: azure;
+    font-weight: bold;
+}
+.projects-container1 h3{
+    margin: 15px;
+    color: WATER;
+    
+}
+.button-projects {
+              background-color: orange; /* Green */
+              border: none;
+              color: white;
+              padding: 15px 32px;
+              text-align: center;
+              text-decoration: none;
+              margin-left: 0px;
+              font-size: 16px;
+              margin-bottom: 30px
+              cursor: pointer;
+            }
+/*skills*/
+.skills-container{
+    background:;
+    border-radius: 0px;
+   
+    height: auto;
+    
+}
+.js_grey{height:24px;
+  width:50%;
+   background:#667C26;
+    margin-left: 60;
+    color: white;
+    font-size: 18px
+    font-weight:300px;
+    text-align: center;
+  }
 /*Refferences*/
 .refferences-container{
     background:;
