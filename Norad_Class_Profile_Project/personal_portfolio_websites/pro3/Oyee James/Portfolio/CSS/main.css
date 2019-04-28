@@ -237,7 +237,7 @@
 .rightSection .experience .africell{
     height: 50%;
     width: 35%;
-    border: 3px solid orange;
+    border: 3px solid purple;
     background-color: white;
     opacity: .8;
     border-radius: 5px;
@@ -277,13 +277,17 @@
     border:1px solid blue;
 }
 .rightSection .projects{
-    height: 725px;
+    height: 975px;
     background-size: 100%;
     background-image: url(../Images/backgroundp.png);
     padding-top: 1px;
 }
 .rightSection .projects .projectContent{
-    width:95%;
+    width:98%;
+}
+.rightSection .projects .projectContent .projectHeading p{
+    font-size: 30px;
+    color: white;
 }
 .rightSection .projects .projectContent .projectHead{
     display:flex;
@@ -301,6 +305,7 @@
 .rightSection .projects .projectContent .projectHead .teamHead{
     background-color: red;
     width:20%;
+    border-left: 5px solid red;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -311,9 +316,9 @@
     display: flex;
 }
 .rightSection .projects .projectContent .projectBody .easyMeals{
-    background-color: green;
+    background-color: grey;
     width:100px;
-    height: 218px;
+    height: 350px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px; 
 }
@@ -323,16 +328,52 @@
 .rightSection .projects .projectContent .projectBody .easyMealsDescription{
     background-color: black;
     width: 72%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.rightSection .projects .projectContent .projectBody .easyMealsDescription video{
+    height: 350px;
+    width: 250px;
+    float: left;
+    padding-right:10px;
 }
 .rightSection .projects .projectContent .projectBody .easyMealsDescription p{
     color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.rightSection .projects .projectContent .projectBody .easyMealsDescription a{
+    color:white;
+    text-decoration: none;
+    background-color: blue;
+    float: right;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.rightSection .projects .projectContent .projectBody .easyMealsDescription a:hover{
+    background-color:grey;
 }
 .rightSection .projects .projectContent .projectBody .easyMealsTeam{
-    background-color: green;
+    background-color: grey;
     width: 18%;
+    border-bottom: 1px solid white;
+}
+.rightSection .projects .projectContent .projectBody .easyMealsTeam .teamNames{
+    display: flex;
+}
+.rightSection .projects .projectContent .projectBody .easyMealsTeam .ourTeam p{
+    background-color: red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.rightSection .projects .projectContent .projectBody .easyMealsTeam .teamNames .teamPhoto img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculator{
-    background-color: purple;
+    background-color: grey;
     width:100px;
     height: 265px;
     border-top-left-radius: 5px;
@@ -342,16 +383,37 @@
     color: white;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculatorDescription{
-    background-color: white;
+    background-color: black;
     width: 72%;
 }
+.rightSection .projects .projectContent .projectBody .loanCalculatorDescription img{
+    height:200px;
+    width: 250px;
+    float: left;
+    padding-right:10px;
+}
 .rightSection .projects .projectContent .projectBody .loanCalculatorDescription p{
-    color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.rightSection .projects .projectContent .projectBody .loanCalculatorDescription a{
+    color:white;
+    text-decoration: none;
+    background-color: blue;
+    float: right;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.rightSection .projects .projectContent .projectBody .loanCalculatorDescription a:hover{
+    background-color:grey;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculatorTeam{
-    background-color: purple;
+    background-color: grey;
     width: 18%;
-    border: 1px solid red;
+    border-bottom: 1px solid white;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculatorTeam .teamNames{
     display: flex;
@@ -366,19 +428,13 @@
     width: 50px;
     border-radius: 50%;
 }
-
-
-
-
-
-
-
 .rightSection .projects .projectContent .projectBody .footerDesign{
-    background-color: black;
+    background-color:grey;
     width:100px;
-    height: 175px;
+    height: 185px;
+    float: left;
     border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px; 
+    padding-bottom: 2px; 
 }
 .rightSection .projects .projectContent .projectBody .footerDesign p{
     color: white;
@@ -386,18 +442,47 @@
 .rightSection .projects .projectContent .projectBody .footerDesignDescription{
     background-color: black;
     width: 72%;
-    opacity: .5;
+}
+.rightSection .projects .projectContent .projectBody .footerDesignDescription img{
+    width: 250px;
+    height: 150px;
+    float: left;
+}
+.rightSection .projects .projectContent .projectBody .footerDesignDescription p{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+.rightSection .projects .projectContent .projectBody .footerDesignDescription a{
+    color:white;
+    text-decoration: none;
+    background-color: blue;
+    float: right;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.rightSection .projects .projectContent .projectBody .footerDesignDescription a:hover{
+    background-color:grey;
 }
 .rightSection .projects .projectContent .projectBody .footerDesignTeam{
-    background-color: black;
+    background-color:grey;
     width: 18%;
-    opacity: .6;
+    height: 185px;
 }
-
-
-
-
-
+.rightSection .projects .projectContent .projectBody .footerDesignTeam .teamNames{
+    display: flex;
+}
+.rightSection .projects .projectContent .projectBody .footerDesignTeam .ourTeam p{
+    background-color: red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.rightSection .projects .projectContent .projectBody .footerDesignTeam .teamNames .teamPhoto img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
 .rightSection .gallery{
     height: 568px;
     background-image:url(../Images/gallery.jpeg);
