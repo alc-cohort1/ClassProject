@@ -273,7 +273,6 @@
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    padding-left:10px;
     border:1px solid blue;
 }
 .rightSection .projects{
@@ -562,11 +561,17 @@
     background-color: gray;
     border-radius: 5px;
 }
+.rightSection .contactMe .contactBody .left p{
+    color:red;
+}
 .rightSection .contactMe .contactBody .middle{
     width: 35%;
     padding: 20px;
     background-color: grey;
     border-radius: 5px;
+}
+.rightSection .contactMe .contactBody .middle p{
+    color: red;
 }
 .rightSection .contactMe .contactBody .right{
     width: 20%;
