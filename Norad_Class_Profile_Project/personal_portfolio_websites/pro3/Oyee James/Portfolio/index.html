@@ -220,11 +220,10 @@
                                             <img src="Images/calculator.png">
                                         </div>
                                         <div>
-                                            <div>
-                                                <p>Loan Calculator Application is a peroject  given to Team Safar by Osman upon completion of Vanila JS. It is an application that allows the user to input Ammount of Loan, Annual Interests and Repayment then it returns Monthly Payment, Total Payment and Total Interest expected.</p>
+                                            <div><br>
+                                                <p>Loan Calculator Application is a peroject  given to Team Safar by Osman upon completion of Vanila JS. It is an application that allows the user to input Amount of Loan, Annual Interest and Repayment Period then it returns Monthly Payment, Total Payment and Total Interest.</p>
                                             </div>
                                             <div>
-                                                <br>
                                                 <a href="">Check on GitHub</a>
                                             </div>
                                         </div>
@@ -482,7 +481,7 @@
                     </div>
                 </div>
                 <div class="contactMe" id="contactMe">
-                    <form action="" method="post">
+                    <form action="mailto:engjames256@gmail.com" method="post" name="contactMe" onsubmit="return validate()">
                         <center>
                             <div class="contactHead">
                                 <div class="red">
@@ -496,24 +495,18 @@
                         <div class="contactBody">
                             <div class="left">
                                 <div>
-                                    <label for="firstName"><strong>First Name</strong></label><br>
-                                    <input class="contactInput" type="text" placeholder="Enter First Name" min="4" max="30" required>
+                                    <label for="name"><strong>Name</strong></label><p id="name"></p>
+                                    <input class="contactInput" type="text" placeholder="Enter Name" name="name">                                     
                                 </div>
                                 <div>
-                                    <br>
-                                    <label for="lastName"><strong> Last Name</strong></label><br>
-                                    <input class="contactInput" type="text" placeholder="Enter Last Name" min="4" max="30">
-                                </div>
-                                <div>
-                                    <br>
-                                    <label for="Email"><strong>Email</strong></label><br>
-                                    <input class="contactInput" type="email" placeholder="Enter Email" required>
+                                    <label for="Email"><strong>Email</strong></label><p id="email"></p>
+                                    <input class="contactInput" type="email" placeholder="Enter Email" name="email">                                    
                                 </div>
                             </div>
                             <div class="middle">
                                 <div>
-                                    <label for="Comments"><strong>Comments</strong></label>
-                                    <textarea name="Comments" placeholder="Enter your message ..." cols="35" rows="10" required></textarea>
+                                    <label for="Comments"><strong>Comments</strong></label><p id="comments"></p>
+                                    <textarea name="Comments" placeholder="Enter your message ..." cols="35" rows="8" name="comments" id="comments"></textarea>
                                 </div>
                                 <div>
                                     <button>Submit</button>
