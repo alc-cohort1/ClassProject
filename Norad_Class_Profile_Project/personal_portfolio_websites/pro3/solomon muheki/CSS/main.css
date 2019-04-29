@@ -197,7 +197,7 @@ li a{
     
 }
 .about-container1{
-    background-color: cornflowerblue;
+    background-color: ;
     width: 50%;
     opacity: 0.3
     margin: 10px;
@@ -216,7 +216,7 @@ li a{
 }
 .about-container1 p{
     margin: 15px;
-    color: #2B1B17;
+    color: grey;
     font-family: cursive;
     
 }
@@ -237,7 +237,7 @@ li a{
 .about-container{
     width: 100%;
     height: auto;
-    background:blue;
+    
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
@@ -274,7 +274,7 @@ div.gallery:hover {
 
 div.gallery img {
   width: 100%;
-  height: auto;
+  height: 200;
 }
 
 div.desc {
@@ -367,10 +367,11 @@ div.desc {
     
 }
 .contact-container1{
-    background-color: cornflowerblue;
+   /* background-color: cornflowerblue;*/
     width: 50%;
-    opacity: 0.3
+    
     margin: 10px;
+
 }
 .contact-container1 p{
   
@@ -398,7 +399,7 @@ div.desc {
     border: 1px solid #CCC;
     padding: 12px 20px;
     box-sizing: border-box;
-    margin-left: 33px;
+    margin-left: 24px;
     width: 90%;
     height:200px;
 
@@ -408,43 +409,50 @@ div.desc {
     background-color: #4CAF50;
     color: white;
     padding: 14px;
-    margin: 8px;
+    margin: 19px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+#grad1 {
+   
+    background: -webkit-linear-gradient(left top, cornflowerblue, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right,cornflowerblue, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right,cornflowerblue, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, cornflowerblue, white); /* Standard syntax (must be last) */
 }
 
 /*Projects*/
 .projects-container{
     background:;
-    border-radius: 5px;
+    border-radius: 0px;
     display:flex;
     height: auto;
     
 }
 .projects-container1{
     background-color: white;
-    width: 25%;
-    border-radius: 5%;
-    margin: 10px;
+    
+    border-radius: 0;
+    
 }
 .projects-container1:hover{
     background-color:lightgrey ;
-    width: 30%;
-    border-radius: 5%;
-    margin: 10px;
-    color: #461B7E;
+    
+    border-radius: 0;
+    
+   
 }
 .projects-container1 p{
   
     font-size: 18px;
     margin: 30px;
-    color: azure;
+    color: black;
     font-weight: bold;
 }
 .projects-container1 h3{
     margin: 15px;
-    color: WATER;
+    color: blue;
     
 }
 .button-projects {
@@ -513,10 +521,11 @@ div.desc {
 }
 .refferences-container1 p{
   
-    font-size: 19px;
+    font-size: 16px;
     margin: 30px;
     color: 25383C;
-    font-weight: bold;
+   
+    font-family: Arial;
 }
 .refferences-container1 h3{
     margin: 25px;
