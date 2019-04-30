@@ -1,3 +1,4 @@
+
 img {
     max-width: 100%;
     height: auto;
@@ -5,6 +6,8 @@ img {
   -webkit-transform: rotate(20deg); /* Safari 3-8 */
   opacity: 0.5;
   transform: rotate(0deg);
+  border-style: dotted;
+
   }
 
   .center {
@@ -12,12 +15,14 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 18px;
+    border-style: dashed;
+    border-color: black;
+    font-size: 400%;
   }
 
   .overlay {
     position: absolute;
-    bottom: 100%;
+    bottom: 30%;
     left: 0;
     right: 0;
     background-color: #008CBA;
@@ -32,9 +37,13 @@ img {
     height: 100%;
   }
   
+  .container{
+border-width: 10cm;
+  }
   .text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     white-space: nowrap; 
-    color: white;
+    color: rgb(30, 27, 245);
     font-size: 20px;
     position: absolute;
     overflow: hidden;
@@ -42,4 +51,8 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
+  }
+
+  br{
+
   }
