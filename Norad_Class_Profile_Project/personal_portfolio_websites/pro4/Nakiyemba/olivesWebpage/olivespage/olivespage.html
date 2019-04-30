@@ -21,6 +21,7 @@
 
 .container {
         position: center;
+        margin: 10px;
 }
     
 .mySlides {
@@ -36,13 +37,13 @@
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 80%;
   width: auto;
   padding: 16px;
-  margin-top: -50px;
-  color: white;
+  margin-top: -80px;
+  color:  rgb(200, 30, 95);
   font-weight: bold;
-  font-size: 20px;
+  font-size: 50px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
@@ -68,15 +69,15 @@
      Nakiyemba Blog
  </h1>
 
- <!--Creating a menu category-->
+ <!--Creating a menu bar-->
  <div id="menubar">
      
      <ul>
-     <li><a href="">HOME</a></li>
-     <li><a href="">FEATURES</a></li>
-     <li><a href="">BLOG</a></li>
-     <li><a href="">ABOUT ME</a></li>
-     <li><a href="">CONTACT</a></li>
+     <li><a href="">Home</a></li>
+     <li><a href="">About me</a></li>
+     <li><a href="">Experience</a></li>
+     <li><a href="">Projects</a></li>
+     <li><a href="">Contact</a></li>
      </ul>
 </div>
 </head>
@@ -84,10 +85,10 @@
 <body> 
 
 <!--Slideshow container-->
-
-    <div class="container">
+<center>
+    <section class="container">
         <div class="mySlides">
-            <img src="../Images/webpage1.jpg">                                  
+            <img src="../Images/webpage3.jpg">                                  
         </div>
 
         <div class="mySlides">
@@ -95,18 +96,21 @@
         </div>
     
         <div class="mySlides">
-            <img src="../Images/webpage3.jpg">
+            <img src="../Images/webpage1.jpg">
         </div>
     
         <div class="mySlides">
             <img src="../Images/webpage4.jpg">
         </div>
-    
-    <!--Activating the next and previous buttons-->
+        <div class="mySlides">
+                <img src="../Images/webpage5.jpg">
+        </div>
+    </section>
+</center>
 
-<a class="prev" onclick="plusSlides(-1)">❮</a>
-<a class="next" onclick="plusSlides(1)">❯</a>
-
+<!--Activating the next and previous buttons-->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
 <script>
     var slideIndex = 1;
     showSlides(slideIndex);
