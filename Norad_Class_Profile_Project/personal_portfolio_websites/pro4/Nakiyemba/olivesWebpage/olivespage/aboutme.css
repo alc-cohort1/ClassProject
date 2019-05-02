@@ -1,0 +1,48 @@
+/* Setting a background color for the page  and various fonts in case the client can't see one of them*/
+.body{
+        background-color: rgb(243, 241, 231);
+
+
+}
+    /* I've given my header - Olive - a top panel ID and thereby styling it */
+#top_pannel{
+        font-weight: bolder;
+        text-align: center;
+        font-style: oblique;
+        font-size: 150px;
+        font-family: Moonlights on the Beach;
+        color: rgb(200, 30, 95);
+}
+  
+  /* Styling the first heading so it appears on the right below the header */
+h1 {
+        position:absolute;
+        right: 500px;
+        position: absolute;
+        top: 95px;
+        font-family: aakar;
+        color: rgb(200, 30, 95);
+}
+    /* Removing the bullets from the unordered list and aligning to center */
+#menubar ul {
+        list-style-type: none;
+        text-align: center;
+}
+    
+    /*Making sure that the menu categories are on the same line */
+#menubar ul li {
+        display: inline;
+}
+    
+    /*Styling the menu bar */
+#menubar {
+        font-family: aakar;
+        color: rgb(200, 30, 90);
+        font-size: 30px;
+}
+.container {
+        margin-left: 150px;
+        margin-top: 50px;
+        margin-left: 150px;
+        font-size: 30px;
+}

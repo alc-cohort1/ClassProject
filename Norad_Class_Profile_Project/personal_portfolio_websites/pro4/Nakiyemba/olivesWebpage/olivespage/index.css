@@ -1,28 +1,27 @@
 /* Setting a background color for the page  and various fonts in case the client can't see one of them*/
 body {
 background-color: rgb(243, 241, 231);
-margin: 0px;
-font-family: Georgia, 'Times New Roman', Times, serif;
+margin: 20px;
 font-size: 14px;
 }
 
 /* I've given my header - Olive - a top panel ID and thereby styling it */
 #top_pannel{
-    font-weight: bolder;
+  font-weight: bolder;
   text-align: center;
-    font-style: oblique;
-    font-size: 150px;
-    font-family: Moonlights on the Beach;
-    color: rgb(200, 30, 95);
+  font-style: oblique;
+  font-size: 150px;
+  font-family: Moonlights on the Beach;
+  color: rgb(200, 30, 95);
 }
 
 /* Styling the first heading so it appears on the right below the header */
 h1 {position:absolute;
-  right: 500px;
-  position: absolute;
-  top: 95px;
-  font-family: aakar;
-  color: rgb(200, 30, 95);
+right: 500px;
+position: absolute;
+top: 95px;
+font-family: aakar;
+color: rgb(200, 30, 95);
 }
 
 /* Removing the bullets from the unordered list and aligning to center */
@@ -51,9 +50,6 @@ text-align: center;
   height: 100%;
   width: 100%;
 }
-
-
-
 
 
     html,body { 
@@ -100,7 +96,7 @@ text-align: center;
 .arrow_previous{
   width: 80px;
   height: 8 0px;
-  background-color: green;
+ 
 }
 
 .next{
@@ -128,3 +124,26 @@ text-align: center;
     font-family: aakar;
   }
   
+  #avatar {
+    float: right;
+    right: 500px;
+   
+  }
+
+  .container {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 30px;
+}
+.photo {
+  position: absolute;
+  right: 400px;
+  top: 600px;
+}
+.paragraph {
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-left: 150px;
+  font-size: 30px;
+}
