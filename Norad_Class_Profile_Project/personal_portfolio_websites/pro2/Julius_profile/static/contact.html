@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Julius's Website</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <script src="../js/main.js"></script>
+  </head>
+  <body id="body">
+    <!-- Navigation bar -->
+    <div class="nav-bar">
+      <div class="profile">Personal Profile</div>
+      <div class="menu-bar">
+        <a href="../index.html">Home</a>
+        <a href="../index.html#aboutMe">About Me</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#experiences">Experiences</a>
+        <a href="../static/projects.html">Projects</a>
+        <a href="../static/gallery.html">Gallery</a>
+        <a href="#body">Contact Me</a>
+      </div>
+    </div>
+    <div class="main-section">
+      <div class="showcase">
+        <h1>Let's keep in touch</h1>
+        <p>
+          Thank you for visiting out my profile. If you would like to get in
+          touch with me, please fill out the form below.
+        </p>
+      </div>
+      <!-- contact form fiels -->
+      <form name="contactForm" onsubmit="return validate()">
+        <div class="mainForm">
+          <div class="inputFields">
+            <div>
+              <label>Name</label>
+              <p id="name" style="color: red;"></p>
+            </div>
+            <div>
+              <input type="text" name="name" placeholder="Enter name" />
+            </div>
+            <div>
+              <label>Email</label>
+              <p id="email" style="color: red;"></p>
+            </div>
+            <div>
+              <input type="text" name="email" placeholder="Enter email" />
+            </div>
+          </div>
+          <div class="comments">
+            <div>
+              <label>Comments</label>
+              <p id="comments" style="color: red;"></p>
+            </div>
+            <div>
+              <textarea name="comments" id="" cols="50" rows="10"></textarea>
+            </div>
+            <div>
+              <button class="submitButton" type="submit">Submit</button>
+            </div>
+          </div>
+          <div class="address">
+            <h2>Address:</h2>
+            <p>Kampla</p>
+            <h2>Phone:</h2>
+            <p>+256782872845</p>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- Footer with social media links -->
+    <footer>
+      <ul class="socialIcons">
+        <li>
+          <a href="http://wwww.facebook.com" target="_blank"
+            ><img src="../images/facebook.svg" alt="Facebook" />
+          </a>
+        </li>
+        <li>
+          <a href="http://wwww.twitter.com" target="_blank"
+            ><img src="../images/twitter.png" alt="Twitter" />
+          </a>
+        </li>
+        <li>
+          <a href="http://wwww.youtube.com.com" target="_blank"
+            ><img src="../images/youtube.png" alt="Youtube" />
+          </a>
+        </li>
+      </ul>
+      <p class="footer">Julius Peter Oketayot &copy; 2019</p>
+    </footer>
+  </body>
+</html>
