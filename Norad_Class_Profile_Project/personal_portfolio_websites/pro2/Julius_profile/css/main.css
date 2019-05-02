@@ -1,21 +1,25 @@
+/* Setting the margin, padding and border to zero */
 body {
   margin: 0px;
   padding: 0px;
   border: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #94b0e9;
 }
 
+/* Styling the top section of the page */
 .top-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 1fr;
   grid-gap: 1em;
   grid-auto-rows: minmax(400px, auto);
   background-image: linear-gradient(to right, #45bae9, #334e80);
 }
 
-.bottom-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
+.top-wrapper img {
+  width: 300px;
+  height: 350px;
+  border-radius: 50%;
 }
 
 .top-wrapper div:nth-child(1) {
@@ -23,10 +27,26 @@ body {
   align-self: center;
 }
 
+.top-wrapper div:nth-child(2) {
+  justify-self: end;
+  align-self: center;
+  padding-top: 0px;
+  color: #f0f2f5;
+}
+
 .top-wrapper div:nth-child(3) {
   justify-self: end;
   align-self: start;
-  margin: 20px;
+  margin: 50px;
+  padding-right: 10px;
+}
+
+/* Styling the bottom section of the page */
+.bottom-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  background: #94b0e9;
 }
 
 .bottom-wrapper div:nth-child(1) {
@@ -46,13 +66,9 @@ body {
   margin-right: 100px;
 }
 
-.bottom-wrapper div:nth-child(4) {
-  grid-column: 1/3;
-  justify-self: center;
-}
-
+/* Styling the dropdown content */
 .dropbtn {
-  background-color: #ffffff;
+  background: #6692e4;
   color: black;
   padding: 0px;
   font-size: 16px;
@@ -69,7 +85,7 @@ body {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  width: 100%;
+  width: 150px;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
@@ -90,7 +106,7 @@ body {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #3e8e41;
+  background-color: #7da2e6;
 }
 
 .container button {
@@ -103,7 +119,47 @@ body {
   font-weight: bold;
 }
 
-/* Social icons at the footer */
+/* The skill section in the index page */
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin-bottom: 50px;
+}
+
+.skills div:nth-child(1) {
+  grid-column: 1/3;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.skills div:nth-child(2) {
+  grid-column: 1;
+  justify-self: start;
+  margin-left: 100px;
+}
+
+/* The experiences Section in the index page */
+.experiences {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  margin-bottom: 50px;
+}
+
+.experiences div:nth-child(1) {
+  grid-column: 1/3;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.experiences div:nth-child(2) {
+  grid-column: 1;
+  justify-self: start;
+  margin-left: 100px;
+}
+
+/* Social icons at the footer of the main page */
 .socialIcons {
   text-align: center;
 }
@@ -132,12 +188,57 @@ body {
   padding: 0px;
 }
 
-/* Menu-bar of the contact-me page */
+.icons {
+  padding-bottom: 50px;
+}
+
+/* Skills section */
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+}
+
+/* The Gallery page */
+.photo-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  justify-items: center;
+  background: #cbd3e2;
+  border: solid 2p #cbd3e2;
+  padding: 20px;
+}
+
+.photo-grid img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+/* The Project Page */
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  justify-items: center;
+  background: #cbd3e2;
+  border: solid 2p #cbd3e2;
+  padding: 20px;
+}
+
+.projects img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+}
+
+/* Navigation bars for contact me page */
 .nav-bar {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  background: #e25763;
+  background: #2ab0e6;
   align-items: center;
   padding: 30px 150px 30px 150px;
 }
@@ -207,6 +308,7 @@ body {
   padding: 10px;
 }
 
+/* The submit button */
 .mainForm .submitButton {
   border-radius: 10px;
   border: none;
@@ -217,7 +319,8 @@ body {
   font-weight: bold;
 }
 
+/* Styling for footer */
 footer {
-  padding-top: 50px;
+  padding-top: 0px;
   padding-bottom: 20px;
 }

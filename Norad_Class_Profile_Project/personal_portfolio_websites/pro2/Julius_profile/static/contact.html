@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="../css/main.css" />
     <script src="../js/main.js"></script>
   </head>
-  <body>
+  <body id="body">
+    <!-- Navigation bar -->
     <div class="nav-bar">
       <div class="profile">Personal Profile</div>
       <div class="menu-bar">
         <a href="../index.html">Home</a>
-        <a href="../static/about.html">About Me</a>
-        <a href="../static/skills.html">Skills</a>
+        <a href="../index.html#aboutMe">About Me</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#experiences">Experiences</a>
         <a href="../static/projects.html">Projects</a>
-        <a href="../static/xp.html">Experiences</a>
-        <a href="../static/contact.html">Contact Me</a>
+        <a href="../static/gallery.html">Gallery</a>
+        <a href="#body">Contact Me</a>
       </div>
     </div>
     <div class="main-section">
@@ -28,6 +30,7 @@
           touch with me, please fill out the form below.
         </p>
       </div>
+      <!-- contact form fiels -->
       <form name="contactForm" onsubmit="return validate()">
         <div class="mainForm">
           <div class="inputFields">
@@ -67,6 +70,7 @@
         </div>
       </form>
     </div>
+    <!-- Footer with social media links -->
     <footer>
       <ul class="socialIcons">
         <li>

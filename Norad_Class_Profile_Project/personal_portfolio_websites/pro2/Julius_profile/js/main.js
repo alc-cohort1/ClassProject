@@ -1,4 +1,4 @@
-// Declaration a function validate() to check the validity of the form inputs
+// function validate() which checks the validity of the form inputs
 function validate() {
   // variables to keep the form values for validation
   var name = document.contactForm.name.value;
