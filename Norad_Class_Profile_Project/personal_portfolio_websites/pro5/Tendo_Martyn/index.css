@@ -6,7 +6,7 @@ img {
   -webkit-transform: rotate(20deg); /* Safari 3-8 */
   opacity: 0.5;
   transform: rotate(0deg);
-  border-style: dotted;
+  border-style: dashed;
 
   }
 
@@ -18,6 +18,16 @@ img {
     border-style: dashed;
     border-color: black;
     font-size: 400%;
+  }
+
+  .main_content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: hidden;
+    border-color: black;
+    font-size: 100%;
   }
 
   .overlay {
