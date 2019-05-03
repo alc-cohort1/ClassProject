@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  width: 100%;
+  background-image: linear-gradient(to right, #45bae9, #334e80);
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.photo {
+  width: 450px;
+  /* background-color: green; */
+  margin: 50px 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.photo img {
+  width: 370px;
+  height: 400px;
+  text-align: right;
+  border-radius: 10px;
+}
+.description {
+  width: 450px;
+  /* background-color: maroon; */
+  margin: 50px 10px;
+}
+
+.description h2 {
+  margin: 0;
+  color: #f9f9f9;
+}
+.description h2:first-child {
+  font-weight: normal;
+  padding: 5px 0px;
+}
+
+.description h2:last-child {
+  font-weight: normal;
+  padding: 5px 0px;
+}
+
+.description .personal {
+  margin: 40px;
+}
+
+.personal p {
+  color: #f9f9f9;
+}
+
+.btn {
+  text-align: left;
+  padding-top: 10px;
+}
+
+.btn button {
+  padding: 10px 30px;
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  border-radius: 35px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  opacity: 0.9;
+}
