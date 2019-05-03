@@ -25,8 +25,19 @@ nav .right .write {
 
 nav .right .logo{
     height: 100px;
-    width: 600px;
+    width: 680px;
+
 }
+
+nav .right .logo .one{
+    display: flex;
+}
+
+nav .right .logo .one .drop_down{
+    margin-left: 140px;
+    margin-top: 25px;
+}
+
 
 nav .right .logo img{
     width: 70px;
@@ -191,15 +202,13 @@ nav .right .write .lower input{
     height: 30px;
     margin-left: 150px;
     display: flex;
-    margin-top: 5px;
 }
 
 .left .social_media img{
-    widows: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     margin-right: 10px;
-    margin-top: 5px;
-    border-radius: 50%;
+    border-radius: 10px;
 }
 
 .btn input{
@@ -343,4 +352,51 @@ nav .right .write .lower input{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: small;
     color: white;
+}
+
+.drop_down {
+    position: relative;
+    display: inline-block;
+  }
+
+  .drop_down .drop {
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #C9D2D9;
+    min-width: 125px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: #953E72;
+    display: block;
+  }
+
+.dropdown-content a:hover {
+    background-color:#953E72;
+    border-radius: 10px;
+}
+.drop_down:hover .dropdown-content {
+    display: block;
+    border-radius: 10px;
+}
+.drop_down:hover .dropbtn {
+    background-color: #C9D2D9;
+}
+
+.container .menu{
+    width: 40px;
+    height: 50px;
+    margin-left: 600px;
+    margin-top: 20px;
 }
