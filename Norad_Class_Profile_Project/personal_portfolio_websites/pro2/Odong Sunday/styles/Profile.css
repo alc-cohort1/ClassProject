@@ -3,13 +3,13 @@
     padding-top: 2px;
     height: 810px;
     width: 100%;
-    background-color:#000000;
+    background-color:#F3F4F6;
     padding-bottom: 0px;
 }
 
 .container .top{
     padding-bottom: 20px;
-    background-image: linear-gradient(to bottom,black,#953E72 ,#EA5181) ;
+    background-image: linear-gradient(to bottom,black,#16224F ,#1C2758) ;
     width: 95%;
     height: 42%;
     padding-left: 10px;
@@ -58,17 +58,17 @@
 
 .container .look{
     height: 6.5%;
-    width: 50%;
+    width: 35%;
     padding-top: 20px;
     padding-bottom: 15px;
     margin-left: 470px;
-    background-color:#000000;
+    /* background-color:#000000; */
 }
 
 .container .look .look_service{
-    width: 50%;
+    width: 370px;
     height: 90%;
-    background-color: #EA5181;
+    background-color: #1C2758;
     border-radius: 10px;
     padding-left: 80px;
     padding-top: 5px;
@@ -91,12 +91,12 @@
     width: 50.5%;
     position: relative;
     float: left;
-    background-color: #181818;
+    /* background-color: #181818; */
 }
 
 .container .middle .experience{
     height: 100%;
-    background-color: #181818;
+    /* background-color: #181818; */
     width: 49.5%;
     position: relative;
     float: right;
@@ -107,7 +107,7 @@
     width: 50.5%;
     position: relative;
     float: left;
-    background-color: #181818;
+    /* background-color: #181818; */
 }
 
 .container .bottom .skills{
@@ -115,7 +115,7 @@
     width: 49.5%;
     position: relative;
     float: right;
-    background-color:#181818;
+    /* background-color:#181818; */
 }
 
 body {
@@ -262,7 +262,6 @@ p{
     padding: 0px;
     font-size: 16px;
     border: none;
-    font-display: inherit;
   }
 
   .drop_down {
