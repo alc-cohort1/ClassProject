@@ -44,6 +44,34 @@ nav{
 }
 
 
+.container .top .inner_top .content label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: inherit;
+    font-size: small;
+}
+
+.container .top .inner_top .title label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.container .medium .left .content label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: inherit;
+    font-size: small;
+}
+
+.container .medium .left .title label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
 .container nav .menu{
     width: 5%;
 }
