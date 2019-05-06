@@ -1,18 +1,8 @@
 /* Setting a background color for the page  and various fonts in case the client can't see one of them*/
-<<<<<<< HEAD:Norad_Class_Profile_Project/personal_portfolio_websites/pro4/Nakiyemba/olivesWebpage/olivespage/contact.css
 .body{
     background-color: rgb(243, 241, 231);
-
-=======
-body {
-background-color: rgb(243, 241, 231);
-margin: 0px;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 14px;
 }
->>>>>>> 2eb60d67cb03b988342a86f4e8bba44db3a5307b:Norad_Class_Profile_Project/personal_portfolio_websites/pro4/Nakiyemba/olivesWebpage/olivespage/olivespage.css
 
-}
 /* I've given my header - Olive - a top panel ID and thereby styling it */
 #top_pannel{
     font-weight: bolder;
@@ -24,7 +14,6 @@ font-size: 14px;
 }
 
 /* Styling the first heading so it appears on the right below the header */
-<<<<<<< HEAD:Norad_Class_Profile_Project/personal_portfolio_websites/pro4/Nakiyemba/olivesWebpage/olivespage/contact.css
 h1 {
     position:absolute;
     right: 500px;
@@ -32,14 +21,6 @@ h1 {
     top: 95px;
     font-family: aakar;
     color: rgb(200, 30, 95);
-=======
-h1 {position:absolute;
-  right: 500px;
-  position: absolute;
-  top: 95px;
-  font-family: aakar;
-  color: rgb(200, 30, 95);
->>>>>>> 2eb60d67cb03b988342a86f4e8bba44db3a5307b:Norad_Class_Profile_Project/personal_portfolio_websites/pro4/Nakiyemba/olivesWebpage/olivespage/olivespage.css
 }
 /* Removing the bullets from the unordered list and aligning to center */
 #menubar ul {
@@ -54,7 +35,6 @@ h1 {position:absolute;
 
 /*Styling the menu bar */
 #menubar {
-<<<<<<< HEAD:Norad_Class_Profile_Project/personal_portfolio_websites/pro4/Nakiyemba/olivesWebpage/olivespage/contact.css
     font-family: aakar;
     color: rgb(200, 30, 90);
     font-size: 30px;
@@ -63,95 +43,3 @@ h1 {position:absolute;
 .form {
     align: center;
 }
-=======
-  font-family: aakar;
-  color: rgb(200, 30, 90);
-  font-size: 30px;
-}
-
-* {box-sizing: border-box}
-/*Creating a Slideshow container */
-.container {
-  /* max-width: 1000px;
-  position: relative; */
-  height: 100%;
-  width: 100%;
-}
-
-
-
-
-
-    html,body { 
-        font-family: aakar;
-        margin: 0; 
-        padding: 0px;
-}
-
-    img{
-        vertical-align: middle;
-}
-
-
-.container {
-        position: center;
-}
-    
-.mySlides {
-        display: none;
-        width: 80%;
-}
-
-.cursor {
-        cursor: pointer;
-  }
-
-
-  .prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 56px;
-  margin-top: -0px;
-  color: rgb(200, 30, 95);
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-.arrow_previous{
-  width: 80px;
-  height: 8 0px;
-  background-color: green;
-}
-
-.next{
-  margin-right: 160px;
-}
-
-.prev{
-  margin-left: 160px;
-}
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-
-  .container {
-  
-    margin: 100px;
-  
-  
-  }
-
-  #menubar a{
-    text-decoration: none;
-    color: rgb(108, 36, 190);
-    font-family: aakar;
-  }
-  
->>>>>>> 2eb60d67cb03b988342a86f4e8bba44db3a5307b:Norad_Class_Profile_Project/personal_portfolio_websites/pro4/Nakiyemba/olivesWebpage/olivespage/olivespage.css
