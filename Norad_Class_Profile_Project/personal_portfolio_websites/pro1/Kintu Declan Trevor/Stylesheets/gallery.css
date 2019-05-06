@@ -8,6 +8,17 @@ body, #slider, .wrap, .slide-content
     overflow-x: hidden;
 }
 
+/*Syling the nav bar.*/
+#menu 
+{
+    background-color: black;
+}
+
+#navbar-brand 
+{
+    color: white;
+}
+
 .wrap {position: relative;}
 
 .slide
@@ -21,9 +32,9 @@ body, #slider, .wrap, .slide-content
 .slide2{background-image: url('/Images/image2.jpg')}
 .slide3{background-image: url('/Images/image3.jpg')}
 .slide4{background-image: url('/Images/image4.jpg')}
-.slide5{background-image: url('/Images/image5.png')}
+.slide5{background-image: url('/Images/image5.jpg')}
 .slide6{background-image: url('/Images/image6.jpg')}
-.slide7{background-image: url('/Images/image7.jpg')}
+.slide7{background-image: url('/Images/image7.png')}
 
 .slide-content
 {
