@@ -4,9 +4,12 @@ body {
   padding: 0px;
   border: 0px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background: #94b0e9;
+  background: #98c1e9;
 }
 
+html a:hover {
+  text-decoration: underline;
+}
 /* Styling the top section of the page */
 .top-wrapper {
   display: grid;
@@ -14,6 +17,7 @@ body {
   grid-gap: 1em;
   grid-auto-rows: minmax(400px, auto);
   background-image: linear-gradient(to right, #45bae9, #334e80);
+  border-radius: 2%;
 }
 
 .top-wrapper img {
@@ -35,7 +39,7 @@ body {
 }
 
 .top-wrapper div:nth-child(3) {
-  justify-self: end;
+  justify-self: start;
   align-self: start;
   margin: 50px;
   padding-right: 10px;
@@ -76,7 +80,7 @@ body {
 }
 
 .dropdown {
-  position: relative;
+  position: fixed;
   display: inline-block;
   margin: 10px 30px;
 }
@@ -85,7 +89,7 @@ body {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  width: 150px;
+  width: auto;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
