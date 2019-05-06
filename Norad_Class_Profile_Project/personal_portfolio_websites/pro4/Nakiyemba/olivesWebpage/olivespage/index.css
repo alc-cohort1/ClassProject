@@ -43,40 +43,14 @@ text-align: center;
 }
 
 * {box-sizing: border-box}
+
 /*Creating a Slideshow container */
 .container {
-  /* max-width: 1000px;
-  position: relative; */
   height: 100%;
   width: 100%;
 }
 
-
-    html,body { 
-        font-family: aakar;
-        margin: 0; 
-        padding: 0px;
-}
-
-    img{
-        vertical-align: middle;
-}
-
-
-.container {
-        position: center;
-}
-    
-.mySlides {
-        display: none;
-        width: 80%;
-}
-
-.cursor {
-        cursor: pointer;
-  }
-
-
+/* Styling the previous and next controls */
   .prev,
 .next {
   cursor: pointer;
@@ -99,6 +73,7 @@ text-align: center;
  
 }
 
+/* Positioning the controls */
 .next{
   margin-right: 160px;
 }
@@ -111,36 +86,39 @@ text-align: center;
     border-radius: 3px 0 0 3px;
   }
 
+  /* Providing a margin for the container in which the gallery is */
   .container {
-  
-    margin: 100px;
-  
-  
+   margin: 100px; 
   }
 
+  /* Styling the menubar */
   #menubar a{
     text-decoration: none;
     color: rgb(108, 36, 190);
     font-family: aakar;
   }
   
+  /* Positioning the profile photo */
   #avatar {
     float: right;
     right: 500px;
-   
   }
 
+/* Positioning this section */
   .container {
     margin-left: 150px;
     margin-top: 50px;
     margin-left: 150px;
     font-size: 30px;
 }
+/* Positioning the profile photo */
 .photo {
   position: absolute;
   right: 400px;
   top: 600px;
 }
+
+/* Giving margins to the short bio */
 .paragraph {
   margin-left: 150px;
   margin-top: 50px;
