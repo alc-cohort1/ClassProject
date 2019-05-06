@@ -1,0 +1,127 @@
+/* Setting a background color for the page  and various fonts in case the client can't see one of them*/
+body {
+background-color: rgb(243, 241, 231);
+margin: 20px;
+font-size: 14px;
+}
+
+/* I've given my header - Olive - a top panel ID and thereby styling it */
+#top_pannel{
+  font-weight: bolder;
+  text-align: center;
+  font-style: oblique;
+  font-size: 150px;
+  font-family: Moonlights on the Beach;
+  color: rgb(200, 30, 95);
+}
+
+/* Styling the first heading so it appears on the right below the header */
+h1 {position:absolute;
+right: 500px;
+position: absolute;
+top: 95px;
+font-family: aakar;
+color: rgb(200, 30, 95);
+}
+
+/* Removing the bullets from the unordered list and aligning to center */
+#menubar ul {
+list-style-type: none;
+text-align: center;
+}
+
+/*Making sure that the menu categories are on the same line */
+#menubar ul li {
+  display: inline;
+}
+
+/*Styling the menu bar */
+#menubar {
+  font-family: aakar;
+  color: rgb(200, 30, 90);
+  font-size: 30px;
+}
+
+* {box-sizing: border-box}
+
+/*Creating a Slideshow container */
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+/* Styling the previous and next controls */
+  .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 56px;
+  margin-top: -0px;
+  color: rgb(200, 30, 95);
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.arrow_previous{
+  width: 80px;
+  height: 8 0px;
+ 
+}
+
+/* Positioning the controls */
+.next{
+  margin-right: 160px;
+}
+
+.prev{
+  margin-left: 160px;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* Providing a margin for the container in which the gallery is */
+  .container {
+   margin: 100px; 
+  }
+
+  /* Styling the menubar */
+  #menubar a{
+    text-decoration: none;
+    color: rgb(108, 36, 190);
+    font-family: aakar;
+  }
+  
+  /* Positioning the profile photo */
+  #avatar {
+    float: right;
+    right: 500px;
+  }
+
+/* Positioning this section */
+  .container {
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 30px;
+}
+/* Positioning the profile photo */
+.photo {
+  position: absolute;
+  right: 400px;
+  top: 600px;
+}
+
+/* Giving margins to the short bio */
+.paragraph {
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-left: 150px;
+  font-size: 30px;
+}

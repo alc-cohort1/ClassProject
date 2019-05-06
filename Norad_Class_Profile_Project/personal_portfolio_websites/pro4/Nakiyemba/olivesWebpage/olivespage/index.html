@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+    <link type="text/css" rel="stylesheet" href="index.css"/>
+    <title>Olive Nakiyemba</title>
+
+    <!-- Inline styling for the gallery -->
+    <style>
+    body {
+        font-family: aakar;
+        margin: 0; 
+}
+
+    img{
+        vertical-align: middle;
+}
+
+.container {
+        position: center;
+        margin: 10px;
+}
+    
+.mySlides {
+        display: none;
+}
+
+.cursor {
+        cursor: pointer;
+  }
+
+  .prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  width: auto;
+  padding: 16px;
+  margin-top: -80px;
+  color:  rgb(200, 30, 95);
+  font-weight: bold;
+  font-size: 50px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+</style>
+
+<head> 
+
+    <!-- Assigning the header an ID - top-panel-->
+ <header id="top_pannel">
+     Olive 
+ </header>  
+
+ <!--Giving my h1 a heading-->
+ <h1>
+     Nakiyemba Blog
+ </h1>
+
+ <!--Creating a menu bar-->
+ <div id="menubar">
+     
+   <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="aboutme.html">About me</a></li>
+     <li><a href="experience.html">Experience</a></li>
+     <li><a href="">Projects</a></li>
+     <li><a href="contact.html">Contact Us</a></li>
+   </ul>
+</div>
+</head>
+
+<body> 
+
+<!--Slideshow container-->
+<center>
+    <section class="container">
+        <div class="mySlides">
+            <img src="../Images/webpage3.jpg">                                  
+        </div>
+
+        <div class="mySlides">
+            <img src="../Images/webpage2.jpg">
+        </div>
+    
+        <div class="mySlides">
+            <img src="../Images/webpage1.jpg">
+        </div>
+    
+        <div class="mySlides">
+            <img src="../Images/webpage4.jpg">
+        </div>
+        <div class="mySlides">
+                <img src="../Images/webpage5.jpg">
+        </div>
+    </section>
+</center>
+
+<!--Adding the next and previous controls-->
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+<script>
+    // Getting the gallery to actually work when you click next and previous
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("demo");
+      var captionText = document.getElementById("caption");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += "active";
+      captionText.innerHTML = dots[slideIndex-1].alt;
+    }
+</script>
+<!--Profile photo--->
+<div class='photo'>
+      <img src="../Images/avator.png" class="avator">
+</div>
+<!--End of profile photo-->
+
+<!--Short Intro-->
+
+<div class="paragraph">
+    <p>
+        I finally got the joke, the one where one wonders why the Cafe Javas' menu isn't called JavaScript...
+    </p>
+    <p>
+        Can you tell that I am an adrenaline junkie? No? Can we talk about that or my exciting journey
+        of learning code? 
+    </p>
+</div>
+<!--End of short intro-->
+
+<!-- Footer coming soon -->
+</body>
+</html>
