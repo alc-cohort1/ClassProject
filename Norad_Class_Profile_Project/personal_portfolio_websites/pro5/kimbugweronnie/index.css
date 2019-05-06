@@ -6,17 +6,18 @@
 .begin {
   display: flex;
   justify-content: flex-end;
-  /* text-decoration-color: black; */
+ 
 }
 
 .begin div {
   border: 10px black;
+  color:black
   padding: 10px;
   display: flex;
   justify-content: flex-end;
   justify-content: space-around;
   text-decoration: none;
-  /* justify-content: space-evenly; */
+ 
 }
 .begin a {
   text-decoration: none;
@@ -24,11 +25,10 @@
 
 .container {
   display: flex;
-  /* align-items: flex-start; */
+ 
   align-items: center;
   flex-direction: column;
-  /* align-self: center; */
-  /* flex-direction: column; */
+ 
 }
 
 .passion {
@@ -85,7 +85,7 @@
   background: grey;
   width: 100px;
   height: 10px;
-  /* contact form .......*/
+ 
 }
 #container4 {
   text-transform: uppercase;
@@ -107,7 +107,7 @@
   flex-direction: column;
 }
 #container5 div {
-  /* border: 1px green solid; */
+ 
   padding: 2px;
   height: 300px;
   width: 320px;
