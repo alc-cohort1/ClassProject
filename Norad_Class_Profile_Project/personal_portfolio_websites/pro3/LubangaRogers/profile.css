@@ -6,7 +6,7 @@ html,body{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .top_header{
-    background: #006666;
+    background: darkblue;
     padding: 10px;
     height: 50px;
     color: white;
@@ -50,7 +50,7 @@ th, td{
     font-size: 30px;
 }
 svg{
-    fill: green;
+    fill:darkblue;
     width: 30px;
     height: 30px;
 }
