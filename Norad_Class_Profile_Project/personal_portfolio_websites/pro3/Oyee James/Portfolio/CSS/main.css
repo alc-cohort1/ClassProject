@@ -1,11 +1,20 @@
+/* styling for the body */
+body, html{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+/* styling for the container */
 .container{
     display: flex;
 }
+/* styling for the left section */
 .leftSection{
     width: 20%;
     height: 600px;
     background: linear-gradient(to bottom, blue, red);
     position: fixed;
+    padding-bottom: 5px;
 }
 .leftSection .photo{
     height: 30%;
@@ -17,8 +26,9 @@
     width: 150px;
     height: 150px;
 }
+/* styling for the menu */
 .leftSection .menu{
-    border: 1px;
+    border: 1px;    
     height: 65%;
     margin: 10px;
 }
@@ -34,10 +44,12 @@
     color:white;
     background-color: blue;
 }
+/* styling for the right section */
 .rightSection{
     width:80%;
     margin-left:270px;    
 }
+/* styling for about me */
 .rightSection .about{
     width: 100%;
     height: 568px;
@@ -74,6 +86,9 @@
     font-size: 75px;
     color: black;
 }
+span{
+    color: blue;
+}
 .rightSection .about .myName .nameDescription{
     font-size: 20px;
     color: black;
@@ -89,6 +104,7 @@
     padding-top: 95px;
     padding-left: 10px;
 }
+/* styling for skills */
 .rightSection .skills{
     height: 568px;
     background-image: url(../Images/skills.jpeg);
@@ -156,6 +172,7 @@
     color: black;
     font-size: 30px;
 }
+/* styling for experience */
 .rightSection .experience{
     height: 568px;
     background-color: grey;
@@ -275,6 +292,13 @@
     width: 50px;
     border:1px solid blue;
 }
+.date{
+    color: blue;
+}
+.space{
+    width: 10px;
+}
+/* styling for projects */
 .rightSection .projects{
     height: 975px;
     background-size: 100%;
@@ -482,6 +506,7 @@
     width: 50px;
     border-radius: 50%;
 }
+/* styling for gallery */
 .rightSection .gallery{
     height: 568px;
     background-image:url(../Images/gallery.jpeg);
@@ -528,8 +553,9 @@
   width: 100%;
   height: 100%;
 }
+/* styling for contact me */
 .rightSection .contactMe{
-    height: 568px;
+    height: 570px;
     background-size: 100%;
     padding-top: 30px;
     background-image: url(../Images/contactMe.jpg);
@@ -621,20 +647,12 @@ button{
 button:hover{
     background-color: blue;
 }
-span{
-    color: blue;
-} 
-.space{
-    width: 10px;
-}
-.date{
-    color: blue;
-}
+/* styling for the footer */
 .rightSection .footer{
   position: fixed;
   padding-left: 10px;
   bottom: 0;
-  width: 1055px;
+  width: 1070px;
   height: 35px;;
   background: linear-gradient(to right, red, blue);
   color: white;

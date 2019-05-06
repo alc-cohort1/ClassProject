@@ -44,6 +44,60 @@ nav{
 }
 
 
+.container .top .inner_top .content label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: inherit;
+    font-size: small;
+}
+
+.container .top .inner_top .title label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.container .top .inner_top .title{
+    display: flex;
+}
+
+.container .top .inner_top .title .image img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container .top .inner_top .title .image{
+    width: 60px;
+    height: 60px;
+    background-color: #16224F;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.container .top .inner_top .title .label{
+    width: 500px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.container .medium .left .content label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: inherit;
+    font-size: small;
+}
+
+.container .medium .left .title label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
 .container nav .menu{
     width: 5%;
 }
@@ -113,13 +167,13 @@ nav{
 }
 
 .container .top .inner_top{
-    width: 500px;
+    width: 900px;
     height: 100px;
 }
 
 .container .top .inner_top .title{
-    width: 300px;
-    height: 30px;
+    width: 800px;
+    height: 80px;
     margin-left: 20px;
     background-color: #EFEFEF;
 }
