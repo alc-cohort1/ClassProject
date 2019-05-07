@@ -40,6 +40,8 @@ h1 {
     color: rgb(200, 30, 90);
     font-size: 30px;
 }
+
+/* Styling the table */
 table {
         font-family: arial, sans-serif;
         border-collapse: collapse;

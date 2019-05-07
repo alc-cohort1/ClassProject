@@ -1,0 +1,538 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width:100%;
+    background-color: #F3F4F6;
+    height: 660px;
+}
+
+nav{
+    width: 100%;
+    height: 180px;
+    background-color: #16224F;
+    display: flex; 
+}
+
+.upper_content{
+    display: flex;
+    width: 1280px;
+}
+
+
+.upper_content .name{
+    width: 45%;
+    text-align: center;
+}
+
+.upper_content .name{
+    width: 400px;
+    height: 60px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.upper_content .infinite{
+    width: 400px;
+    height: 60px;
+    margin-left: 150px;
+}
+
+.upper_content .tools{
+    width: 400px;
+    height: 30px;
+    margin-left: 150px;
+    display: flex;
+}
+
+.upper_content .tools img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.upper_content .infinite label{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.upper_content .name label{
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mySkillsLabel label{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.left {
+    width: 45%;
+    background-color: #FFFFFF;
+    height: 430px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.left .image_label{
+    width: 360px;
+    height: 400px;
+    background-color: #F3F4F6;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.left .image_label .one{
+    display: flex;
+}
+
+.left .image_label .one .image{
+    width: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 80px;
+}
+
+.left .image_label .one .two{
+    width: 150px;
+    height: 60px;
+    margin-top: 20px
+}
+
+.left .image_label .one .two label{
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.left .image_label .three{
+    scroll-behavior: smooth;
+    overflow: auto;
+    height: 150px;
+    width: 250px;
+    margin-left: 10px;
+    background-color: #FFFFFF;
+}
+
+.left .image_label .recommendation{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.left .image_label .recommendation label{
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: underline;
+    margin-left: 25px;
+}
+
+.left .image_label .recommendation textarea{
+    border-radius: 5px;
+}
+
+.left .image_label .recommendation input{
+    width:100px;
+    margin-left: 60px;
+    background-color: #16224F;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.left .image_label .one .image img{
+    width: 70px;
+    height: 70px;
+}
+
+.left .images {
+    background-color: #F3F4F6;
+    /* border-radius: 5px; */
+}
+
+.left .images .computer_photo{
+    width: 280px;
+    height: 200px;
+    margin-left: 14px;
+    margin-top: 15px;
+}
+
+.left .images .telecommunication{
+    width: 280px;
+    height: 200px;
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+.left img {
+    width: 270px;
+    height: 190px;
+}
+
+.right {
+    width: 540px;
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    height: 450px;
+    margin-left: 30px;
+}
+
+.personal_skills {
+    display: flex;
+    margin-left: 80px;
+}
+
+.right .software{
+    width: 500px;
+    height: 220px;
+    padding-left: 20px;
+    background-color: #F3F4F6;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.right .software label{
+    font-weight: bolder;
+    color: black;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.right .engineering{
+    width: 500px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-left: 20px;
+    background-color: #F3F4F6;
+}
+
+.right .engineering label{
+    font-weight: bolder;
+    color: black;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.right .software .html{
+    width: 450px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.right .software .label_html{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right .software .html .innerHtml{
+    width: 90%;
+    height: 100%;
+    background-color: #16224F;
+    border-radius: 10px;
+}
+
+.right .software .html .innerHtml label{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 370px;
+}
+
+.right .software .css .innerCss label{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 348px;
+}
+
+.right .software .javaScript .innerJavaScript label{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 300px;
+}
+
+.right .software .reactJS .innerReact label{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 235px;
+}
+
+.right .software .nodeJS .innerNode label{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 275px;
+}
+
+
+.right .engineering .networking .innerNetworking label{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 235px;
+}
+
+.right .engineering .tranmission .innerTranmission label{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 370px;
+}
+
+.right .engineering .electronics .innerElectronics label{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 325px;
+}
+
+.right .engineering .electrical .innerElectrical label{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 345px;
+}
+
+.right .software .label_css{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right .software .label_javaScript{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right .software .react{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right .software .node{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right .engineering .label_networking{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right .engineering .label_transmission{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right .engineering .label_electronics{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right .engineering  .label_electrical{
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.right .software .css{
+    width: 450px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.right .software .css .innerCss{
+    width: 85%;
+    height: 100%;
+    background-color: #16224F;
+    border-radius: 10px;
+}
+
+.right .software .javaScript{
+    width: 450px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.right .software .javaScript .innerJavaScript{
+    width: 75%;
+    height: 100%;
+    background-color: #16224F;
+    border-radius: 10px;
+}
+
+.right .software .reactJS{
+    width: 450px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.right .software .reactJS .innerReact{
+    width: 60%;
+    height: 100%;
+    background-color: #16224F;
+    border-radius: 10px;
+}
+
+.right .software .nodeJS{
+    width: 450px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.right .software .nodeJS .innerNode{
+    width: 69%;
+    height: 100%;
+    background-color: #16224F;
+    border-radius: 10px;
+}
+
+.right .engineering .networking{
+    width: 450px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.right .engineering .networking .innerNetworking {
+    width: 60%;
+    height: 100%;
+    background-color: #16224F;
+    border-radius: 10px;
+}
+
+.right .engineering .tranmission{
+    width: 450px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.right .engineering .tranmission .innerTranmission{
+    width: 90%;
+    height: 100%;
+    background-color: #16224F;
+    border-radius: 10px;
+}
+
+.right .engineering .electronics{
+    width: 450px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.right .engineering .electronics .innerElectronics {
+    width: 80%;
+    height: 100%;
+    background-color: #16224F;
+    border-radius: 10px;
+}
+
+.right .engineering .electrical{
+    width: 450px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.right .engineering .electrical .innerElectrical{
+    width: 85%;
+    height: 100%;
+    background-color: #16224F;
+    border-radius: 10px;
+}
+
+.container .menu{  
+    width: 40px;
+    height: 50px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.drop_down {
+    position: relative;
+    display: inline-block;
+  }
+
+  .drop_down .drop {
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #C9D2D9;
+    min-width: 125px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 10px 10px;
+    text-decoration: #953E72;
+    display: block;
+  }
+
+.dropdown-content a:hover {
+    background-color:#953E72;
+    border-radius: 10px;
+}
+.drop_down:hover .dropdown-content {
+    display: block;
+    border-radius: 10px;
+}
+.drop_down:hover .dropbtn {
+    background-color: #C9D2D9;
+}
+
