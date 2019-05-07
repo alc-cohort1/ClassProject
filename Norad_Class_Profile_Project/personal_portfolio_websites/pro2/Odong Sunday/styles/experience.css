@@ -51,12 +51,33 @@ nav{
     font-size: small;
 }
 
+
+
 .container .top .inner_top .title label{
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
     font-size: medium;
 }
+
+
+.container .medium .left .title label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium; 
+    margin-left: 10px;  
+}
+
+.container .medium .right .title label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 10px;
+    margin-top: 5px;  
+}
+
 
 .container .top .inner_top .title{
     display: flex;
@@ -84,12 +105,6 @@ nav{
     margin-top: 30px;
 }
 
-.container .medium .left .content label{
-
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: inherit;
-    font-size: small;
-}
 
 .container .medium .left .title label{
 
@@ -97,6 +112,14 @@ nav{
     font-weight: bold;
     font-size: medium;
 }
+
+.container .medium .right .title label{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
 
 .container nav .menu{
     width: 5%;
@@ -216,6 +239,30 @@ nav{
     height: 30px;
     margin-left: 20px;
     background-color: #EFEFEF;
+}
+
+.container .medium .left .title .image img{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: -15px;
+    
+}
+
+.container .medium .left .title {
+    display: flex;
+}
+
+.container .medium .right .title .image img{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: -15px;
+    
+}
+
+.container .medium .right .title {
+    display: flex;
 }
 
 .container .medium .right .content{

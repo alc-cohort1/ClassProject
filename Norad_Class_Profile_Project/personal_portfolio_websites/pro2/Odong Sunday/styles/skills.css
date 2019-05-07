@@ -159,7 +159,6 @@ nav{
 
 .left .images {
     background-color: #F3F4F6;
-    /* border-radius: 5px; */
 }
 
 .left .images .computer_photo{
@@ -198,14 +197,14 @@ nav{
     width: 500px;
     height: 220px;
     padding-left: 20px;
-    background-color: #F3F4F6;
+    background-color: #16224F;
     margin-left: 10px;
     margin-top: 10px;
 }
 
 .right .software label{
     font-weight: bolder;
-    color: black;
+    color: white;
     font-size: larger;
     text-decoration: underline;
 }
@@ -216,12 +215,12 @@ nav{
     margin-left: 10px;
     margin-top: 10px;
     padding-left: 20px;
-    background-color: #F3F4F6;
+    background-color: #16224F;
 }
 
 .right .engineering label{
     font-weight: bolder;
-    color: black;
+    color: white;
     font-size: larger;
     text-decoration: underline;
 }
@@ -235,7 +234,7 @@ nav{
 }
 
 .right .software .label_html{
-    color: black;
+    color: white;
     font-size: small;
     font-weight: bold;
     text-decoration: none;
@@ -244,7 +243,7 @@ nav{
 .right .software .html .innerHtml{
     width: 90%;
     height: 100%;
-    background-color: #16224F;
+    background-color: #EA5181;
     border-radius: 10px;
 }
 
@@ -313,56 +312,56 @@ nav{
 }
 
 .right .software .label_css{
-    color: black;
+    color: white;
     font-size: small;
     font-weight: bold;
     text-decoration: none;
 }
 
 .right .software .label_javaScript{
-    color: black;
+    color: white;
     font-size: small;
     font-weight: bold;
     text-decoration: none;
 }
 
 .right .software .react{
-    color: black;
+    color: white;
     font-size: small;
     font-weight: bold;
     text-decoration: none;
 }
 
 .right .software .node{
-    color: black;
+    color: white;
     font-size: small;
     font-weight: bold;
     text-decoration: none;
 }
 
 .right .engineering .label_networking{
-    color: black;
+    color: white;
     font-size: small;
     font-weight: bold;
     text-decoration: none;
 }
 
 .right .engineering .label_transmission{
-    color: black;
+    color: white;
     font-size: small;
     font-weight: bold;
     text-decoration: none;
 }
 
 .right .engineering .label_electronics{
-    color: black;
+    color: white;
     font-size: small;
     font-weight: bold;
     text-decoration: none;
 }
 
 .right .engineering  .label_electrical{
-    color: black;
+    color: white;
     font-size: small;
     font-weight: bold;
     text-decoration: none;
@@ -380,7 +379,7 @@ nav{
 .right .software .css .innerCss{
     width: 85%;
     height: 100%;
-    background-color: #16224F;
+    background-color: #EA5181;
     border-radius: 10px;
 }
 
@@ -395,7 +394,7 @@ nav{
 .right .software .javaScript .innerJavaScript{
     width: 75%;
     height: 100%;
-    background-color: #16224F;
+    background-color: #EA5181;
     border-radius: 10px;
 }
 
@@ -410,7 +409,7 @@ nav{
 .right .software .reactJS .innerReact{
     width: 60%;
     height: 100%;
-    background-color: #16224F;
+    background-color: #EA5181;
     border-radius: 10px;
 }
 
@@ -425,7 +424,7 @@ nav{
 .right .software .nodeJS .innerNode{
     width: 69%;
     height: 100%;
-    background-color: #16224F;
+    background-color: #EA5181;
     border-radius: 10px;
 }
 
@@ -440,7 +439,7 @@ nav{
 .right .engineering .networking .innerNetworking {
     width: 60%;
     height: 100%;
-    background-color: #16224F;
+    background-color: #EA5181;
     border-radius: 10px;
 }
 
@@ -455,7 +454,7 @@ nav{
 .right .engineering .tranmission .innerTranmission{
     width: 90%;
     height: 100%;
-    background-color: #16224F;
+    background-color: #EA5181;
     border-radius: 10px;
 }
 
@@ -470,7 +469,7 @@ nav{
 .right .engineering .electronics .innerElectronics {
     width: 80%;
     height: 100%;
-    background-color: #16224F;
+    background-color: #EA5181;
     border-radius: 10px;
 }
 
@@ -485,7 +484,7 @@ nav{
 .right .engineering .electrical .innerElectrical{
     width: 85%;
     height: 100%;
-    background-color: #16224F;
+    background-color: #EA5181;
     border-radius: 10px;
 }
 
@@ -520,12 +519,12 @@ nav{
   .dropdown-content a {
     color: black;
     padding: 10px 10px;
-    text-decoration: #953E72;
+    text-decoration: #EA5181;
     display: block;
   }
 
 .dropdown-content a:hover {
-    background-color:#953E72;
+    background-color:#EA5181;
     border-radius: 10px;
 }
 .drop_down:hover .dropdown-content {

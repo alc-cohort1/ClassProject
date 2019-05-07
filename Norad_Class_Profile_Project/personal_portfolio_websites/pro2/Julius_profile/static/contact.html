@@ -30,8 +30,8 @@
           touch with me, please fill out the form below.
         </p>
       </div>
-      <!-- contact form fiels -->
-      <form name="contactForm" onsubmit="return validate()">
+      <!-- contact form fiels onsubmit="return validate()" -->
+      <form name="contactForm" action="/comments" method="POST">
         <div class="mainForm">
           <div class="inputFields">
             <div>
@@ -58,7 +58,8 @@
               <textarea name="comments" id="" cols="50" rows="10"></textarea>
             </div>
             <div>
-              <button class="submitButton" type="submit">Submit</button>
+              <input type="submit" value="submit" class="submitButton" />
+              <!-- <button class="submitButton" type="submit">Submit</button> -->
             </div>
           </div>
           <div class="address">
