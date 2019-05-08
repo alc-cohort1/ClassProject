@@ -11,12 +11,21 @@
 html,
 body {
     background-color: #fff;
-    color: #555;
-    font-family: 'Lato', 'Arial', sans-serif;
+    color: #fff;
+    font-family: 'Source Sans Pro', 'Lato', 'Poppins',  sans-serif;
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
     
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .clearfix {zoom: 1;}
@@ -30,4 +39,148 @@ body {
 
 /* ---------------------------------------------------- */
 /* REUSABLE COMPONENTS THROUGHOUT THE WEBSITE */
+/* ---------------------------------------------------- */
+
+
+/* ---------------------------------------------------- */
+/* HEADER SECTION */
+/* ---------------------------------------------------- */
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://colorlib.com/illdy/wp-content/themes/illdy/layout/images/front-page/front-page-header.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
+
+.container {
+    padding-top: 10rem;
+}
+
+.custom-nav {
+    padding: 12px 0px 0px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+    background-color: transparent;
+}
+
+.custom-nav.sticky-add {
+    padding: 8px 0;
+    box-shadow: 0px 0px 18px 1px rgba(0, 0, 0, 0.1);
+    
+}
+
+.custom-nav {
+    position: fixed;
+}
+
+
+/* ---------------------------------------------------- */
+/* SKILLS SECTION */
+/* ---------------------------------------------------- */
+
+#skills-section {
+    color: #343a40;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+}
+
+.skill-custom .progress {
+    height: 4px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+/* ---------------------------------------------------- */
+/* PROJECTS SECTION */
+/* ---------------------------------------------------- */
+
+#projects-section{
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+}
+
+.project-box {
+    position: relative;
+    display: block;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+#projects-section .container-fluid .project-box .project-box-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(244,98,58,.9);
+    transition: opacity .25s ease;
+    text-align: center;
+}
+/* ---------------------------------------------------- */
+/* REFERENCES SECTION */
+/* ---------------------------------------------------- */
+
+#references-section {
+    color: #343a40;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff;
+}
+
+
+/* ---------------------------------------------------- */
+/* CONTACT ME SECTION */
+/* ---------------------------------------------------- */
+#contact-me-section{
+    background-color: #f8f9fa;
+    color: #343a40;
+    padding: 2.5rem 2rem 2.5rem 2rem;
+}
+
+.contact-container {
+    padding: 2.5rem 0 0 0;
+}
+
+
+
+
+
+
+
+/* ---------------------------------------------------- */
+/* MEDIA QUERIES */
 /* ---------------------------------------------------- */

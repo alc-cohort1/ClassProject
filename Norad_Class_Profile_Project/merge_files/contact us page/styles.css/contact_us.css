@@ -3,7 +3,7 @@ body{
     padding: 0%;
 }
 .container{
-    background-color: blueviolet;
+    background-color: #ffff;
     margin-top: 0%;
     padding-top: 20px;
     width: 100%;
@@ -12,28 +12,112 @@ body{
 
 .container .upper{
     width: 90%;
-    background-color: yellow;
+    background-color: #F0F8FE;
     height: 25%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-left: 60px;
+    margin-top: 80px;
+    padding-top: 40px;
+}
+
+.container .upper .upper_section{
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.container .upper .lower_section{
+    height: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: #708090;
 }
 
 .container .left{
     width: 60%;
     position: relative;
     float: left;
-    height: 60%;
+    height: 250px;
     margin-left: 60px;
 }
 
 .container .right{
     width: 29.5%;
-    background-color:aliceblue;
+    background-color:#708090;
     position: relative;
     float: right;
-    height: 60.5%;
+    height: 230px;
     margin-right: 70px;
     border-radius: 10px;
+    padding-top: 20px;
+}
+
+.container .right .address{
+    height: 20px;
+}
+
+.container .right .email{
+    margin-top: 15px;
+}
+
+.container .right .address label{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .right .phone label{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .right .email label{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container .right .phone{
+    margin-top: 15px;
+}
+
+.container .right .address_detail{
+    margin-left: 10px;
+}
+
+.container .right .phone_details{
+    margin-left: 10px;
+}
+
+.container .right .email_detail{
+    margin-left: 10px;
+}
+
+.container .right .address_detail label{
+    margin-top: 10px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .right .phone_details label{
+    margin-top: 10px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .right .email_detail label{
+    margin-top: 10px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container .left .first{
@@ -91,6 +175,7 @@ body{
 input, textarea {
     border-radius: 5px;
     border: none;
+    background-color: #F0F8FE;
 }
 
 .comment_button {
@@ -106,39 +191,7 @@ input, textarea {
     font-size: larger;
 }
 
-.headquaters{
-    width: 100%;
-    height: 30%;
-    background-color: #708090;
-    border-radius: 10px;
-    margin-bottom: 18px;
-}
 
-.working_with_us{
-    width: 100%;
-    height: 30%;
-    margin-bottom: 18px;
-    background-color: #708090;
-    border-radius: 10px;
-}
-
-.organisation{
-    width: 100%;
-    height: 31%;
-    border-radius: 10px;
-    background-color: #708090;
-}
-
-.wayToContact img {
-    width: 20px;
-    height: 20px;   
-    border-radius: 50%;
-    border: none;
-}
-
-.phone{
-    margin-bottom: 10px;
-}
 
 .emailContact{
     margin-bottom: 10px;
@@ -151,64 +204,5 @@ input, textarea {
     text-decoration:underline;
 }
 
-.wayToContact{
-    padding-left: 10px
-}
-
-.phone_img {
-    display: flex;
-}
-
-.phone_img .phone_label{
-    padding-left: 5px;
-    color: aliceblue;
-    padding-top: 2px;
-}
-
-.contact_image{
-    display: flex;
-}
 
 
-.contact_image .email_label{
-    padding-left: 5px;
-    color: aliceblue;
-    padding-top: 2px;
-}
-
-.location_img{
-    display: flex;
-}
-
-
-.location_img .location_label{
-    padding-left: 5px;
-    padding-top: 2px;
-    color: aliceblue;
-}
-
-.social_media{
-    display: flex;
-}
-
-.social_media img{
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 50%;
-}
-
-.working_with_us label{
-    color: aliceblue;
-}
-
-.label_working_with_us{
-    padding-top: 5px;
-    margin-left: 5px;
-}
-
-.main_campus img{
-    width: 60px;
-    height: 40px;
-}

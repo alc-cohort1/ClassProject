@@ -20,6 +20,17 @@ div#header{
     padding: 8px;
 }
 
+/* This is the sidebox styling. */
+#main_box { padding-right: 50px; }
+#sidebox
+{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    float: right;
+    margin-left: 25px;
+}
+
 /*This is the footer styling.*/
 .f_container{
     background-color: platinum;
@@ -57,5 +68,4 @@ div#header{
     width: 10%; 
     position: relative;
     display: block;
-}
 }
