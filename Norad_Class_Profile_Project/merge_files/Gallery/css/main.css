@@ -5,7 +5,7 @@ body {
 }
 
 .navbar {
-  background-color: #265f53;
+  background-color: hsl(167, 43%, 26%);
   height: 60px;
   display: flex;
   justify-content: space-between;
