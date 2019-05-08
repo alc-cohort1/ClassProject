@@ -15,7 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
-<body style = "background-color: turquoise">
+<body style = "background-image: url(/Images/background1.jpg)">
     <!--Navigation Bar begins here.-->
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container-fluid" id="menu">
@@ -47,18 +47,18 @@
                         <h2>Get in touch</h2>
                         <p>Send me a message today and we look to find a way to work together</p>
                     </div>
-                    <form id="contact-me" action="" method=""> 
+                    <form id="contact-me" action="Contact" method="POST"> 
                         <div class="row">
                             <div class="col-md-6 col-sm-6">
-                                <input type="text" id="name" placeholder="Enter Your Name Here" required="">
+                                <input type="text" name="name" id="name" placeholder="Enter Your Name Here" required="">
                             </div>
                             <div class="col-md-6 col-sm-6">
-                                <input type="email" id="email" placeholder="Enter Your Email" required="">
+                                <input type="email" name="email" id="email" placeholder="Enter Your Email" required="">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12 col-sm-12">
-                                <textarea id="message" rows="5" placeholder="Enter Your Message here" required=""></textarea>
+                                <textarea id="message" name="message" rows="5" placeholder="Enter Your Message here" required=""></textarea>
                             </div>
                         </div>
                         <div class="col-md-offset-8 col-md-4 col-sm-offset-6 col-sm-6">
