@@ -1,0 +1,81 @@
+body, html
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    color: #3c3939;
+}
+
+#menu 
+{
+    background-color: black;
+}
+
+#navbar-brand 
+{
+    color: white;
+}
+
+.profile-card
+{
+    width: 800px;
+    height: 700px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+
+#image
+{
+    float: left;
+    width: 300px;
+    height: 350px;
+}
+
+#main
+{
+    float: right;
+    width: 250px;
+    height: 300px;
+}
+
+.title
+{
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+}
+
+#social
+{
+    color: crimson;
+}
+
+/* footer */
+footer
+{
+    background:#7682cc;
+    text-align: center;
+    padding: 120px 0;
+}
+    
+footer p
+{
+    padding-bottom: 16px;
+    color: #f0f0f0;
+}
+
+/* social media icons */
+#social
+{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    color: black;
+}
