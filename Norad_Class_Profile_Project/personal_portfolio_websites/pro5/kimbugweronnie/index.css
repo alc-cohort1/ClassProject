@@ -8,10 +8,14 @@
   justify-content: flex-end;
  
 }
+.begin a {
+  text-decoration: none;
+  color: black;
+}
 
 .begin div {
   border: 10px black;
-  color:black
+  color:black;
   padding: 10px;
   display: flex;
   justify-content: flex-end;
