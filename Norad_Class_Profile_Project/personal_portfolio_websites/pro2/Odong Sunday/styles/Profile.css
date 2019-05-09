@@ -10,33 +10,37 @@
 .container .top{
     padding-bottom: 20px;
     background-image: linear-gradient(to bottom,black,#16224F ,#1C2758) ;
-    width: 95%;
-    height: 42%;
+    width: 99.2%;
+    height: 650px;
     padding-left: 10px;
-    margin-left: 28px;
     padding-top: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     display: flex;
     flex-wrap: wrap;
     background-color:#000000 ;
 }
 
 .container .top .photo{
-    height: 99%;
-    width: 50%;
+    height: 550px;
+    width: 500px;
     padding-top: 10px;
     position: relative;
     float: left;
 }
 
+.container .top .photo .lets_talk{
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+
 .container .top .photo .photo_inner{
-    padding-left: 56.5%;
-    width: 50%;
+    padding-left: 20px;
+    width: 450px;
+    height: 550px;
 }
 
 .container .top .introduction{
-    height: 99%;
+    height: 550px;
     width: 39.5%;
     padding-top: 2px;
     position: relative;
@@ -45,10 +49,19 @@
 
 .container .top .menu{
     width: 5%;
+    display: flex;
+}
+
+.container .top .menu button{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .container .top .introduction .introduction_inner{
-    padding-top: 17%;
     width: 70%;
 }
 
@@ -61,53 +74,83 @@
     width: 35%;
     padding-top: 20px;
     padding-bottom: 15px;
-    margin-left: 470px;
-    /* background-color:#000000; */
+    margin-left: 400px;
 }
 
 .container .look .look_service{
-    width: 370px;
+    width: 330px;
     height: 90%;
     background-color: #1C2758;
-    border-radius: 10px;
-    padding-left: 80px;
+    padding-left: 100px;
     padding-top: 5px;
 }
 
 .container .middle{
-    height: 18%;
+    height: 40%;
     width: 100%;
-    padding-bottom: 0%;
+    /* background-color: pink; */
+    display: flex;
+}
+
+.container .middle img {
+    width: 350px;
+    height: 240px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.container .middle .one {
+    width: 370px;
+    height: 320px;
+    margin-left: 50px;
+    background-color: #C9D2D9;
+}
+
+.container .middle .two {
+    width: 370px;
+    height: 320px;
+    margin-left: 50px;
+    background-color: #C9D2D9;
+}
+
+.container .middle .three {
+    width: 370px;
+    height: 320px;
+    margin-left: 50px;
+    background-color: #C9D2D9;
+}
+
+.container .middle .label{
+    width: 350px;
+    height: 60px;
+    margin-left: 10px;
 }
 
 .container .bottom{
-    height: 18%;
+    height: 10%;
     width: 100%;
-}
-
-
-.container .middle .education{
-    height: 100%;
-    width: 50.5%;
-    position: relative;
-    float: left;
-    /* background-color: #181818; */
-}
-
-.container .middle .experience{
-    height: 100%;
-    /* background-color: #181818; */
-    width: 49.5%;
-    position: relative;
-    float: right;
+    /* background-color: yellow; */
+    display: flex;
+    margin-top: 20px;
+    padding-top: 10px;
 }
 
 .container .bottom .languages{
     height: 100%;
     width: 50.5%;
     position: relative;
-    float: left;
-    /* background-color: #181818; */
+}
+
+.container .bottom  .two {
+    margin-left: 50px;
+}
+
+.container .bottom  .one {
+    margin-left: 50px;
+}
+
+.container .bottom  .three{
+    margin-left: 50px;
 }
 
 .container .bottom .skills{
@@ -115,7 +158,6 @@
     width: 49.5%;
     position: relative;
     float: right;
-    /* background-color:#181818; */
 }
 
 body {
@@ -130,183 +172,58 @@ body {
 }
 
 .upper_section_image{
-    height: 330px;
-    border-radius: 40%;
+    height: 400px;
+    width: 400px;
+    margin-left: 20px;
 }
 
-.container .middle .education .education_foto{
-    height: 25%;
-    margin-left: 48.7%;
-    padding-left: 8px;
-    background-color: #363636;
-    border-top-left-radius: 10px;
-}
 
-.container .middle .education .education_text{
-    height: 100%;
-    background-color:#363636;
-    width: 50%;
-    margin-left: 48.7%;
-    padding-left: 8px;
-
-}
-
-.container .middle .education .education_text:hover{
-    height: 100%;
-    color: silver;
-    background-color:#953E72;
-    width: 50%;
-    margin-left: 48.7%;
-    padding-left: 8px;
-    border-radius: 10px;
-}
-
-.container .middle .experience .experience_foto{
-    height: 25%;
-    padding-left: 0%;
-    width: 50%;
-    background-color:#363636;
-    border-top-right-radius: 10px;
-}
-
-.container .middle .experience .experience_text{
-    height: 75%;
-    padding-left: 0%;
-    width: 50%;
-    background-color:#363636;
-}
-
-.container .middle .experience .experience_text:hover{
-    height: 75%;
-    padding-left: 0%;
-    width: 50%;
-    color: silver;
-    background-color:#953E72;
-    border-radius: 10px;
-}
-
-.container .bottom .skills .skills_foto{
-    height: 25%;
-    padding-left: 0%;
-    width: 50%;
-    background-color:#363636;
-}
-
-.container .bottom .skills .skills_text{
-    height: 75%;
-    padding-left: 0%;  
-    width: 50%; 
-    border-bottom-right-radius: 10px;
-    background-color:#363636;
-
-}
-
-.container .bottom .skills .skills_text:hover{
-    height: 75%;
-    padding-left: 0%;  
-    width: 50%; 
-    border-radius: 10px;
-    color: silver;
-    background-color:#953E72;
-
-}
-
-.container .bottom .languages .language_foto{
-    height: 25%;
-    margin-left: 48.7%;
-    padding-left: 8px;
-    background-color:#363636;
-}
-
-.container .bottom .languages .language_text{
-    padding-left: 50%;   
-    background-color: #363636;
-    height: 75%;
-    margin-left: 48.7%;
-    padding-left: 8px;
-    border-bottom-left-radius: 10px;
-}
-
-.container .bottom .languages .language_text:hover{
-    padding-left: 50%;   
-    background-color: #953E72;
-    height: 75%;
-    margin-left: 48.7%;
-    padding-left: 8px;
-    border-radius: 10px;
-    color: silver;
-}
-
-button {
+.lets_talk button {
     border-radius: 10px;
     border: none;
-    width: 120px;
-    height: 25px;
+    width: 380px;
+    height: 30px;
     font-size: smaller;
     background-color: #EA5181;
-    
+    margin-bottom: 30px;
 }
 
 button:hover{
     color: white;
-    background-color: black;
+    background-color:#EA5181;
 }
 
 p{
     color: #C9D2D9;
 }
 
-.drop {
-    background-color: #C9D2D9;
-    color:black;
-    padding: 0px;
-    font-size: 16px;
-    border: none;
-  }
-
-  .drop_down {
-    position: relative;
-    display: inline-block;
-  }
-
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #C9D2D9;
-    min-width: 125px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-
-  .dropdown-content a {
-    color: black;
-    padding: 10px 10px;
-    text-decoration: #953E72;
-    display: block;
-  }
-
-.dropdown-content a:hover {
-    background-color:#953E72;
-    border-radius: 10px;
-}
-.drop_down:hover .dropdown-content {
-    display: block;
-    border-radius: 10px;
-}
-.drop_down:hover .dropbtn {
-    background-color: #C9D2D9;
-}
-
 footer{
-    background-color: #953E72;
+    background-color: #1C2758;
     color: white;
-    height: 30px;
+    height: 80px;
     padding-top: 7px;
-    padding-left: 25%;
+    padding-left: 150px;
+    display: flex;
 }
 
 .footer{
     padding-top: 23.5px
+}
+
+.footer .image {
+    border: 5px solid white;
+    width: 30px;
+    height: 50px;
+    margin-left: 50px;
+}
+
+.footer .label{
+    margin-top: 20px;
+}
+
+.footer .my_life{
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 .search {
@@ -328,11 +245,12 @@ footer{
     padding-top: 15px;
     width: 80%;
     display: flex;
+    margin-left: 40px;
 }
 
 .social_media .social{
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 5px;
 }
 
@@ -352,3 +270,53 @@ a:hover{
 .form-control {
     font-family: "FontAwesome";
   }
+
+.container .last{
+    width: 1200px;
+    height: 300px;
+    background-color: blue;
+    margin-left: 50px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.container .last .member_of{
+    width: 350px;
+    height: 280px;
+    margin-left: 10px;
+}
+
+
+.container .last .blog{
+    width: 350px;
+    height: 280px;
+    margin-left: 60px;
+}
+
+.container .last .favourites{
+    width: 350px;
+    height: 280px;
+    margin-left: 60px;
+}
+
+.container .horizontal {
+    border-bottom:  2px solid grey;
+    margin-bottom: 10px;
+    width: 1200px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+.last ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: medium;
+}
+
+.last label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
