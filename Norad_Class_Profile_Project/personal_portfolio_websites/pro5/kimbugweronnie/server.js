@@ -40,5 +40,5 @@ app.post("/sendMe", (req, res) => {
 
 // the port
 app.listen(3000, () => {
-  console.log("Express server started at port 5000");
+  console.log("Express server started at port 3000");
 });
