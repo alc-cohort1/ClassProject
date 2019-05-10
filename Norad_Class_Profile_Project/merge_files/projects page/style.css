@@ -1,0 +1,21 @@
+body{
+    font-family: roboto-regular;
+}
+.panel-body{
+    -webkit-box-shadow: 0 3px 2px #777;
+	-moz-box-shadow: 0 3px 2px #777;
+    box-shadow: 0 3px 2px #777;
+    padding: 15px;
+
+
+}
+img{
+    width: 100%;
+}
+.panel-footer{
+    padding: 15px;
+}
+.social-icons{
+    font-size: 30px;
+    padding: 10px;
+}
