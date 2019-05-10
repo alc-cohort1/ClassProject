@@ -16,6 +16,8 @@ body {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    position: relative;
+    scroll-behavior: smooth;
     
 }
 
@@ -41,6 +43,13 @@ h6 {
 /* REUSABLE COMPONENTS THROUGHOUT THE WEBSITE */
 /* ---------------------------------------------------- */
 
+.page-section {
+    padding: 3rem 2rem 2.5rem 2rem;
+}
+
+section {
+    padding: 5rem 2rem 2.5rem 2rem;
+}
 
 /* ---------------------------------------------------- */
 /* HEADER SECTION */
@@ -78,14 +87,13 @@ header {
     position: fixed;
 }
 
-
 /* ---------------------------------------------------- */
 /* SKILLS SECTION */
 /* ---------------------------------------------------- */
 
 #skills-section {
     color: #343a40;
-    padding: 2.5rem 2rem 2.5rem 2rem;
+    
 }
 
 .skill-custom .progress {
@@ -101,7 +109,6 @@ header {
 #projects-section{
     background-color: #f8f9fa;
     color: #343a40;
-    padding: 2.5rem 2rem 2.5rem 2rem;
 }
 
 .project-box {
@@ -147,7 +154,7 @@ img {
 
 #references-section {
     color: #343a40;
-    padding: 2.5rem 2rem 2.5rem 2rem;
+    
 }
 
 .team-member {
@@ -168,19 +175,17 @@ img {
 #contact-me-section{
     background-color: #f8f9fa;
     color: #343a40;
-    padding: 2.5rem 2rem 2.5rem 2rem;
+    
 }
 
 .contact-container {
     padding: 2.5rem 0 0 0;
 }
 
-
-
-
-
-
-
 /* ---------------------------------------------------- */
-/* MEDIA QUERIES */
+/* FOOTER SECTION */
 /* ---------------------------------------------------- */
+
+.footer {
+    color: #343a40;
+}
