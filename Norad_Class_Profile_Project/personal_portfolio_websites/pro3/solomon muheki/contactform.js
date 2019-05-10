@@ -1,5 +1,5 @@
 
-const mysql=require('mysql');
+ const mysql=require('mysql');
 const Connection = mysql.createConnection({
 	
 	host:'localhost',
@@ -35,6 +35,9 @@ Connection.query(querystring,[N_ame,E_mail,comm],(err,result,field)=>{
 		res.status(500)
 		return
 	}
+res.render('index.pug',{tittle:'Data saved',
+message:'comment saved successfully.'})
+//Connection.end();
 })
 
 })
