@@ -18,12 +18,14 @@
     <link rel="stylesheet" href="resources/css/style.css">
     <!-- Google Fonts / Source_Sans_Pro, Lato, Poppins -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Poppins:300,400,500,600,700|Source+Sans+Pro:300,300i,400,700,900" rel="stylesheet">
-    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
   </head>
-<body>
+<body data-spy="scroll">
     <!-- HEADER SECTION -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary custom-nav sticky-top sticky-add">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary custom-nav sticky-top sticky-add" data-target="navbar">
           <div class="container-fluid">
           <a class="navbar-brand lead" href="#">Benjamin Mwesigwa Kyamanywa</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +46,7 @@
                 <a class="nav-link" href="#references-section">References</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link" href="#gallery-section">Gallery</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact-me-section">Contact Me</a>
@@ -65,7 +67,7 @@
     
 
   <!-- SKILLS SECTION -->
-  <section id="skills-section">
+  <section class="page-section" id="skills-section" >
     <div class="container-fluid">
       <div class="row text-center">
         <div class="col-xs-12 col-md-12 col-lg-12 col-xl-12">
@@ -117,7 +119,7 @@
                   <div class="progress-bar" role="progressbar" style="width: 40%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
                 <div class="clearfix">
-                  <div class="text-dark font-weight-bold float-left">Development</div>
+                  <div class="text-dark font-weight-bold float-left">Soft Skills</div>
                   <div class="text-muted float-right">80%</div>
                 </div>
                 <div class="progress">
@@ -132,7 +134,7 @@
   </section>
 
   <!-- PROJECTS SECTION -->
-  <section id="projects-section">
+  <section id="projects-section" class="page-section">
     <div class="container-fluid" >
           <div class="row text-center">
           <div class="col">
@@ -184,7 +186,7 @@
   </section>
 
     <!-- REFERENCES SECTION -->
-  <section id="references-section" class="bg-client"
+  <section id="references-section" class="bg-client page-section"
     <div class="container-fluid">
     </div>
     <div id="references-section" class="container-fluid">
@@ -243,7 +245,7 @@
               </div>
               <div class="col-sm-4">
                 <div class="team-member">
-                  <img class="mx-auto rounded-circle hoverZoomLink" src="resources/img/3.jpg" alt="">
+                  <img class="mx-auto rounded-circle hoverZoomLink" src="resources/img/beatrice.jpg" alt="">
                   <h4>Beatrice Nakabanda</h4>
                   <p class="text-muted">Software Developer</p>
                   <ul class="list-inline social-buttons">
@@ -272,7 +274,7 @@
   </section>
 
   <!-- CONTACT ME SECTION -->
-  <section id="contact-me-section">
+  <section id="contact-me-section" class="page-section">
     <div class="container-fluid" >
           <div class="row text-center">
           <div class="col">
@@ -280,7 +282,7 @@
             <div class="contact-container">
               <div class="row">
                     <div class="col-lg-12">
-                      <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                      <form id="contactForm" name="sentMessage" novalidate="novalidate" method="">
                         <div class="row">
                           <div class="col-md-6">
                             <div class="form-group">
@@ -298,7 +300,7 @@
                           </div>
                           <div class="col-md-6">
                             <div class="form-group">
-                              <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message." rows="5"></textarea>
+                              <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message." style="height: 9.1rem;"></textarea>
                               <p class="help-block text-danger"></p>
                             </div>
                           </div>
@@ -313,16 +315,59 @@
                   </div>
               </div>      
   </section>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer text-center page-section" class="bg-primary">
+    <div>
+      <div class="row">
+        <div class="col-md-4">
+          <span class="copyright">Copyright © Benjamin Mwesigwa Kyamanywa 2019</span>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline social-buttons">
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <ul class="list-inline quicklinks">
+            <li class="list-inline-item">
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms of Use</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
   
     
-    <!-- Optional JavaScript -->
-    <!-- Ion icons, jQuery, then Popper.js, then Bootstrap JS, then the main JS -->
-    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <!-- Owl Carousel -->
     <script src="vendors/js/owl.carousel.min.js"></script>
+    <!-- Custom JS          -->
     <script src="resources/js/srcipt.js"></script>
 </body>
 </html>
