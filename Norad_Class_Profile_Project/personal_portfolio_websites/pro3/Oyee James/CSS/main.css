@@ -34,7 +34,7 @@ body, html{
 }
 .leftSection .menu a{
     color: white;
-    font-size: 45px;
+    font-size: 40px;
     display: fixed;
     text-decoration: none;
     border-radius: 10px;
@@ -61,10 +61,10 @@ body, html{
     padding-left: 15px;
 }
 .rightSection .about .socialMedia img{
-    width: 35;
-    height: 35px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    padding-top: 215px;
+    padding-top: 200px;
 }
 .rightSection .about .aboutMe{
     margin-left: 10px;
@@ -159,8 +159,7 @@ span{
     height: 75%;
     width: 20%;
     margin: 10px;
-    background-color: white;
- 
+    background-color: white; 
     opacity: .6;
 }
 .rightSection .skills .skillsBody .jsSkills img{
@@ -200,7 +199,7 @@ span{
     display: flex;
 }
 .rightSection .experience .ieee .ieeeHead p{
-    font-size: 20px;
+    font-size: 15px;
 }
 .rightSection .experience .ieee .ieeeHead img{
     border-radius: 50%;
@@ -221,7 +220,7 @@ span{
     display: flex;
 }
 .rightSection .experience .commanet .commanetHead p{
-    font-size: 20px;
+    font-size: 15px;
 }
 .rightSection .experience .commanet .commanetHead img{
     border-radius: 50%;
@@ -242,7 +241,7 @@ span{
     display: flex;
 }
 .rightSection .experience .ciu .ciuHead p{
-    font-size: 20px;
+    font-size: 15px;
 }
 .rightSection .experience .ciu .ciuHead img{
     border-radius: 50%;
@@ -263,7 +262,7 @@ span{
     display: flex;
 }
 .rightSection .experience .africell .africellHead p{
-    font-size: 20px;
+    font-size: 15px;
 }
 .rightSection .experience .africell .africellHead img{
     border-radius: 50%;
@@ -284,7 +283,7 @@ span{
     display: flex;
 }
 .rightSection .experience .telekonet .telekonetHead p{
-    font-size: 20px;
+    font-size: 15px;
 }
 .rightSection .experience .telekonet .telekonetHead img{
     border-radius: 50%;
@@ -420,7 +419,6 @@ span{
     font-size: 20px;
     padding: 10px;
 }
-
 .rightSection .projects .projectContent .projectBody .loanCalculatorDescription a{
     color:white;
     text-decoration: none;
@@ -521,6 +519,7 @@ span{
     display: flex;
     width: 100%;
     height: 235px;
+    perspective: 1000px;
 }
 .rightSection .gallery .galleryContent .photos {
   width: 100%;
@@ -532,6 +531,7 @@ span{
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
+  position: relative;
 }
 .rightSection .gallery .galleryContent .photos:hover .photosInner {
   transform: rotateY(180deg);
@@ -540,6 +540,7 @@ span{
   position: absolute;
   width: 100%;
   height: 100%;
+  backface-visibility: hidden;
 }
 .rightSection .gallery .galleryContent .photos .photosFront img{
     width: 100%;
@@ -552,28 +553,30 @@ span{
   position: absolute;
   width: 100%;
   height: 100%;
+  backface-visibility: hidden;
 }
 /* styling for contact me */
 .rightSection .contactMe{
     height: 570px;
     background-size: 100%;
-    padding-top: 30px;
+    padding-top: 15px;
     background-image: url(../Images/contactMe.jpg);
 }
 .rightSection .contactMe .contactHead{
     background-color:blue;
     width: 90%;
     border-radius: 5px;
+    padding-top: 5px;
 }
 .rightSection .contactMe .contactHead .red p{
     color: white;
     font-size:30px;
-    padding-top: 20px;
+    margin-top: 20px;
 }
 .rightSection .contactMe .contactHead .black p{
     color:black;
     font-size: 20px;
-    padding-bottom: 60px;
+    padding-bottom: 50px;
 }
 .rightSection .contactMe .contactBody{
     display: flex;
@@ -652,7 +655,7 @@ button:hover{
   position: fixed;
   padding-left: 10px;
   bottom: 0;
-  width: 1070px;
+  width: 1072px;
   height: 35px;;
   background: linear-gradient(to right, red, blue);
   color: white;
