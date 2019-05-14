@@ -1,11 +1,11 @@
 * {
-  background-color: lightgray;
-  font-family: "ZCOOL KuaiLe", sans-serif;
+  background-color: white;
+  font-family: "Baloo Bhai", sans-serif;
 }
+
 .begin {
   display: flex;
   justify-content: flex-end;
- 
 }
 .begin a {
   text-decoration: none;
@@ -14,13 +14,12 @@
 
 .begin div {
   border: 10px black;
-  color:black;
+  color: black;
   padding: 10px;
   display: flex;
   justify-content: flex-end;
   justify-content: space-around;
   text-decoration: none;
- 
 }
 .begin a {
   text-decoration: none;
@@ -28,10 +27,9 @@
 
 .container {
   display: flex;
- 
+
   align-items: center;
   flex-direction: column;
- 
 }
 
 .passion {
@@ -81,14 +79,13 @@
   background: #262626;
   padding: 4px;
   box-sizing: border-box;
-  border: 1px solid grey;
+  border: 1px solid white;
   border-radius: 2px;
 }
 .skill_level {
-  background: grey;
+  background: white;
   width: 100px;
   height: 10px;
- 
 }
 #container4 {
   text-transform: uppercase;
@@ -110,7 +107,6 @@
   flex-direction: column;
 }
 #container5 div {
- 
   padding: 2px;
   height: 300px;
   width: 320px;
@@ -143,12 +139,14 @@
   background: #262626;
   padding: 4px;
   box-sizing: border-box;
-  border: 1px solid grey;
+  border: 1px solid white;
   border-radius: 2px;
 }
 .skill_level1 {
-  background: grey;
+  background: white;
   width: 100px;
   height: 10px;
 }
+
+
 
