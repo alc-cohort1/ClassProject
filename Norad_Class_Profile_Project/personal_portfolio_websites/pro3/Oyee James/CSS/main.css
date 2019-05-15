@@ -34,7 +34,7 @@ body, html{
 }
 .leftSection .menu a{
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     display: fixed;
     text-decoration: none;
     border-radius: 10px;
@@ -61,10 +61,10 @@ body, html{
     padding-left: 15px;
 }
 .rightSection .about .socialMedia img{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
-    padding-top: 200px;
+    padding-top: 220px;
 }
 .rightSection .about .aboutMe{
     margin-left: 10px;
@@ -199,7 +199,7 @@ span{
     display: flex;
 }
 .rightSection .experience .ieee .ieeeHead p{
-    font-size: 15px;
+    font-size: 20px;
 }
 .rightSection .experience .ieee .ieeeHead img{
     border-radius: 50%;
@@ -220,7 +220,7 @@ span{
     display: flex;
 }
 .rightSection .experience .commanet .commanetHead p{
-    font-size: 15px;
+    font-size: 20px;
 }
 .rightSection .experience .commanet .commanetHead img{
     border-radius: 50%;
@@ -231,7 +231,7 @@ span{
 }
 .rightSection .experience .ciu{
     height: 50%;
-    width: 30% ;
+    width: 32% ;
     border: 3px solid green;
     background-color: white;
     opacity: .8;
@@ -241,7 +241,7 @@ span{
     display: flex;
 }
 .rightSection .experience .ciu .ciuHead p{
-    font-size: 15px;
+    font-size: 20px;
 }
 .rightSection .experience .ciu .ciuHead img{
     border-radius: 50%;
@@ -252,7 +252,7 @@ span{
 }
 .rightSection .experience .africell{
     height: 50%;
-    width: 35%;
+    width: 34%;
     border: 3px solid purple;
     background-color: white;
     opacity: .8;
@@ -262,7 +262,7 @@ span{
     display: flex;
 }
 .rightSection .experience .africell .africellHead p{
-    font-size: 15px;
+    font-size: 20px;
 }
 .rightSection .experience .africell .africellHead img{
     border-radius: 50%;
@@ -283,7 +283,7 @@ span{
     display: flex;
 }
 .rightSection .experience .telekonet .telekonetHead p{
-    font-size: 15px;
+    font-size: 20px;
 }
 .rightSection .experience .telekonet .telekonetHead img{
     border-radius: 50%;
@@ -557,7 +557,7 @@ span{
 }
 /* styling for contact me */
 .rightSection .contactMe{
-    height: 570px;
+    height: 590px;
     background-size: 100%;
     padding-top: 15px;
     background-image: url(../Images/contactMe.jpg);
@@ -567,6 +567,7 @@ span{
     width: 90%;
     border-radius: 5px;
     padding-top: 5px;
+    margin-top: 50px;
 }
 .rightSection .contactMe .contactHead .red p{
     color: white;
