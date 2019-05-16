@@ -3,6 +3,7 @@ body, html{
     width: 100%;
     padding: 0px;
     margin: 0px;
+    scroll-behavior:smooth;
 }
 /* styling for the container */
 .container{
@@ -12,9 +13,10 @@ body, html{
 .leftSection{
     width: 20%;
     height: 600px;
-    background: linear-gradient(to bottom, blue, red);
+    background: #53bed9;
     position: fixed;
     padding-bottom: 5px;
+    margin-left:80%;
 }
 .leftSection .photo{
     height: 30%;
@@ -34,20 +36,19 @@ body, html{
 }
 .leftSection .menu a{
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     display: fixed;
     text-decoration: none;
     border-radius: 10px;
-    border-bottom: 3px solid black ;
+    border-bottom: 3px solid grey;
 }
 .leftSection .menu a:hover{
     color:white;
-    background-color: blue;
+    background-color: grey;
 }
 /* styling for the right section */
 .rightSection{
-    width:80%;
-    margin-left:270px;    
+    width:80%;    
 }
 /* styling for about me */
 .rightSection .about{
@@ -55,16 +56,16 @@ body, html{
     height: 568px;
     text-align: left;
     background-size: 100%;
-    background-image: url(../Images/backgroundPhoto.png);
+    background-image: url(../Images/1.jpg);
 }
 .rightSection .about .socialMedia{
     padding-left: 15px;
 }
 .rightSection .about .socialMedia img{
-    width: 50px;
-    height: 50px;
+    width: 35px;
+    height: 35px;
     border-radius: 50%;
-    padding-top: 200px;
+    padding-top: 220px;
 }
 .rightSection .about .aboutMe{
     margin-left: 10px;
@@ -87,7 +88,7 @@ body, html{
     color: black;
 }
 span{
-    color: blue;
+    color:  #111E6C;
 }
 .rightSection .about .myName .nameDescription{
     font-size: 20px;
@@ -189,8 +190,8 @@ span{
 }
 .rightSection .experience .ieee{
     height: 50%;
-    width: 25%;
-    border: 3px solid black;
+    width: 33%;
+    border: 3px solid white;
     background-color: white;
     opacity: .8;
     border-radius: 5px;
@@ -199,7 +200,7 @@ span{
     display: flex;
 }
 .rightSection .experience .ieee .ieeeHead p{
-    font-size: 15px;
+    font-size: 20px;
 }
 .rightSection .experience .ieee .ieeeHead img{
     border-radius: 50%;
@@ -210,8 +211,8 @@ span{
 }
 .rightSection .experience .commanet{
     height: 50%;
-    width: 35%;
-    border: 3px solid red;
+    width: 33%;
+    border: 3px solid white;
     background-color: white;
     opacity: .8;
     border-radius: 5px;
@@ -220,7 +221,7 @@ span{
     display: flex;
 }
 .rightSection .experience .commanet .commanetHead p{
-    font-size: 15px;
+    font-size: 20px;
 }
 .rightSection .experience .commanet .commanetHead img{
     border-radius: 50%;
@@ -231,8 +232,8 @@ span{
 }
 .rightSection .experience .ciu{
     height: 50%;
-    width: 30% ;
-    border: 3px solid green;
+    width: 33% ;
+    border: 3px solid white;
     background-color: white;
     opacity: .8;
     border-radius: 5px;
@@ -241,7 +242,7 @@ span{
     display: flex;
 }
 .rightSection .experience .ciu .ciuHead p{
-    font-size: 15px;
+    font-size: 20px;
 }
 .rightSection .experience .ciu .ciuHead img{
     border-radius: 50%;
@@ -252,8 +253,8 @@ span{
 }
 .rightSection .experience .africell{
     height: 50%;
-    width: 35%;
-    border: 3px solid purple;
+    width: 33%;
+    border: 3px solid white;
     background-color: white;
     opacity: .8;
     border-radius: 5px;
@@ -262,7 +263,7 @@ span{
     display: flex;
 }
 .rightSection .experience .africell .africellHead p{
-    font-size: 15px;
+    font-size: 20px;
 }
 .rightSection .experience .africell .africellHead img{
     border-radius: 50%;
@@ -273,8 +274,8 @@ span{
 }
 .rightSection .experience .telekonet{
     height: 50%;
-    width: 40%;
-    border: 3px solid blue;
+    width: 33%;
+    border: 3px solid white;
     background-color: white;
     opacity: .8;
     border-radius: 5px;
@@ -283,16 +284,16 @@ span{
     display: flex;
 }
 .rightSection .experience .telekonet .telekonetHead p{
-    font-size: 15px;
+    font-size: 20px;
 }
 .rightSection .experience .telekonet .telekonetHead img{
     border-radius: 50%;
     height: 50px;
     width: 50px;
-    border:1px solid blue;
+    border:1px solid #53bed9;
 }
 .date{
-    color: blue;
+    color: #53bed9;
 }
 .space{
     width: 10px;
@@ -316,39 +317,38 @@ span{
     padding-left: 100px;
 }
 .rightSection .projects .projectContent .projectHead .descriptionHead{
-    background-color: blue;
+    background-color: #dbe8fc;
     width:80%;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 .rightSection .projects .projectContent .projectHead .descriptionHead p{
-    color:white;
+    color:black;
 }
 .rightSection .projects .projectContent .projectHead .teamHead{
-    background-color: red;
-    width:20%;
-    border-left: 5px solid red;
+    background-color:  #dbe8fc;
+    width:186px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 .rightSection .projects .projectContent .projectHead .teamHead p{
-    color: white;
+    color: black;
 }
 .rightSection .projects .projectContent .projectBody{
     display: flex;
 }
 .rightSection .projects .projectContent .projectBody .easyMeals{
-    background-color: grey;
+    background-color: #dbe8fc;
     width:100px;
     height: 350px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px; 
 }
 .rightSection .projects .projectContent .projectBody .easyMeals p{
-    color: white;
+    color: black;
 }
 .rightSection .projects .projectContent .projectBody .easyMealsDescription{
-    background-color: black;
+    background-color: white;
     width: 72%;
     border-top: 1px solid white;
     border-bottom: 1px solid white;
@@ -360,32 +360,35 @@ span{
     padding-right:10px;
 }
 .rightSection .projects .projectContent .projectBody .easyMealsDescription p{
-    color: white;
+    color: black;
     font-size: 20px;
     padding: 10px;
 }
 .rightSection .projects .projectContent .projectBody .easyMealsDescription a{
     color:white;
     text-decoration: none;
-    background-color: blue;
+    background-color: grey;
     float: right;
     padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
 }
 .rightSection .projects .projectContent .projectBody .easyMealsDescription a:hover{
-    background-color:grey;
+    background-color:#53bed9;
 }
 .rightSection .projects .projectContent .projectBody .easyMealsTeam{
-    background-color: grey;
+    background-color: white;
     width: 18%;
     border-bottom: 1px solid white;
 }
 .rightSection .projects .projectContent .projectBody .easyMealsTeam .teamNames{
     display: flex;
 }
+.rightSection .projects .projectContent .projectBody .easyMealsTeam .teamNames p{
+    color:black;
+}
 .rightSection .projects .projectContent .projectBody .easyMealsTeam .ourTeam p{
-    background-color: red;
+    background-color: #53bed9;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -395,17 +398,17 @@ span{
     border-radius: 50%;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculator{
-    background-color: grey;
+    background-color: #dbe8fc;
     width:100px;
     height: 265px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px; 
 }
 .rightSection .projects .projectContent .projectBody .loanCalculator p{
-    color: white;
+    color: black;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculatorDescription{
-    background-color: black;
+    background-color:white;
     width: 72%;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculatorDescription img{
@@ -415,32 +418,35 @@ span{
     padding-right:10px;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculatorDescription p{
-    color: white;
+    color: black;
     font-size: 20px;
     padding: 10px;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculatorDescription a{
     color:white;
     text-decoration: none;
-    background-color: blue;
+    background-color:grey;
     float: right;
     padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculatorDescription a:hover{
-    background-color:grey;
+    background-color:#53bed9;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculatorTeam{
-    background-color: grey;
+    background-color: white;
     width: 18%;
     border-bottom: 1px solid white;
 }
 .rightSection .projects .projectContent .projectBody .loanCalculatorTeam .teamNames{
     display: flex;
 }
+.rightSection .projects .projectContent .projectBody .loanCalculatorTeam .teamNames p{
+    color:black;
+}
 .rightSection .projects .projectContent .projectBody .loanCalculatorTeam .ourTeam p{
-    background-color: red;
+    background-color: #53bed9;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -450,7 +456,7 @@ span{
     border-radius: 50%;
 }
 .rightSection .projects .projectContent .projectBody .footerDesign{
-    background-color:grey;
+    background-color:#dbe8fc;
     width:100px;
     height: 185px;
     float: left;
@@ -458,10 +464,10 @@ span{
     padding-bottom: 2px; 
 }
 .rightSection .projects .projectContent .projectBody .footerDesign p{
-    color: white;
+    color: black;
 }
 .rightSection .projects .projectContent .projectBody .footerDesignDescription{
-    background-color: black;
+    background-color: white;
     width: 72%;
 }
 .rightSection .projects .projectContent .projectBody .footerDesignDescription img{
@@ -470,32 +476,35 @@ span{
     float: left;
 }
 .rightSection .projects .projectContent .projectBody .footerDesignDescription p{
-    color: white;
+    color: black;
     font-size: 20px;
     padding: 10px;
 }
 .rightSection .projects .projectContent .projectBody .footerDesignDescription a{
     color:white;
     text-decoration: none;
-    background-color: blue;
+    background-color: grey;
     float: right;
     padding: 10px;
     padding-left: 50px;
     padding-right: 50px;
 }
 .rightSection .projects .projectContent .projectBody .footerDesignDescription a:hover{
-    background-color:grey;
+    background-color:#53bed9;
 }
 .rightSection .projects .projectContent .projectBody .footerDesignTeam{
-    background-color:grey;
+    background-color:white;
     width: 18%;
-    height: 185px;
+    height: 187px;
 }
 .rightSection .projects .projectContent .projectBody .footerDesignTeam .teamNames{
     display: flex;
 }
+.rightSection .projects .projectContent .projectBody .footerDesignTeam .teamNames{
+    color:black;
+}
 .rightSection .projects .projectContent .projectBody .footerDesignTeam .ourTeam p{
-    background-color: red;
+    background-color: #53bed9;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -543,11 +552,11 @@ span{
   backface-visibility: hidden;
 }
 .rightSection .gallery .galleryContent .photos .photosFront img{
-    width: 100%;
-    height: 235px;
+    width: 95%;
+    height: 225px;
 }
 .rightSection .gallery .galleryContent .photos .photosBack {
-  background-color: #2980b9;
+  background-color: #53bed9;
   color: white;
   transform: rotateY(180deg);
   position: absolute;
@@ -557,16 +566,17 @@ span{
 }
 /* styling for contact me */
 .rightSection .contactMe{
-    height: 570px;
+    height: 590px;
     background-size: 100%;
     padding-top: 15px;
     background-image: url(../Images/contactMe.jpg);
 }
 .rightSection .contactMe .contactHead{
-    background-color:blue;
+    background-color:#53bed9;
     width: 90%;
     border-radius: 5px;
     padding-top: 5px;
+    margin-top: 50px;
 }
 .rightSection .contactMe .contactHead .red p{
     color: white;
@@ -591,7 +601,7 @@ span{
     border-radius: 5px;
 }
 .rightSection .contactMe .contactBody .left p{
-    color:red;
+    color:white;
 }
 .rightSection .contactMe .contactBody .middle{
     width: 35%;
@@ -600,7 +610,7 @@ span{
     border-radius: 5px;
 }
 .rightSection .contactMe .contactBody .middle p{
-    color: red;
+    color: white;
 }
 .rightSection .contactMe .contactBody .right{
     width: 20%;
@@ -641,14 +651,14 @@ textarea{
     border-radius: 5px;
 }
 button{
-    background-color: red;
+    background-color: #53bed9;
     color: white;
     width: 100px;
     height: 40px;
     border-radius: 5px;
 }
 button:hover{
-    background-color: blue;
+    background-color: grey;
 }
 /* styling for the footer */
 .rightSection .footer{
@@ -657,7 +667,7 @@ button:hover{
   bottom: 0;
   width: 1072px;
   height: 35px;;
-  background: linear-gradient(to right, red, blue);
+  background: #53bed9;
   color: white;
   text-align: center;
 }
