@@ -6,7 +6,7 @@ const Connection = mysql.createConnection({
 	user:'root',
 	database:'portfoliodb'
 })
-
+const baseUrl="http://localhost:3000/"
 const form=require("express");
 const app=form();
 //const parser=require('express')
@@ -22,6 +22,8 @@ app.use(parser.urlencoded({extended:false}))
 app.post('/user_create',(req,res)=>{
 	console.log("u are posting some data")
 	console.log('the name you entered is '+req.body.Name)
+	console.log('Email'+req.body.email)
+	console.log('Comment '+req.body.comment)
 
 
 const N_ame=req.body.Name
@@ -35,8 +37,11 @@ Connection.query(querystring,[N_ame,E_mail,comm],(err,result,field)=>{
 		res.status(500)
 		return
 	}
-res.render('index.pug',{tittle:'Data saved',
-message:'comment saved successfully.'})
+	Connection.query(querystring,function(err,result){
+		res.redirect(baseUrl);
+	})
+//res.render('index.pug',{tittle:'Data saved',
+//message:'comment saved successfully.'})
 //Connection.end();
 })
 

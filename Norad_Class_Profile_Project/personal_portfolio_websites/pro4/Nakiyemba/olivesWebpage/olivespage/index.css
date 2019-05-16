@@ -3,6 +3,7 @@ body {
 background-color: rgb(243, 241, 231);
 margin: 20px;
 font-size: 14px;
+font-family: Cardo, Regular;
 }
 
 /* I've given my header - Olive - a top panel ID and thereby styling it */
@@ -10,19 +11,12 @@ font-size: 14px;
   font-weight: bolder;
   text-align: center;
   font-style: oblique;
-  font-size: 150px;
-  font-family: Moonlights on the Beach;
-  color: rgb(200, 30, 95);
+  font-size: 40px;
+  font-family: Cardo,Bold;
+  color: #F17D6F;
+  margin-top: 50px;
 }
 
-/* Styling the first heading so it appears on the right below the header */
-h1 {position:absolute;
-right: 500px;
-position: absolute;
-top: 95px;
-font-family: aakar;
-color: rgb(200, 30, 95);
-}
 
 /* Removing the bullets from the unordered list and aligning to center */
 #menubar ul {
@@ -37,8 +31,8 @@ text-align: center;
 
 /*Styling the menu bar */
 #menubar {
-  font-family: aakar;
-  color: rgb(200, 30, 90);
+  font-family: Cardo,Regular;
+  color: #655CAD;
   font-size: 30px;
 }
 
@@ -54,12 +48,11 @@ text-align: center;
   .prev,
 .next {
   cursor: pointer;
-  position: absolute;
+  /* position: relative; */
   top: 50%;
   width: auto;
   padding: 56px;
-  margin-top: -0px;
-  color: rgb(200, 30, 95);
+  padding-top: 90px;
   font-weight: bold;
   font-size: 20px;
   border-radius: 0 3px 3px 0;
@@ -75,11 +68,13 @@ text-align: center;
 
 /* Positioning the controls */
 .next{
-  margin-right: 160px;
+  margin-right: 250px;
+  margin-top: -100px;
 }
 
 .prev{
-  margin-left: 160px;
+  margin-left: 280px;
+  /* margin-bottom:100px; */
 }
 .next {
     right: 0;
@@ -89,13 +84,6 @@ text-align: center;
   /* Providing a margin for the container in which the gallery is */
   .container {
    margin: 100px; 
-  }
-
-  /* Styling the menubar */
-  #menubar a{
-    text-decoration: none;
-    color: rgb(108, 36, 190);
-    font-family: aakar;
   }
   
   /* Positioning the profile photo */
@@ -115,7 +103,7 @@ text-align: center;
 .photo {
   position: absolute;
   right: 400px;
-  top: 600px;
+  top: 400px;
 }
 
 /* Giving margins to the short bio */
@@ -123,5 +111,7 @@ text-align: center;
   margin-left: 150px;
   margin-top: 50px;
   margin-left: 150px;
-  font-size: 30px;
+  font-size: 20px;
+  text-align: center;
+  font-family: Cardo,Regular;
 }
