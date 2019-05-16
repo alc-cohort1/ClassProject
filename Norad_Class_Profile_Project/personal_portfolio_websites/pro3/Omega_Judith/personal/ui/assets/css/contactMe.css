@@ -1,0 +1,468 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+}
+.headSection{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding-top: 15px;
+}
+
+
+/* mouse hovers effects over the menu*/
+.headSection a:hover{
+    background-color: lightgray;
+    color: white;
+    border-radius: 5px;
+    padding: 15px; 
+}
+.headSection a{
+    text-decoration: none;
+    color: olive;
+    padding-left: 50px;
+    font-size: 25px;
+}
+.bodySection{
+    background-color:darkgray;
+    width: 100%;
+    height: 582px;
+    display: flex;
+}
+
+@import "compass/css3";
+
+$gbuttons:#EDC951;
+$info:#00A0B0;
+$blue: #D4E1FC;
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+  background-image:url('http://www.designbolts.com/wp-content/uploads/2013/02/Free-Seamless-Wood-Textures-Patterns-For-3D-Mapping-2.jpg');
+  //background-repeat:no-repeat;
+  //background-size:100% 100%;
+}
+
+body{
+	font-family: 'Pacifico', cursive;
+	-webkit-font-smoothing: antialiased;
+}
+
+#wrapper{
+	width: 100%;  
+  height:100%;
+  background: hsla(0,0%,5%,.5);  
+  //opacity: .8;
+  visibility:hidden;
+    //@include transition( all 1.5s ease-in-out);
+}
+
+#perspective{ 
+	position:fixed;
+	top:190px;
+	left:50%;
+	margin-left: -200px;
+	perspective:1000;
+}
+
+#container{//adds shadow to envelope
+	box-shadow: 0px 2px 10px hsla(0,0%,10%,1);
+  position: relative;
+	width: 400px;
+	height: 280px;
+	transform-style: preserve-3d;
+  z-index:-6;
+  @include border-radius(5px);
+  transform: rotate(3deg); 
+}
+
+#perspective:hover{  
+  @include transition( all .4s ease-in-out);
+  cursor: pointer;
+  transform: rotate(-2deg); 
+}
+
+.face{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	backface-visibility:hidden;
+
+}
+
+.front{//front of the card before turned
+  background-image: -webkit-repeating-linear-gradient(150deg, #ff6969, #ff6969 20px,#ffffff 0px,#ffffff 40px,#85adff 0px,#85adff 60px,#ffffff 0px,#ffffff 80px);
+  background-image: -moz-repeating-linear-gradient(150deg, #ff6969, #ff6969 20px,#ffffff 0px,#ffffff 40px,#85adff 0px,#85adff 60px,#ffffff 0px,#ffffff 80px);
+  background-image: repeating-linear-gradient(150deg, #ff6969, #ff6969 20px,#ffffff 0px,#ffffff 40px,#85adff 0px,#85adff 60px,#ffffff 0px,#ffffff 80px);
+	z-index: 20;
+   @include border-radius(5px);
+
+}
+
+#white{
+  width:95%;
+  height:90%;
+  margin-right: auto; 
+  margin-left:auto;
+  margin-top: -5px;
+	background:hsla(54,0%,96%,1);
+  @include border-radius(5px);
+}
+
+.front h1{
+	color: #948D88;
+	text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
+	font-size: 2em; 
+  line-height: 1em;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.front h1 span{
+	color: #948D88;
+	text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
+	font-size: .8em;
+	text-align: center;
+}
+
+.back{//color of inside of envelope
+	background: -webkit-linear-gradient(top, hsla(54,0%,96%,1) 0%, hsla(54,0%,56%,1) 100%);
+	transform:rotateY(-180deg);
+  
+}
+
+#open{
+	position: absolute;
+	top:0;
+	left:0;
+	height: 0;
+	width: 80px;
+	border-top: 161px solid hsla(0,0%,85%,1); //envelope flap
+	border-left: 160px solid transparent;
+	border-right: 160px solid transparent;
+  transform-origin:center top;
+	z-index: 10;
+}
+
+#folds{
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 0;
+	height: 0;
+	border-left: 180px solid hsla(0,0%,90%,1); //left grey fold envelope back
+	border-top: 140px solid transparent;
+	border-bottom: 140px solid transparent;
+	z-index: 5;
+}
+
+#folds:after{ 
+	content: "";
+	position: absolute;
+	bottom:-140px; 
+	left:-180px;
+	height: 0;
+	width: 80px;
+	border-bottom: 155px solid hsla(0,0%,95%,1); //bottom fold envelope back
+	border-left: 160px solid transparent;
+	border-right: 160px solid transparent;
+  
+}
+
+#folds:before{  
+	content: "";
+	position: absolute;
+	top:-140px;
+	right:-220px;
+	width: 0;
+	height: 0;
+	border-right: 180px solid hsla(0,0%,90%,1); //right grey fold envelope back
+	border-top: 140px solid transparent;
+	border-bottom: 140px solid transparent;
+  
+}
+
+.button{
+    @include border-radius(8px);
+    width: auto; height: auto;
+    padding: 0 1em;
+    border-bottom: 4px solid darken( $gbuttons, 20%);
+    position: relative; 
+    z-index: 11;
+    @include transition(none);
+
+    background-color: $gbuttons;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: 0 -1px 1px saturate( darken($gbuttons, 20%), 20%);
+    text-decoration: none;
+    color: #FFF;
+    line-height: 50px; 
+    display: inline-block;
+    @include transition( all .2s ease-in-out);
+  
+    &:active {
+      top: 3px;
+      border-bottom: none;
+    }
+    
+    &.active {
+       background-color: darken( $gbuttons, 10%);
+    }
+  
+      &:hover {
+      background-color: darken( $gbuttons, 10%);
+    }
+}
+
+.button.con{
+    margin-left: 135px;
+    margin-top:105px;
+}
+
+.button.send{
+    margin-left: 120px;
+    //margin-right: auto;
+    margin-top:5px;
+}
+
+#letter{
+	background: -webkit-linear-gradient(top, hsla(54,0%,96%,1) 0%,hsla(0,0%,98%,1) 70%,hsla(0,0%,95%,1) 100%);
+	box-shadow: 0px 2px 5px hsla(0,0%,10%,1);
+	border-radius: 5px;
+	position: absolute;
+	top:3px;
+	left:0;
+	margin: 0 0 0 5px;
+	width: 390px;
+	height: 200px;
+	overflow: hidden;
+	z-index: 1;
+}
+
+#letter hgroup{
+	margin-top:20px;
+}
+
+
+#letter hgroup h1{
+	font-size: 1.8em;
+	color: #E65A5A;
+	text-align: center;
+	text-shadow: 0px 2px 1px hsla(0,0%,100%,1);
+}
+
+#letter hgroup h2{
+	font-size: 1em;
+	color: hsla(0,0%,70%,1);
+  margin-top:-20px;
+	text-align: center;
+	text-shadow: 0px 1px 1px hsla(0,0%,100%,1);
+}
+
+/*#letter p{
+	color: hsla(0,0%,20%,1);
+	text-shadow: 0px 1px 1px hsla(0,0%,100%,1); 
+	font-size: 0.85em;
+	line-height:1.45em;
+	margin: 30px 50px 0 50px;
+}
+
+#letter p:first-letter{
+	color: hsla(0,63%,57%,1);
+	text-shadow: 0px 2px 1px hsla(0,0%,100%,1);
+	font-size: 2.5em;
+	float: left;
+	line-height:0em;
+	padding:10px 10px 0 0;
+}*/
+
+//form shtuff
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    width: 350px;
+    height:900px;
+    padding:30px;
+    border-radius: 10px; 
+    overflow: hidden; 
+    //background: blue;
+    position:relative;
+}
+
+textarea{
+    width: 300px;
+    max-width:95%;
+    min-height: 110px;
+    max-height: 10%;
+    //border: 1px solid #0A0A0A;
+    border-radius: 10px;
+    background-clip: padding-box; 
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  border: 1px solid #B4BDCF;
+  background: $blue;
+  box-shadow: inset 0 0 7px #A2AABA, 0 -3px 3px #b9b9b5, 0 4px 4px #f4f4f4;
+}
+
+select {
+    width: 70%;
+    height: 48px;
+    line-height: 1.5;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    background: transparent;
+    background-color: rgba(0,0,0,.4);
+    margin-bottom: 20px;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  border: 1px solid #B4BDCF;
+  background: $blue;
+  box-shadow: inset 0 0 7px #A2AABA, 0 -3px 3px #b9b9b5, 0 4px 4px #f4f4f4;
+    
+}
+
+
+
+.nameinput, .emailinput {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-clip: padding-box; 
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 20px;
+  border: 1px solid #B4BDCF;
+  background: $blue;
+  box-shadow: inset 0 0 7px #A2AABA, 0 -3px 3px #b9b9b5, 0 4px 4px #f4f4f4;
+
+}
+
+input[type=submit] {
+    cursor: pointer;
+}
+
+input.nameinput {
+	  //background: rgba(0, 0, 0, 0.4); 
+	  padding-left: 20px;
+}
+
+input.emailinput {
+	  //background: rgba(0, 0, 0, 0.4);
+	  padding-left: 20px;
+}
+
+input.message {
+	  //background: rgba(0, 0, 0, 0.4);
+	  padding-left: 20px;
+}
+
+select.indent {
+	  padding-left: 20px;
+    cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	  color: #fff;
+}
+
+:-moz-placeholder{ 
+    color: #fff; 
+}
+
+:-ms-input-placeholder {  
+	  color: #fff; 
+}
+
+textarea, input, .indent { outline: none; }
+
+input:focus, textarea:focus, .indent:focus{ 
+	  background: #ADC6FF;
+     box-shadow    : 0 0 1px 3px #FCB8B8;
+     border        : 1px solid #FCB8B8;
+	  overflow: hidden; 
+}
+/*styling the footer section*/
+.footerSection{
+    background-color:gray;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    color: white;
+    padding-left: 80px;
+}
+.footerSection .call{
+    width: 25%;    
+    display: flex;
+}
+.footerSection .call .footerImage img{
+    background-color:grey;    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.footerSection .email{
+    width: 25%;    
+    display: flex;
+}
+.footerSection .email img{
+    background-color:grey;    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;;
+}
+.footerSection .followMe{
+    width: 25%;   
+    display: flex; 
+}
+.footerSection .followMe .footerImage img{
+    background-color:grey;    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;;
+}
+.footerSection .followMe .followMeContent .socialIcons img{
+    width: 20px;
+    height: 20px;
+    border-radius: none;
+}
+.footerSection .copyright{
+    width: 25%;   
+    display: flex; 
+}
+.footerSection .copyright img{
+    background-color:grey;    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;;
+}
+img{
+    padding-right: 20px;
+}

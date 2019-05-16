@@ -1,0 +1,95 @@
+body, html{
+    padding: 0px;
+    margin: 0px;
+}
+.headSection{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding-top: 15px;
+}
+
+
+/* mouse hovers effects over the menu*/
+.headSection a:hover{
+    background-color: lightgray;
+    color: white;
+    border-radius: 5px;
+    padding: 15px; 
+}
+.headSection a{
+    text-decoration: none;
+    color: olive;
+    padding-left: 50px;
+    font-size: 25px;
+}
+.bodySection{
+    background-color:darkgray;
+    width: 100%;
+    height: 582px;
+    display: flex;
+}
+
+
+
+/*styling the footer section*/
+.footerSection{
+    background-color:gray;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    color: white;
+    padding-left: 80px;
+}
+.footerSection .call{
+    width: 25%;    
+    display: flex;
+}
+.footerSection .call .footerImage img{
+    background-color:grey;    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.footerSection .email{
+    width: 25%;    
+    display: flex;
+}
+.footerSection .email img{
+    background-color:grey;    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;;
+}
+.footerSection .followMe{
+    width: 25%;   
+    display: flex; 
+}
+.footerSection .followMe .footerImage img{
+    background-color:grey;    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;;
+}
+.footerSection .followMe .followMeContent .socialIcons img{
+    width: 20px;
+    height: 20px;
+    border-radius: none;
+}
+.footerSection .copyright{
+    width: 25%;   
+    display: flex; 
+}
+.footerSection .copyright img{
+    background-color:grey;    
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;;
+}
+img{
+    padding-right: 20px;
+}
