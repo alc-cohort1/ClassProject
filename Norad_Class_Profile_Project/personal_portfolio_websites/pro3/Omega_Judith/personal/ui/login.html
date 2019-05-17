@@ -36,13 +36,17 @@
 			color: #ffffff;
 			font-size: 20px;
 		}
+		::placeholder{
+			color: green;
+			font-size: 20px;
+		}
 		</style>
 	</head>
 	<body>
 		<div class="login-form">
 			<h1>Login Form</h1>
-			<form action="auth" method="POST">
-				<input type="text" name="username" placeholder="Username" required>
+			<form action="./index.html" method="POST">
+				<input type="text" name="username" placeholder="Your Name" required>
 				<input type="password" name="password" placeholder="Password" required>
 				<input type="submit" value="Login">
 			</form>
