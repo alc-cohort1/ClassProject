@@ -32,18 +32,19 @@ body, html{
 }
 
 .container{
-    width: 1000px;
+    width: 1350px;
     margin: auto;
     overflow: hidden;
 }
 
 .paragraph {
     font-size: 24px;
-    padding: 20px;
+    padding: 30px;
 }
 
 .topHead{
     padding: 20px;
+    color: white;
 }
 /*styling the footer section*/
 .footerSection{
