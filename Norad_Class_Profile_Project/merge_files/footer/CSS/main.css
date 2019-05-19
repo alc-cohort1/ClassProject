@@ -1,8 +1,8 @@
-.f_container{
-    background-color: platinum;
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
+.footerContainer{ 
+bottom: 0; 
+width: 100%; 
+position: fixed; 
+left: 0; 
 }
 .f_top{
     background-color: #E5E4E2;
