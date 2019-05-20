@@ -20,14 +20,15 @@ app.post("/sendMe", (req, res) => {
 
   const name = req.body.name;
   const email = req.body.email;
+  const subject = req.body.subject;
   const message = req.body.message;
 
   const querystring =
-    "INSERT INTO infotable (`name`, `email`, `message`) VALUES (?,?,?)";
+    "INSERT INTO infotable (`name`, `email`,`subject`, `message`) VALUES (?,?,?,?)";
 
   connection.query(
     querystring,
-    [name, email, message],
+    [name, email,subject, message],
     (err, results, field) => {
       if (err) {
         console.log("An error occured" + err);
