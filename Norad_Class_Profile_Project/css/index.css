@@ -20,6 +20,76 @@ div#header{
     padding: 8px;
 }
 
+/* This is the sidebox styling. */
+#main_box { padding-right: 50px; }
+#sidebox
+{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    float: right;
+    margin-left: 25px;
+}
+
+/* This is the styling for the side bar with the students section */
+
+.students {
+    position: fixed;
+  }
+  .dropdown {
+    border-radius: 10px;
+    width: 120px;
+    height: 25px;
+    background-color: white;
+    font-weight: bold;
+    margin: 10px 20px;
+  }
+  .names {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 300px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    height: 500px;
+    overflow: auto;
+    margin: 0px 20px;
+  }
+  .names a {
+    display: block;
+    padding: 6px 6px;
+    color: #000;
+    text-decoration: none;
+  }
+
+  .names img {
+    width: 70px;
+    height: 100px;
+    border-radius: 50%;
+  }
+
+  .names a:hover {
+    background: #ddd;
+    text-decoration: underline;
+  }
+  .students:hover .names {
+    display: block;
+  }
+
+  .students:hover .dropdown {
+    background-color: #ddd;
+  }
+
+  .dropdown-contents {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 0.2em;
+  }
+
+  .dropdown-contents > div {
+    align-self: center;
+  }
+
 /*This is the footer styling.*/
 .f_container{
     background-color: platinum;
@@ -57,5 +127,4 @@ div#header{
     width: 10%; 
     position: relative;
     display: block;
-}
 }

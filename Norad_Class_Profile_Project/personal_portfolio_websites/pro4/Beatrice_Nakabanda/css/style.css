@@ -18,9 +18,12 @@ body {
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
+   
 }
 #menu {
     margin-top: 10px;
+    background-color: white;
+    border: none;
 }
 
 /*
@@ -48,9 +51,7 @@ body {
      margin: auto;
      max-height: 550px
  }
- #myCarousel {
-    
- }
+ 
  /*
 # Youtube Subscribe
 --------------------------------*/
@@ -71,8 +72,8 @@ body {
 .yt-subscribe h3 {
     padding: 0 15px;
     margin-top: 15px;
-    font-size: 36px;
-    font-family: 'BeyondTheMountains';
+    font-size: 40px;
+    font-family: 'Kaushan Script';
     color: #2f2f2f;
 }
 
@@ -120,30 +121,29 @@ Skills page */
     
 }
 #social-media {
-    text-align: right;
-    padding-top: 35px;
+    text-align: center;
+    padding-top: 60px;
+   
 }
 #top_1 {
-    text-align: right;
-    padding-top: 200px;
+  text-align: right;
+  padding-bottom: 15px;
 }
 /* 
 references page */
 #references {
-    padding-top: 45px;
+    padding-top: 15px;
     background-color: #e6e6e6;
     margin-bottom: 35px;
 }
 .thumbnail {
-    /* padding: 0 0 15px 0; */
-    padding-top: 160px;
     border: none;
     border-radius: 0;
 }
 
 .thumbnail img {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     margin-bottom: 35px;
 }
 #top_2 {
@@ -151,10 +151,15 @@ references page */
     padding-top: 55px;
 }
 /* 
-Gallery page */
-#gallery {
-    padding-top: 25px;
-    background-color: #e6e6e6;
+projects page */
+#projects {
+    padding-top: 35px;
+    letter-spacing: 0.15rem;
+    
+}
+#projects p {
+    font-size: 18px;
+
 }
 /* 
 contact page */
