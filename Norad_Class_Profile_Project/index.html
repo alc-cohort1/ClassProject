@@ -16,6 +16,7 @@
         margin: 0;
         padding: 0;
       }
+      .mySlides {display:none;}
     </style>
     <script src="./js/main.js"></script>
     <title>Norad ALC Cohort 1 Portfolio</title>
@@ -169,46 +170,72 @@
     </div>
     <!-- Showcase section showing the moving background -->
     <div class="showcase">
-      <img src="./images/clerk_univ.png" style="width:100%" />
+     <div >
+  <img class="mySlides" src="images/clerk_univ.png" style="width:100%">
+  <img class="mySlides" src="images/pic2.jpg" style="width:100%">
+  <img class="mySlides" src="images/pic3.jpg" style="width:100%">
+</div>
     </div>
     <!-- Footer section -->
-    <footer>
-      <div>
-        <p>Our Partners</p>
-        <a href="#"><img src="./images/Norad_logo.png" alt="Norad logo"/></a>
-        <a href="#"><img src="./images/ciu_logo.png" alt="CIU logo"/></a>
-        <a href="#"><img src="./images/fontes_logo.jpg" alt="Fontes logo"/></a>
-        <a href="#"
-          ><img src="./images/laboremus_logo.png" alt="Laboremus logo"
-        /></a>
-        <a href="#"
-          ><img src="./images/miscrosoft_logo.png" alt="Microsoft logo"
-        /></a>
-      </div>
-      <div>
-        <p>Stay connected with us</p>
-        <a href="#!">
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-facebook fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-github fa-2x"></i>
-        </a>
-      </div>
-      <p>&copy; Copyright | Norad ALC Cohort 1 2019</p>
-      <div>
-        <span>Navigate</span>
-        <a href="#">Home</a>
-        <a href="./views/about.html">About Us</a>
-        <a href="./views/project.html">Projects</a>
-        <a href="./views/gallery.html">Gallery</a>
-        <a href="./views/contact.html">Contact Us</a>
-      </div>
-    </footer>
+    
+     <section class="footerContainer" style=" bottom: 0; width: 100%; left: 0; " >
+        <div class = "f_top">
+           
+            <h2 style="padding-left: 80px; padding-top: 30px" >Our Partners</h2>
+            <hr width="90%" />
+           <center>
+               <table width="70%">
+                <tr style="height: 50px;">
+                    <td><img src="Images/ciu_logo.png" alt="ciu logo" height="75" width="80" style="padding-left:50"></td>
+                    <td> <img src="Images/Norad_logo.png"  alt="Norad logo" height="75" width="100" style="padding-left:50"></td>
+                    <td> <img src="Images/laboremus_logo.png" alt="laboremous logo" height="75" width="80" style="padding-left:50"></td>
+                    <td><img src="Images/fontes_logo.jpg" alt="fontes logo" height="75" width="80" style="padding-left:200"></td>
+                    <td><img src="Images/miscrosoft_logo.png" alt="ms App Factory logo" height="75" width="100" style="padding-left:50"></td>
+                </tr>
+            </table>
+            </center>
+        </div>
+        <div class ="f_botton" style="background-color: hsl(167, 43%, 26%); color: white">
+           <table width="100%" style="margin-left: 60px">
+               <tr>
+                   <th style="text-align: left;">Our Latest Work</th><th style="text-align: left;">Navigate</th><th style="text-align: left;">Contacts</th><th style="text-align: left;">Stay connected</th>
+               </tr>
+               <tr>
+                    <td width="25%">
+                    </td>
+                    <td width="25%"> 
+                            Home<br/>About Us<br/>Company<br/>Contact Us
+                    </td>                            
+                    <td width="25%">
+                        Le Palm Building<br/> Plot 244/245, Lubbobo Close, <br/>Kampala-Muyenga Tank Hill Road<br/> P.O.Box 7782 Kampala, Uganda.<br/>Tel: +256 (0) 312 301 400
+                    </td>
+                    <td width="25%">
+                        <img src="Images/facebook.png" width="50px" height="50px">
+                        <img src="Images/twitter.png" width="55px" height="55px">
+                    </td>
+               </tr>
+           </table>
+         
+        </div>
+    </div>
+    </section>
   </body>
 </html>
+<script>
+  <!--
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 5000); // Change image every 2 seconds
+}
+-->
+</script>

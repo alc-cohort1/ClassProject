@@ -157,3 +157,40 @@ footer img:hover {
   transform: scale(1.5);
 }
 /* Style for footer ends */
+.footerContainer{ 
+bottom: 0; 
+width: 100%; 
+position: fixed; 
+left: 0; 
+}
+.f_top{
+    background-color: white;
+}
+.f_bottom{
+    background-color:blue;     
+    
+}
+.fb_one{
+    background-color:chocolate; 
+    width: 10%; 
+    position: relative;
+    display:block;
+}
+.fb_two{
+    background-color:chocolate; 
+    width: 10%; 
+    position: relative;
+    display: block;
+}
+.fb_three{
+    background-color:chocolate; 
+    width: 10%; 
+    position: relative;
+    display: block;
+}
+.fb_four{
+    background-color:chocolate; 
+    width: 10%; 
+    position: relative;
+    display: block;
+}
