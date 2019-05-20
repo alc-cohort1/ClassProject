@@ -13,7 +13,64 @@
     />
     <script src="../js/main.js"></script>
     <title>Norad ALC Cohort 1 Portfolio</title>
-    <style></style>
+    <style>
+      /* Showcase area of the contact me page */
+      .heading {
+        text-align: center;
+        padding: 50px 200px;
+      }
+
+      .heading h1 {
+        text-transform: capitalize;
+        color: #e25763;
+      }
+
+      /* Contact-me form */
+      .mainForm {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1em;
+        padding-left: 100px;
+      }
+
+      .inputFields,
+      .comments {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .mainForm input {
+        border-bottom: #334e80;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+      }
+
+      .inputFields div,
+      .comments div {
+        padding: 10px;
+      }
+
+      /* Adding to the placeholder text */
+      .inputFields ::-webkit-input-placeholder {
+        padding: 10px;
+      }
+
+      /* The submit button */
+      .mainForm .submitButton {
+        border-radius: 10px;
+        border: solid 1px;
+        width: 120px;
+        height: 25px;
+        font-size: smaller;
+        background-color: #fff;
+        font-weight: bold;
+      }
+
+      .mainForm .submitButton:hover {
+        color: green;
+      }
+    </style>
   </head>
   <body>
     <div class="top-contents">
@@ -31,15 +88,66 @@
     </div>
     <!-- Showcase section showing the moving background -->
     <div class="showcase">
-      
+      <div class="heading">
+        <h1>Let's keep in touch</h1>
+        <p>
+          Thank you for visiting out our profile. If you would like to get in
+          touch with us, please fill out the form below.
+        </p>
+      </div>
+      <!-- contact form fiels onsubmit="return validate()" -->
+      <form name="contactForm">
+        <div class="mainForm">
+          <div class="inputFields">
+            <div>
+              <label>Name</label>
+              <span id="name" style="color: red;"></span>
+            </div>
+            <div>
+              <input type="text" name="name" placeholder="Enter name" />
+            </div>
+            <div>
+              <label>Email</label>
+              <span id="email" style="color: red;"></span>
+            </div>
+            <div>
+              <input type="text" name="email" placeholder="Enter email" />
+            </div>
+          </div>
+          <div class="comments">
+            <div>
+              <label>Comments</label>
+              <span id="comments" style="color: red;"></span>
+            </div>
+            <div>
+              <textarea name="comments" id="" cols="50" rows="10"></textarea>
+            </div>
+            <div>
+              <input type="submit" value="submit" class="submitButton" />
+            </div>
+          </div>
+          <div class="address">
+            <h2>Address:</h2>
+            <p>Kampla</p>
+            <h2>Phone:</h2>
+            <p>+256782872845</p>
+          </div>
+        </div>
+      </form>
     </div>
     <!-- Footer section -->
     <footer>
       <div>
         <p>Our Partners</p>
-        <a href="https://norad.no/en/front/" target="_blank"><img src="../images/Norad_logo.png" alt="Norad logo"/></a>
-        <a href="http://ciu.ac.ug/" target="_blank"><img src="../images/ciu_logo.png" alt="CIU logo"/></a>
-        <a href="http://fontes.no/foundation/" target="_blank"><img src="../images/fontes_logo.jpg" alt="Fontes logo"/></a>
+        <a href="https://norad.no/en/front/" target="_blank"
+          ><img src="../images/Norad_logo.png" alt="Norad logo"
+        /></a>
+        <a href="http://ciu.ac.ug/" target="_blank"
+          ><img src="../images/ciu_logo.png" alt="CIU logo"
+        /></a>
+        <a href="http://fontes.no/foundation/" target="_blank"
+          ><img src="../images/fontes_logo.jpg" alt="Fontes logo"
+        /></a>
         <a href="https://www.laboremus.ug/" target="_blank"
           ><img src="../images/laboremus_logo.png" alt="Laboremus logo"
         /></a>
