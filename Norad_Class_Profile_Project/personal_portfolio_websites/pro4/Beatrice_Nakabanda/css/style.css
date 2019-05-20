@@ -14,6 +14,8 @@ body {
     border-width: 1px;
     color: #000;
 }
+/* 
+navigation bar style */
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
@@ -21,36 +23,39 @@ body {
    
 }
 #menu {
-    margin-top: 10px;
-    background-color: white;
+    margin-top: 0px;
+    background-color: #e6e6e6;
+    /* background: transparent; */
     border: none;
+}
+#myNavbar {
+    padding-top: 8px;
+    padding-right: 95px; 
 }
 
 /*
 # Site Branding
 --------------------------------*/
 .site-title {
-    font-size: 50px;
+    font-size: 35px;
     padding-top: 0px;
+    padding-left: 85px;
     font-family: 'Kaushan Script';
+    color: #202020;
     
 }
-.site-description {
-    width: 284px;
-    margin: -16px 0 0;
-    font-size: 8px;
-    letter-spacing: 0.26rem;
-    color: #9d9d9d;
-    text-transform: uppercase;
-    text-align: right;
-    font-family: 'Kaushan Script';
-}
+
 
 .carousel-inner img {
      width: 100%; /* Set width to 100% */
      margin: auto;
      max-height: 550px
  }
+
+#slider {
+    padding-top: 0px;
+    margin-top: 65px;
+}
  
  /*
 # Youtube Subscribe
@@ -104,10 +109,6 @@ body {
     }
 }
 
-#slider {
-    padding-top: 0px;
-    margin-top: 0px;
-}
 
 /* 
 About style */
@@ -116,6 +117,10 @@ About style */
     text-align: center;
     letter-spacing: 0.15rem;
     padding-bottom: 30px;
+}
+#top_about {
+    text-align: right;
+    padding-top: 0px;
 }
 
 /* 
@@ -127,19 +132,24 @@ Skills page */
 }
 #social-media {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 20px;
    
 }
 #top_1 {
   text-align: right;
   padding-bottom: 15px;
+
 }
 /* 
 references page */
 #references {
-    padding-top: 15px;
+    padding-top: 45px;
     background-color: #e6e6e6;
-    margin-bottom: 35px;
+    
+}
+#references a {
+    color: 	#303030;
+
 }
 .thumbnail {
     border: none;
@@ -158,12 +168,16 @@ references page */
 /* 
 projects page */
 #projects {
-    padding-top: 35px;
-    letter-spacing: 0.15rem;
+    padding-top: 48px;
+    /* letter-spacing: 0.15rem; */
     
 }
 #projects p {
-    font-size: 18px;
+    font-size: 17px;
+
+}
+#projects a {
+    color: 	#303030;
 
 }
 /* 
