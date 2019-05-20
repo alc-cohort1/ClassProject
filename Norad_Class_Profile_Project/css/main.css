@@ -1,0 +1,159 @@
+html a:hover {
+  text-decoration: underline;
+}
+
+/* img:hover {
+  transform: scale(1.2);
+} */
+
+/* Setting the margin, padding and border to zero */
+body {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: #98c1e9;
+}
+
+/* Styling the upper part of the page */
+.top-contents {
+  position: fixed;
+  width: 100%;
+}
+
+/* Navigation bars  */
+.nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-gap: 1em;
+  justify-items: center;
+  background: #265f53;
+  color: #fff;
+  font-weight: bold;
+  padding: 30px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+}
+
+/* Styling of the students dropdown menu begin*/
+.students {
+  margin: 10px 60px;
+}
+
+.dropdown {
+  border-radius: 10px;
+  width: 300px;
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  border: solid #265f53 2px;
+}
+.names {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  height: 500px;
+  overflow: auto;
+  /* margin: 0px 20px; */
+}
+.names a {
+  display: block;
+  padding: 6px 6px;
+  color: #000;
+  text-decoration: none;
+}
+
+.names img {
+  width: 70px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.students img:hover {
+  transform: scale(1.2);
+}
+.names a:hover {
+  background: #ddd;
+  text-decoration: underline;
+}
+
+.students:hover .names {
+  display: block;
+}
+.students:hover .dropdown {
+  background-color: #ddd;
+}
+
+.dropdown-contents {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 0.2em;
+}
+
+.dropdown-contents > div {
+  align-self: center;
+}
+
+/* Styling the arrow in the dropdown students names */
+.dropdown i {
+  border: solid #380101;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 4px;
+}
+.dropdown .down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+/* Styling of the students names dropdown ends */
+
+/* styling the show case area*/
+.showcase {
+  margin: 0px 20px;
+  padding-top: 100px;
+}
+/* Styling the showcase ends */
+
+/* Styling the footer */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: start;
+  background: #265f53;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 25px;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer img {
+  width: 100px;
+  height: 75px;
+  border-radius: 50%;
+}
+footer a {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+}
+
+footer i:hover {
+  transform: scale(1.5);
+}
+
+footer img:hover {
+  transform: scale(1.5);
+}
+/* Style for footer ends */
