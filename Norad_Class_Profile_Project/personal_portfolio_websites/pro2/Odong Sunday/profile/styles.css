@@ -4,7 +4,7 @@ body{
 }
 .container{
     background-color: #E7E7E7;
-    height: 3400px;
+    height: 3700px;
     width: 100%;
 }
 
@@ -72,13 +72,12 @@ body{
 }
 
 .container nav .skills{
-    width: 80px;
+    width: 90px;
     height: 25px;
     margin-left: 10px;
     margin-top: 30px;
-    background-color: #40B67C;
     padding-top: 5px;
-    padding-left: 20px;
+    padding-left: 10px;
     box-shadow: 2px 2px 2px 2px;
 }
 
@@ -337,10 +336,12 @@ body{
 
 .container .skills_text{
     width: 800px;
-    height: 300px;
+    height: 310px;
     margin-top: 50px;
     margin-left: 250px;
     display: flex;
+    background-image: url(images/bacckground_image_four.jpeg);
+    padding-top: 10px;
 }
 
 .container .skills_text .left{
@@ -348,6 +349,8 @@ body{
     height: 300px;
     background-color: #47C37E;
     margin-left: 10px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 }
 
 /* professional */
@@ -588,6 +591,8 @@ body{
     height: 300px;
     background-color: #47C37E;
     margin-left: 20px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 }
 
 /* personal start */
@@ -1024,6 +1029,8 @@ body{
     height: 300px;
     background-color: #47C37E;
     margin-left: 20px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 }
 
 .container .education{
@@ -1039,11 +1046,14 @@ body{
 
 
 .container .education_text{
-    width: 800px;
-    height: 450px;
+    width: 780px;
+    height: 480px;
     margin-top: 50px;
-    margin-left: 265px;
+    margin-left: 255px;
     display: flex;
+    background-image: url(images/background.jpeg);
+    padding-left: 10px;
+    padding-top: 10px;
 }
 
 .container .education_text .left .post_graduate{
@@ -1068,6 +1078,8 @@ body{
     background-color: #FFFFFF;
     width: 360px;
     height: 140px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 }
 .container .education_text .left .post_graduate .post_traingle{
     height: 0;
@@ -1075,12 +1087,16 @@ body{
     border-left: 20px solid #FFFFFF;
     border-bottom: 10px solid transparent;
     margin-top: 20px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 } 
 
 .container .education_text .left .bachelor .inner_bachelor{
     background-color: #FFFFFF;
     width: 360px;
     height: 140px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 }
 
 .container .education_text .left .bachelor .bachelor_triangle{
@@ -1089,12 +1105,16 @@ body{
     border-left: 20px solid #FFFFFF;
     border-bottom: 10px solid transparent;
     margin-top: 20px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 }
 
 .container .education_text .left .diploma .inner_diploma{
     background-color: #FFFFFF;
     width: 360px;
     height: 140px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 }
 
 .container .education_text .left .diploma .diploma_triangle{
@@ -1103,6 +1123,8 @@ body{
     border-left: 20px solid #FFFFFF;
     border-bottom: 10px solid transparent;
     margin-top: 20px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 } 
 
 .container .education_text .left .post_graduate .inner_graduate .one{
@@ -1152,6 +1174,8 @@ body{
     border-bottom: 10px solid #40B67C;
     border-left: 10px solid transparent;
     margin-top: -15px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 }
 
 
@@ -1201,6 +1225,8 @@ body{
     border-bottom: 10px solid #40B67C;
     border-left: 10px solid transparent;
     margin-top: -15px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 }
 
 
@@ -1411,6 +1437,7 @@ body{
     background-color: #FFFFFF;
     border-radius: 20px;
     margin-left: 3px;
+    
 }
 
 .container .education_text .center .list_one{
@@ -1422,7 +1449,6 @@ body{
     font-size: xx-large;
     color: #40B67C;
 }
-
 .container .education_text .center .list_two{
     margin-left: -17.5px;
     margin-top: -24px;
@@ -1551,17 +1577,22 @@ body{
 }
 
 .contact_me_text{
-    width: 800px;
-    height: 400px;
+    width: 810px;
+    height: 410px;
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 240px;
     display: flex;
+    background-image: url(images/background_image_one.jpeg);
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 
 .contact_me_text .left_main{
     height: 400px;
     width: 300px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
     background-color:#40B67C;
 }
 
@@ -1588,6 +1619,8 @@ body{
     width: 480px;
     background-color: white;
     margin-left: 20px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
 }
 
 .contact_me_text .right_main .one{
@@ -1710,12 +1743,14 @@ textarea{
 }
 
 .projects{
-    width: 1000px;
-    height: 400px;
+    width: 1020px;
+    height: 410px;
     margin-top: 50px;
     margin-left: 150px;
     display: flex;
-    background-color: white;
+    background-color: yellow;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 
@@ -1764,3 +1799,167 @@ textarea{
     color: white;
 }
 
+.container .gallery_heading{
+    width: 150px;
+    height: 40px;
+    margin-top: 90px;
+    margin-left: 560px;
+}
+
+.container .gallery_heading img{
+    margin-left: -60px;
+}
+
+.gallery{
+    width: 950px;
+    height: 430px;
+    margin-top: 50px;
+    margin-left: 170px;
+    background-color: yellow;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.gallery .upper{
+    background-color: white;
+    height: 210px;
+    display: flex;
+    width: 940px;
+}
+
+.gallery .lower{
+    background-color: #E7E7E7;;
+    height: 210px;
+    display: flex;
+    width: 940px;
+}
+
+
+.gallery .one{
+    width: 300px;
+    height: 190px;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.gallery .upper .one{
+    background-image:  url(images/grad_two.jpg);
+    background-size: 300px 200px;
+}
+
+.gallery .upper .two{
+    background-image:  url(images/beach_time.jpg);
+    background-size: 300px 200px;
+}
+
+.gallery .upper .three{
+    background-image:  url(images/Action_aid.png);
+    background-size: 300px 200px;
+}
+
+
+.gallery .lower .one{
+    background-image:  url(images/grad_two.jpg);
+    background-size: 300px 200px;
+}
+
+.gallery .lower .two{
+    background-image:  url(images/Kwan_Ber.png);
+    background-size: 300px 200px;
+}
+
+.gallery .lower .three{
+    background-image:  url(images/chilling.jpg);
+    background-size: 300px 200px;
+}
+
+
+.gallery .label {
+    background-color: #40B67C;
+    height: 50px;
+    width: 200px;
+    opacity: 0.6;
+    margin: 50px;
+    filter: alpha(opacity=60); 
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    padding-top: 30px;
+}
+
+.gallery .label:hover{
+    opacity: 0;
+}
+
+.gallery .two{
+    width: 300px;
+    height: 190px;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.gallery .three{
+    width: 300px;
+    height: 190px;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: #40B67C;
+    margin-top: 50px;
+    padding-top:10px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    color: white;
+}
+
+footer .left{
+    width: 80%;
+    height: 50px;
+    padding-top: 30px;
+    display: flex;
+    padding-left: 150px;
+}
+
+footer .left img{
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
+    margin-left: 10px;
+}
+
+footer .right{
+    width: 20%;
+    height: 70px;
+    padding-top: 10px;
+    display: flex;
+}
+
+footer .right .outer{
+    width: 35px;
+    height: 55px;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-right: 20px;
+    margin-left: -70px;
+}
+footer .right .outer .inner{
+    width: 30px;
+    height: 50px;
+    background-color: aqua;
+
+}
+
+footer .right .view{
+    margin-top: 10px;
+}
