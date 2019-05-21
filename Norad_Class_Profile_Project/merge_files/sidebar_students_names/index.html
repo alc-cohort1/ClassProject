@@ -10,13 +10,14 @@
       .students {
         position: fixed;
       }
+
       .dropdown {
         border-radius: 10px;
-        width: 120px;
-        height: 25px;
+        width: 200px;
         background-color: white;
         font-weight: bold;
-        margin: 10px 20px;
+        font-size: 20px;
+        padding: 10px;
       }
       .names {
         display: none;
@@ -63,11 +64,25 @@
       .dropdown-contents > div {
         align-self: center;
       }
+
+      /* Styling the arrow in the dropdown students names */
+      i {
+        border: solid #380101;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 4px;
+      }
+      .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+      }
     </style>
   </head>
   <body>
     <div class="students">
-      <button class="dropdown">Students</button>
+      <button class="dropdown">
+        Students &nbsp; &nbsp;<i class="down"></i>
+      </button>
       <div class="names">
         <div class="dropdown-contents">
           <div>
