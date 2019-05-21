@@ -2,9 +2,9 @@ html a:hover {
   text-decoration: underline;
 }
 
-/* img:hover {
-  transform: scale(1.2);
-} */
+html {
+  scroll-behavior: smooth;
+}
 
 /* Setting the margin, padding and border to zero */
 body {
@@ -122,28 +122,45 @@ body {
 }
 /* Styling the showcase ends */
 
-/* Styling the footer */
-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: start;
-  background: #265f53;
-  width: 100%;
-  height: 180px;
+/* The partnerss section */
+.partners {
+  padding: 20px;
   text-align: center;
-  padding-top: 25px;
-  font-size: 16px;
-  font-weight: normal;
-  text-decoration: none;
-  padding: 10px;
-  margin-bottom: 0px;
 }
 
-footer img {
+.partners img {
   width: 100px;
   height: 75px;
   border-radius: 50%;
 }
+
+.partners a {
+  text-decoration: none;
+  padding: 20px;
+  color: #fff;
+}
+
+.partners img:hover {
+  transform: scale(1.2);
+}
+/* The end of the partners section */
+
+/* Styling the footer */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  justify-items: start;
+  background: #265f53;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  padding: 20px;
+}
+
 footer a {
   text-decoration: none;
   padding: 10px;
@@ -151,10 +168,6 @@ footer a {
 }
 
 footer i:hover {
-  transform: scale(1.5);
-}
-
-footer img:hover {
-  transform: scale(1.5);
+  transform: scale(1.2);
 }
 /* Style for footer ends */
