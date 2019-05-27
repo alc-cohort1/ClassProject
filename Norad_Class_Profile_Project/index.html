@@ -15,6 +15,11 @@
       .showcase {
         margin: 0;
         padding: 0;
+        height: 600px;
+        overflow: hidden;
+      }
+      .mySlides {
+        display: none;
       }
     </style>
     <script src="./js/main.js"></script>
@@ -31,6 +36,7 @@
           <a href="./views/project.html">Projects</a>
           <a href="./views/gallery.html">Gallery</a>
           <a href="./views/contact.html">Contact Us</a>
+          <a href="#partners">Our Partners</a>
         </div>
       </div>
       <!-- Dropdown students names and links-->
@@ -48,7 +54,11 @@
                 <img src="./images/avator.png" alt="Nakiyemba Olive" />
               </div>
               <div>
-                <a href="#">Oketayot Julius Peter</a>
+                <a
+                  href="./personal_portfolio_websites/pro2/julius_portfolio/index.html"
+                  target="_blank"
+                  >Oketayot Julius Peter</a
+                >
               </div>
               <div>
                 <img src="./images/passport.jpeg" alt="Oketayot Julius Peter" />
@@ -114,7 +124,7 @@
                 <img src="./images/me1.jpg" alt="" />
               </div>
               <div>
-                <a href="#">Oyee James</a>
+                <a href="./personal_portfolio_websites/pro3/Oyee James/Porfolio/index.html">Oyee James</a>
               </div>
               <div>
                 <img src="./images/james2.jpg" alt="" />
@@ -169,22 +179,33 @@
     </div>
     <!-- Showcase section showing the moving background -->
     <div class="showcase">
-      <img src="./images/clerk_univ.png" style="width:100%" />
+      <img class="mySlides" src="images/clerk_univ.png" style="width: 100%;" />
+      <img class="mySlides" src="images/pic2.jpg" style="width: 100%;" />
+      <img class="mySlides" src="images/pic3.jpg" style="width: 100%;" />
+      <img class="mySlides" src="images/clerk_univ.png" style="width: 100%;" />
+    </div>
+    <!-- Our partners section -->
+    <div class="partners" id="partners">
+      <p style="font-weight: bold; text-align: left">Our Partners</p>
+      <hr />
+      <a href="https://norad.no/en/front/" target="_blank"
+        ><img src="./images/Norad_logo.png" alt="Norad logo"
+      /></a>
+      <a href="http://ciu.ac.ug/" target="_blank"
+        ><img src="./images/ciu_logo.png" alt="CIU logo"
+      /></a>
+      <a href="http://fontes.no/foundation/" target="_blank"
+        ><img src="./images/fontes_logo.jpg" alt="Fontes logo"
+      /></a>
+      <a href="https://www.laboremus.ug/" target="_blank"
+        ><img src="./images/laboremus_logo.png" alt="Laboremus logo"
+      /></a>
+      <a href="https://www.microsoft.com/africa/4afrika/" target="_blank"
+        ><img src="./images/miscrosoft_logo.png" alt="Microsoft logo"
+      /></a>
     </div>
     <!-- Footer section -->
     <footer>
-      <div>
-        <p>Our Partners</p>
-        <a href="https://norad.no/en/front/" target="_blank"><img src="./images/Norad_logo.png" alt="Norad logo"/></a>
-        <a href="http://ciu.ac.ug/" target="_blank"><img src="./images/ciu_logo.png" alt="CIU logo"/></a>
-        <a href="http://fontes.no/foundation/" target="_blank"><img src="./images/fontes_logo.jpg" alt="Fontes logo"/></a>
-        <a href="https://www.laboremus.ug/" target="_blank"
-          ><img src="./images/laboremus_logo.png" alt="Laboremus logo" 
-        /></a>
-        <a href="https://www.microsoft.com/africa/4afrika/" target="_blank"
-          ><img src="./images/miscrosoft_logo.png" alt="Microsoft logo"
-        /></a>
-      </div>
       <div>
         <p>Stay connected with us</p>
         <a href="#!">
@@ -210,5 +231,6 @@
         <a href="./views/contact.html">Contact Us</a>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
