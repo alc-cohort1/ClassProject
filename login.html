@@ -1,8 +1,9 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Registration Form</title>
+		<title>Login Form Tutorial</title>
 		<style>
 		.login-form {
 			width: 300px;
@@ -11,7 +12,7 @@
 		}
 		.login-form h1 {
 			text-align: center;
-			color: purple;
+			color: green;
 			font-size: 24px;
 			padding: 20px 0 20px 0;
 		}
@@ -20,14 +21,14 @@
 			width: 100%;
 			padding: 15px;
 			border: 1px solid #dddddd;
-            border-radius: 8px;
+			border-radius: 8px;
 			margin-bottom: 15px;
 			box-sizing:border-box;
 		}
 		.login-form input[type="submit"] {
 			width: 100%;
 			padding: 15px;
-			background-color: #6d306a;
+			background-color: green;
 			border-radius: 8px;
 			box-sizing: border-box;
 			cursor: pointer;
@@ -36,25 +37,19 @@
 			font-size: 20px;
 		}
 		::placeholder{
-			color: #6d306a;
+			color: green;
 			font-size: 20px;
 		}
 		</style>
 	</head>
 	<body>
 		<div class="login-form">
-            <fieldset>
-				<legend>
-			<h1>Registration Form</h1>
+			<h1>Login Form</h1>
 			<form action="./index.html" method="POST">
-				<input type="text" name="username" placeholder="First  Name" required>
-				<input type="text" name="username" placeholder="Last   Name" required>
+				<input type="text" name="username" placeholder="Your Name" required>
 				<input type="password" name="password" placeholder="Password" required>
-				<input type="text" name="username" placeholder="Email Adress" required>
-				<input type="submit" value="Roll!">
+				<input type="submit" value="Login">
 			</form>
-			</legend>
-            </fieldset>
 		</div>
 	</body>
 </html>
