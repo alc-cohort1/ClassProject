@@ -33,7 +33,10 @@
     border: 0;
     border-top: 1px solid #bebebe;
   }
-  
+.links{
+  margin-left: 900px;
+} 
+
   header{
     display: flex;
     flex-direction: row;
@@ -50,7 +53,7 @@
   }
   
   header, footer{
-    background-color: white;
+    background-color: #163a1d;
   }
   
   #nav-bar a{
@@ -63,7 +66,7 @@
   
   #nav-bar a:hover{
     color: ghostwhite;
-    background-color: #bebebe;
+    background-color: #163a;
     padding: 15px;
     border-radius: 8px;
   }
@@ -79,7 +82,7 @@
       font-size: 20px;
       text-decoration: none;
       margin-right: 0.5em;
-      color: rgb(92, 150, 17);
+      color: white;
     }
   
   section{
@@ -158,7 +161,7 @@
    #submit{
      width: 10em;
      height: 2em;
-     background-color: olivedrab;
+     background-color: #163a1d;
      color: white;
      border-radius: 8px;
      font-size: 18px;
@@ -167,7 +170,7 @@
    }
   
   #submit:hover{
-    background-color: gray;
+    background-color:rgb(14, 46, 14);
     color: greenyellow;
     cursor:pointer;
   }
