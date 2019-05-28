@@ -1,10 +1,11 @@
+/* All the links are underline on hover */
 html a:hover {
   text-decoration: underline;
 }
 
-/* img:hover {
-  transform: scale(1.2);
-} */
+html {
+  scroll-behavior: smooth;
+}
 
 /* Setting the margin, padding and border to zero */
 body {
@@ -115,51 +116,59 @@ body {
 }
 /* Styling of the students names dropdown ends */
 
-/* styling the show case area
+/* styling the show case area*/
 .showcase {
   margin: 0px 20px;
   padding-top: 100px;
-}*/
+}
 /* Styling the showcase ends */
 
+/* The partnerss section */
+.partners {
+  padding: 20px;
+  text-align: center;
+}
+
+.partners img {
+  width: 100px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.partners a {
+  text-decoration: none;
+  padding: 20px;
+  color: #fff;
+}
+
+.partners img:hover {
+  transform: scale(1.2);
+}
+/* The end of the partners section */
+
 /* Styling the footer */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.5fr;
+  justify-items: start;
+  background: #265f53;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  margin: 0;
+  padding: 20px;
+}
 
+footer a {
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+}
 
-.footerContainer{ 
-bottom: 0; 
-width: 100%; 
-position: fixed;
-
-left: 0; 
+footer i:hover {
+  transform: scale(1.2);
 }
-.f_top{
-    background-color: white;
-}
-.f_bottom{
-    background-color:blue;     
-    
-}
-.fb_one{
-    background-color:chocolate; 
-    width: 10%; 
-    position: relative;
-    display:block;
-}
-.fb_two{
-    background-color:chocolate; 
-    width: 10%; 
-    position: relative;
-    display: block;
-}
-.fb_three{
-    background-color:chocolate; 
-    width: 10%; 
-    position: relative;
-    display: block;
-}
-.fb_four{
-    background-color:chocolate; 
-    width: 10%; 
-    position: relative;
-    display: block;
-}
+/* Style for footer ends */
