@@ -179,7 +179,7 @@ a:hover { COLOR: yellow; TEXT-DECORATION: none; font-weight: none }
             }
 
             .button {
-              background-color: orange; /* Green */
+              background-color: #306754; /* Green */
               border: none;
               color: white;
               padding: 15px 32px;
@@ -228,7 +228,7 @@ a:hover { COLOR: yellow; TEXT-DECORATION: none; font-weight: none }
 
 .about-container button{
     width: 70%;
-    background-color: #368BC1;;
+    background-color: #306754;;
     color: white;
     padding: 14px;
     margin: 8px;
@@ -350,7 +350,7 @@ div.desc {
     
 }
 .button-services {
-              background-color: orange; /* Green */
+              background-color: #306754; /* Green */
               border: none;
               color: white;
               padding: 15px 32px;
@@ -410,7 +410,7 @@ div.desc {
 }
 .contact-container button{
     width: 90%;
-    background-color: #4CAF50;
+    background-color: #306754;
     color: white;
     padding: 14px;
     margin: 19px;
@@ -460,7 +460,7 @@ div.desc {
     
 }
 .button-projects {
-              background-color: orange; /* Green */
+              background-color:#306754; /* Green */
               border: none;
               color: white;
               padding: 15px 32px;

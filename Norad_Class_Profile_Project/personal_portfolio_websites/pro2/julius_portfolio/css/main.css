@@ -39,9 +39,13 @@
   opacity: 0.9;
   visibility: hidden;
 }
+
+/* Make the menu visible */
 .menu.show {
   visibility: visible;
 }
+
+/* The styling the menu branding page */
 .menu-branding,
 .menu-nav {
   display: flex;
@@ -53,6 +57,8 @@
   height: 100vh;
   overflow: hidden;
 }
+
+/* Styling each nav bar */
 .menu-nav {
   margin: 0;
   padding: 0;
@@ -61,17 +67,25 @@
   transform: translate3d(0, -100%, 0);
   transition: all 0.5s ease-out;
 }
+
+/* 3d transition */
 .menu-nav.show {
   transform: translate3d(0, 0, 0);
 }
+
+/* Styling the menu branding page */
 .menu-branding {
   background: #444;
   transform: translate3d(0, 100%, 0);
   transition: all 0.5s ease-out;
 }
+
+/* 3d transition */
 .menu-branding.show {
   transform: translate3d(0, 0, 0);
 }
+
+/* Add photo the background */
 .menu-branding .portrait {
   width: 260px;
   height: 320px;
@@ -79,6 +93,8 @@
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
+
+/* Styling each nav bar */
 .menu .nav-item {
   transform: translate3d(600px, 0, 0);
   transition: all 0.5s ease-out;
@@ -89,6 +105,8 @@
 .menu .nav-item.current > a {
   color: #eece1a;
 }
+
+/* Styling the links */
 .menu .nav-link {
   display: inline-block;
   position: relative;
@@ -182,6 +200,7 @@ header {
   color: #eece1a;
 }
 
+/* Styling the main section */
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
@@ -203,6 +222,7 @@ main#home h1 {
   margin-top: 20vh;
 }
 
+/* Styling the about us section */
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -215,6 +235,8 @@ main#home h1 {
   border-radius: 50%;
   border: #eece1a 3px solid;
 }
+
+/* Styling the bio data section */
 .about-info .bio {
   grid-area: bio;
   font-size: 1.5rem;
@@ -234,6 +256,7 @@ main#home h1 {
   border-bottom: #eece1a 5px solid;
 }
 
+/* Styling the individual project articles */
 .projects {
   display: grid;
   grid-gap: 0.7rem;

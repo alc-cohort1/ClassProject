@@ -1,3 +1,4 @@
+// JavaScript for the moving background
 var myIndex = 0;
 carousel();
 

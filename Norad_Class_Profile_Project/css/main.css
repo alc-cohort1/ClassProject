@@ -1,3 +1,4 @@
+/* All the links are underline on hover */
 html a:hover {
   text-decoration: underline;
 }

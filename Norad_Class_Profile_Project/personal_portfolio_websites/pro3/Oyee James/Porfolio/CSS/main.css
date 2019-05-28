@@ -56,7 +56,7 @@ body, html{
     height: 568px;
     text-align: left;
     background-size: 100%;
-    background-image: url(../Images/1.jpg);
+    background-image: url(../Images/contactMe.jpg);
 }
 .rightSection .about .socialMedia{
     padding-left: 15px;
@@ -601,7 +601,7 @@ span{
     border-radius: 5px;
 }
 .rightSection .contactMe .contactBody .left p{
-    color:white;
+    color:red;
 }
 .rightSection .contactMe .contactBody .middle{
     width: 35%;
@@ -610,7 +610,7 @@ span{
     border-radius: 5px;
 }
 .rightSection .contactMe .contactBody .middle p{
-    color: white;
+    color: red;
 }
 .rightSection .contactMe .contactBody .right{
     width: 20%;
