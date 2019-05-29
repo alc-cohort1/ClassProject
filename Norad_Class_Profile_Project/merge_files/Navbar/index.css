@@ -1,0 +1,10 @@
+/* Style for navigation bar */
+#menu {
+    background-color: #000080;
+    font-size: 18px;
+    
+}
+#navbar-brand {
+    color: #ffffff;
+    font-size: 30px;
+}
