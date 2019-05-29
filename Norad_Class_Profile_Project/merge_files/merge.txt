@@ -1,2 +1,0 @@
-All Contributions to the different Site 
-artifacts should be placed in this folder
