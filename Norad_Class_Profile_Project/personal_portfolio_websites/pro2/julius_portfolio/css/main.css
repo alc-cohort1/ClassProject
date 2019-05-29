@@ -1,4 +1,4 @@
-/* Styling the menu button with lines */
+/* Styling the menu button with lines  */
 .menu-btn {
   position: absolute;
   z-index: 3;
@@ -87,9 +87,9 @@
 
 /* Add photo the background */
 .menu-branding .portrait {
-  width: 260px;
-  height: 320px;
-  background: url("../img/Julius-Photo.jpeg");
+  width: 201px;
+  height: 250px;
+  background: url("../img/julius5.jpeg");
   border-radius: 50%;
   border: solid 3px #eece1a;
 }
@@ -270,6 +270,47 @@ main#home h1 {
   opacity: 0.5;
   border-color: #eece1a;
   transition: all 0.5s ease-out;
+  transform: scale(1.1);
+}
+
+/* Styling the contact me form */
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+form input {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  transition: all 0.5s ease-out;
+  padding: 15px;
+  margin: none;
+  background: #444;
+  border: none;
+}
+
+form input[type="text"]:hover,
+form input[type="email"]:hover {
+  border: solid #eece1a 4px;
+}
+
+form input[type="text"] {
+  height: 100px;
+  background: #444;
+}
+
+form input[type="submit"] {
+  margin-right: 120px;
+}
+
+form input[type="submit"]:hover {
+  color: #eece1a;
+  font-weight: bold;
 }
 
 .boxes {
@@ -369,8 +410,8 @@ main#home h1 {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("../img/Julius-Photo.jpeg");
-    width: 150px;
+    background: url("../img/julius4.jpeg");
+    width: 121px;
     height: 150px;
   }
   .about-info {
