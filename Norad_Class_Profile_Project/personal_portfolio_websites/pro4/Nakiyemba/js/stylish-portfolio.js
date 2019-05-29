@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 (function($) {
   "use strict"; // Start of use strict
 
@@ -64,6 +65,8 @@ var onMapClickHandler = function(event) {
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
 =======
+=======
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
 (function($) {
   "use strict"; // Start of use strict
 
@@ -128,4 +131,7 @@ var onMapClickHandler = function(event) {
 }
 // Enable map zooming with mouse scroll when the user clicks the map
 $('.map').on('click', onMapClickHandler);
+<<<<<<< HEAD
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
+=======
 >>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e

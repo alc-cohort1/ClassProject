@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*!
  * Font Awesome Free 5.8.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -555,6 +556,8 @@
 
 }());
 =======
+=======
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
 /*!
  * Font Awesome Free 5.8.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -1110,4 +1113,7 @@
   });
 
 }());
+<<<<<<< HEAD
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
+=======
 >>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e

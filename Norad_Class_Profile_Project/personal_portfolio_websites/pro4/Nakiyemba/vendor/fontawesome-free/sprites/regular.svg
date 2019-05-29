@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 Font Awesome Free 5.8.1 by @fontawesome - https://fontawesome.com
@@ -463,6 +464,8 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
   </symbol>
 </svg>
 =======
+=======
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 Font Awesome Free 5.8.1 by @fontawesome - https://fontawesome.com
@@ -926,4 +929,7 @@ License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL
     <path d="M464 0H144c-26.5 0-48 21.5-48 48v48H48c-26.5 0-48 21.5-48 48v320c0 26.5 21.5 48 48 48h320c26.5 0 48-21.5 48-48v-48h48c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-96 464H48V256h320v208zm96-96h-48V144c0-26.5-21.5-48-48-48H144V48h320v320z"></path>
   </symbol>
 </svg>
+<<<<<<< HEAD
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
+=======
 >>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e

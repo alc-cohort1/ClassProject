@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 //This function validates all the various inputs
 function validate (){
     
@@ -28,6 +29,8 @@ function validate (){
         document.getElementById("comments").innerHTML="";
     }
 =======
+=======
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
 function validate (){
     var name = document.contactMe.name.value;
     var email = document.contactMe.email.value;
@@ -48,5 +51,8 @@ function validate (){
         }else{
         document.getElementById("comments").innerHTML="";
     }
+<<<<<<< HEAD
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
+=======
 >>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
 }

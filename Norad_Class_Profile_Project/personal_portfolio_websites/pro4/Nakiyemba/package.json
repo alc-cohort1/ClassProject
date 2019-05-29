@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 {
     "title": "Stylish Portfolio",
     "name": "startbootstrap-stylish-portfolio",
@@ -51,6 +52,8 @@
     }
 }
 =======
+=======
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
 {
     "title": "Stylish Portfolio",
     "name": "startbootstrap-stylish-portfolio",
@@ -102,4 +105,7 @@
         "merge-stream": "^1.0.1"
     }
 }
+<<<<<<< HEAD
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
+=======
 >>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e

@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 "use strict";
 
 // Load plugins
@@ -138,6 +139,8 @@ exports.build = build;
 exports.watch = watch;
 exports.default = build;
 =======
+=======
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
 "use strict";
 
 // Load plugins
@@ -276,4 +279,7 @@ exports.vendor = vendor;
 exports.build = build;
 exports.watch = watch;
 exports.default = build;
+<<<<<<< HEAD
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
+=======
 >>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e

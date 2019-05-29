@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*
  * jQuery Easing v1.4.1 - http://gsgd.co.uk/sandbox/jquery/easing/
  * Open source under the BSD License.
@@ -166,6 +167,8 @@ $.extend( $.easing,
 
 });
 =======
+=======
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
 /*
  * jQuery Easing v1.4.1 - http://gsgd.co.uk/sandbox/jquery/easing/
  * Open source under the BSD License.
@@ -332,4 +335,7 @@ $.extend( $.easing,
 });
 
 });
+<<<<<<< HEAD
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
+=======
 >>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
