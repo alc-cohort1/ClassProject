@@ -1,0 +1,208 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background-color: #ffff;
+    margin-top: 0%;
+    padding-top: 20px;
+    width: 100%;
+    height: 650px;
+}
+
+.container .upper{
+    width: 90%;
+    background-color: #F0F8FE;
+    height: 25%;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-top: 80px;
+    padding-top: 40px;
+}
+
+.container .upper .upper_section{
+    height: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.container .upper .lower_section{
+    height: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: #708090;
+}
+
+.container .left{
+    width: 60%;
+    position: relative;
+    float: left;
+    height: 250px;
+    margin-left: 60px;
+}
+
+.container .right{
+    width: 29.5%;
+    background-color:#708090;
+    position: relative;
+    float: right;
+    height: 230px;
+    margin-right: 70px;
+    border-radius: 10px;
+    padding-top: 20px;
+}
+
+.container .right .address{
+    height: 20px;
+}
+
+.container .right .email{
+    margin-top: 15px;
+}
+
+.container .right .address label{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .right .phone label{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .right .email label{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.container .right .phone{
+    margin-top: 15px;
+}
+
+.container .right .address_detail{
+    margin-left: 10px;
+}
+
+.container .right .phone_details{
+    margin-left: 10px;
+}
+
+.container .right .email_detail{
+    margin-left: 10px;
+}
+
+.container .right .address_detail label{
+    margin-top: 10px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .right .phone_details label{
+    margin-top: 10px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .right .email_detail label{
+    margin-top: 10px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container .left .first{
+    width: 40.5%;
+    position: relative;
+    float: left;
+    height: 95%;
+    padding-top: 15px;
+    background-color: slategrey;
+    border-radius: 10px;
+    border: none;
+}
+
+.container .left .second{
+    width: 57.5%;
+    position: relative;
+    float: right;
+    height: 100%;
+}
+
+.container .left .first .name{
+    padding-left: 10px;
+    padding-top: 3%
+}
+
+.container .left .first .email{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+
+.container .left .first .phoneNumber{
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.container .left .first .name .name_input{
+    width: 280px;
+    height: 24px;
+}
+
+.container .left .first .email .email_input{
+    width: 280px;
+    height: 24px;
+}
+
+.container .left .first .phoneNumber .phoneNumber_input{
+    width: 280px;
+    height: 24px;
+}
+.container .left .second .about{
+    padding-top: 5%;
+    width: 30%;
+} 
+
+input, textarea {
+    border-radius: 5px;
+    border: none;
+    background-color: #F0F8FE;
+}
+
+.comment_button {
+    padding-left: 37%;
+    margin-bottom: 5px;
+}
+
+.comment_button_value{
+    width: 110px;
+    height: 30px;
+    background-color: #708090;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+
+
+.emailContact{
+    margin-bottom: 10px;
+}
+
+.feedback{
+    margin-top: 15px;
+    padding-left: 10px;
+    color: aliceblue;
+    text-decoration:underline;
+}
+
+
+
