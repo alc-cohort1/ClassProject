@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Mixins
 // Background Cover Mixin
 @mixin background-cover {
@@ -11,3 +12,18 @@
 @mixin body-font {
   font-family: 'Source Sans Pro';
 }
+=======
+// Mixins
+// Background Cover Mixin
+@mixin background-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+// Font Mixins
+@mixin body-font {
+  font-family: 'Source Sans Pro';
+}
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e

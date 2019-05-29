@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 language:      node_js
 git:
   depth:       3
@@ -12,3 +13,19 @@ cache:
     - node_modules
 notifications:
   email:       false
+=======
+language:      node_js
+git:
+  depth:       3
+node_js:
+  - "node"
+install:       npm install
+script:
+  - npm test
+  - gulp
+cache:
+  directories:
+    - node_modules
+notifications:
+  email:       false
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
