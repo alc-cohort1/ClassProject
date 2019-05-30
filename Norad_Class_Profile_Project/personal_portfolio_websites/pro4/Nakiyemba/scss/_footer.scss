@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -16,3 +18,28 @@ footer.footer {
     }
   }
 }
+=======
+=======
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
+footer.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  .social-link {
+    display: block;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: $primary;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    &:hover {
+      background-color: darken($primary, 10%);
+      text-decoration: none;
+    }
+  }
+}
+<<<<<<< HEAD
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e
+=======
+>>>>>>> 4b5d27f741c391f76eb7a794c2fb5c1f0ad9754e

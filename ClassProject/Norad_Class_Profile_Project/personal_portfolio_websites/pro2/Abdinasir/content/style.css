@@ -1,0 +1,39 @@
+body{
+    top: 0;;
+    margin: 0% auto;
+    padding: 0;
+    box-shadow: 0 2px 11px grey;
+
+}
+
+
+.upset{
+    margin: 0% auto;
+    font-size: 25px;
+}
+
+
+
+
+.dropdown-content a {
+    color: black;
+    padding: 19px 50px;
+    text-decoration: none;
+    display: block;
+    background: skyblue;
+    float: left;
+    
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+

@@ -1,0 +1,82 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.top-menu{
+	padding: 10px;
+	font-family: calibri;
+	font-size: 252px;
+	color: white;
+	background: rgb(0, 0, 102);
+}
+.navigation-menu{
+	padding: 10px;
+	background:#163a1d;
+
+}
+.navigation-menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+}
+.navigation-menu a{
+	text-decoration: none;
+	color: white;
+	font-family: calibri;
+	font-size: 17px;
+}
+.links:hover{
+	padding: 10px 20px;
+	border-bottom: 2px solid white;
+	transition: 0.7s;
+}
+#logo{
+	font-size: 30px;
+	padding-right: 100px;
+}
+#buton{
+	background: white;
+	border-radius: 20px;
+	color: rgb(0, 0, 102);
+	padding: 5px 20px;
+}
+#buton:hover{
+	padding: 8px 20px;
+}
+.main-section{
+	
+	height: 50%;
+	padding: 20px;
+	display: table;
+	top: 0;
+}
+.main-section #container{
+	display: table-cell;
+	vertical-align: middle;
+}
+#content p{
+	font-family: calibri;
+	color: black;
+	font-size: 20px;
+
+}
+#btn-borderd{
+	background: transparent;
+	border-radius: 20px;
+	text-decoration: none;
+	font-family: calibri;
+	border: 2px solid rgb(0, 0, 102);
+	color: rgb(0, 0, 102);
+	padding: 5px 20px;
+}
+#btn-borderd:hover{
+	background: rgb(0, 0, 102);
+	color: white;
+	transition: 0.5s;
+	padding: 10px 20px;
+}
+#right{
+	padding-left:80px;
+}
