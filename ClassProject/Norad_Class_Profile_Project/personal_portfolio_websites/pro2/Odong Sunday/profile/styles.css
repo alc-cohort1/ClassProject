@@ -1,10 +1,15 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0px;
     padding: 0px;
 }
 .container{
-    background-color: #E7E7E7;
-    height: 3700px;
+    background-image: url(images/container.jpeg);
+    height: 3720px;
     width: 100%;
 }
 
@@ -13,12 +18,20 @@ body{
     width: 100%;
     background-color: #40B67C;
     display: flex;
-    padding-top: 50px;
+    padding-top: 10px;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
+    position: fixed;
+    background-color: #40B67C;
+}
+
+.container nav div:hover{
+    color: white;
 }
 
 .container nav .name{
     width: 270px;
-    height: 150px;
+    height: 100px;
     background-color: #40B67C;
     margin-left: 250px;
 }
@@ -100,34 +113,58 @@ body{
     color: white;
 }
 
-
+.background{
+    height: 200px;
+    width: 100%;
+    background-image: url(/images/background.jpeg);
+}
 
 .container .content{
     height: 100px;
     width: 100%;
-    background-color: #40B67C;
-    padding-top: 100px;
     display: flex;
+    padding-top: 100px;
+
+    
 }
 
 .container .content .profile_image{
-    height: 395px;
+    height: 400px;
     width: 290px;
-    background-color: #575655;
     margin-left: 250px;
-    padding-left: 10px;
-    padding-top: 5px;
+    background-image: url(/images/Profile.png);
+    background-size: 300px 400px;
+    margin-top: 50px;
+}
+
+.container .content .profile_image .image{
+    height: 40px;
+    width: 100px;
+    margin-top: 355px;
+    margin-left: 5px;
+    background-color: #993862;
+    opacity: 0.8;
+    filter: alpha(opacity=60); 
+}
+
+.container .content .profile_image .image .inner{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+    color: white;
 }
 
 .container .content .profile_image img{
-    height: 390px;
-    width: 280px;
+    height: 400px;
+    width: 300px;
+    padding-top: 50px;
 }
 
 .container .content .profile_text{
     height: 400px;
     width: 500px;
     background-color: white;
+    margin-top: 50px;
 }
 
 .container .content .profile_text .welcome{
@@ -210,7 +247,7 @@ body{
 }
 
 .container .content .profile_text .age .two{
-    margin-left: 59px;
+    margin-left: 46px;
 }
 
 .container .content .profile_text .address{
@@ -270,7 +307,7 @@ body{
 }
 
 .container .content .profile_text .website .two{
-    margin-left: 32px;
+    margin-left: 35px;
 }
 
 .container .content .profile_text .social_media{
@@ -326,31 +363,34 @@ body{
 .container .skills{
     width: 100px;
     height: 40px;
-    margin-top: 350px;
+    margin-top: 480px;
     margin-left: 590px;
 }
 
 .container .skills img{
     margin-left: -55px;
+    background-color: #63CFC0
 }
 
 .container .skills_text{
-    width: 800px;
-    height: 310px;
+    width: 900px;
+    height: 380px;
     margin-top: 50px;
-    margin-left: 250px;
+    padding-top: 30px;
+    margin-left: 190px;
     display: flex;
     background-image: url(images/bacckground_image_four.jpeg);
-    padding-top: 10px;
+    /* padding-top: 10px; */
 }
 
 .container .skills_text .left{
-    width: 246px;
-    height: 300px;
+    width: 260px;
+    height: 350px;
     background-color: #47C37E;
     margin-left: 10px;
     opacity: 0.8;
     filter: alpha(opacity=60); 
+    padding-left: 20px;
 }
 
 /* professional */
@@ -587,10 +627,11 @@ body{
 /* .professional end */
 
 .container .skills_text .middle{
-    width: 246px;
-    height: 300px;
+    width: 260px;
+    height: 350px;
     background-color: #47C37E;
     margin-left: 20px;
+    padding-left: 20px;
     opacity: 0.8;
     filter: alpha(opacity=60); 
 }
@@ -1025,58 +1066,61 @@ body{
 /* language end */
 
 .container .skills_text .right{
-    width: 246px;
-    height: 300px;
+    width: 260px;
+    height: 350px;
     background-color: #47C37E;
     margin-left: 20px;
+    padding-left: 20px;
     opacity: 0.8;
     filter: alpha(opacity=60); 
 }
 
 .container .education{
-    width: 150px;
+    width: 200px;
     height: 40px;
-    margin-top: 50px;
-    margin-left: 560px;
+    margin-top: 130px;
+    margin-left: 520px;
+    background-color: #63CFC0;
 }
 
 .container .education img{
-    margin-left: -60px;
+    margin-left: -40px;
 }
 
 
 .container .education_text{
-    width: 780px;
-    height: 480px;
-    margin-top: 50px;
-    margin-left: 255px;
+    width: 870px;
+    height: 470px;
+    margin-top: 10px;
+    margin-left: 190px;
+    padding-left: 40px;
     display: flex;
     background-image: url(images/background.jpeg);
-    padding-left: 10px;
+    /* padding-left: 10px; */
     padding-top: 10px;
 }
 
 .container .education_text .left .post_graduate{
-    width: 380px;
+    width: 400px;
     height: 150px;
     display: flex;
 }
 
 .container .education_text .left .bachelor{
-    width: 380px;
+    width: 400px;
     height: 150px;
     display: flex;
 }
 
 .container .education_text .left .diploma{
-    width: 380px;
+    width: 400px;
     height: 150px;
     display: flex;
 }
 
 .container .education_text .left .post_graduate .inner_graduate{
     background-color: #FFFFFF;
-    width: 360px;
+    width: 550px;
     height: 140px;
     opacity: 0.8;
     filter: alpha(opacity=60); 
@@ -1093,7 +1137,7 @@ body{
 
 .container .education_text .left .bachelor .inner_bachelor{
     background-color: #FFFFFF;
-    width: 360px;
+    width: 550px;
     height: 140px;
     opacity: 0.8;
     filter: alpha(opacity=60); 
@@ -1111,7 +1155,7 @@ body{
 
 .container .education_text .left .diploma .inner_diploma{
     background-color: #FFFFFF;
-    width: 360px;
+    width: 550px;
     height: 140px;
     opacity: 0.8;
     filter: alpha(opacity=60); 
@@ -1523,7 +1567,7 @@ body{
 
 .container .education_text .right .language .inner_language{
     background-color: #FFFFFF;
-    width: 360px;
+    width: 550px;
     height: 140px;
 }
 
@@ -1537,7 +1581,7 @@ body{
 
 .container .education_text .right .advance_certificate .inner_certificate{
     background-color: #FFFFFF;
-    width: 360px;
+    width: 550px;
     height: 140px;
 }
 
@@ -1551,7 +1595,7 @@ body{
 
 .container .education_text .right .level .inner_level{
     background-color: #FFFFFF;
-    width: 360px;
+    width: 550px;
     height: 140px;
 }
 
@@ -1566,20 +1610,21 @@ body{
 
 
 .container .contact_me{
-    width: 150px;
+    width: 230px;
     height: 40px;
-    margin-top: 90px;
+    margin-top: 120px;
     margin-left: 560px;
+    background-color: #63CFC0;
 }
 
 .container .contact_me img{
-    margin-left: -75px;
+    margin-left: -45px;
 }
 
 .contact_me_text{
     width: 810px;
     height: 410px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 240px;
     display: flex;
     background-image: url(images/background.jpeg);
@@ -1732,20 +1777,21 @@ textarea{
 
 
 .container .project_head{
-    width: 150px;
+    width: 180px;
     height: 40px;
-    margin-top: 90px;
+    margin-top: 150px;
     margin-left: 560px;
+    background-color: #63CFC0;
 }
 
 .container .project_head img{
-    margin-left: -60px;
+    margin-left: -45px;
 }
 
 .projects{
-    width: 1020px;
+    width: 1030px;
     height: 410px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 150px;
     display: flex;
     background-image: url(images/bacckground_image_four.jpeg);
@@ -1778,7 +1824,7 @@ textarea{
 }
 
 .projects .project_image{
-    width: 245px;
+    width: 255px;
     height: 300px;
     background-color: white;
 }
@@ -1804,18 +1850,19 @@ textarea{
 .container .gallery_heading{
     width: 150px;
     height: 40px;
-    margin-top: 90px;
+    margin-top: 140px;
     margin-left: 560px;
+    background-color: #63CFC0;
 }
 
 .container .gallery_heading img{
-    margin-left: -60px;
+    margin-left: -45px;
 }
 
 .gallery{
     width: 950px;
     height: 430px;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 170px;
     background-image: url(images/background.jpeg);
     padding-left: 10px;
@@ -1913,21 +1960,21 @@ textarea{
 
 footer{
     width: 100%;
-    height: 90px;
+    height: 50px;
     background-color: #40B67C;
-    margin-top: 50px;
+    margin-top: 10px;
     padding-top:10px;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
+    font-size: medium;
     text-align: center;
     color: white;
 }
 
 footer .left{
     width: 80%;
-    height: 50px;
-    padding-top: 30px;
+    height: 20px;
+    padding-top: 10px;
     display: flex;
     padding-left: 150px;
 }
@@ -1935,33 +1982,34 @@ footer .left{
 footer .left img{
     width: 50px;
     height: 50px;
-    margin-top: -10px;
+    margin-top: -15px;
     margin-left: 10px;
 }
 
 footer .right{
     width: 20%;
-    height: 70px;
+    height: 20px;
     padding-top: 10px;
     display: flex;
 }
 
 footer .right .outer{
     width: 35px;
-    height: 55px;
+    height: 25px;
     background-color: white;
     padding-top: 5px;
     padding-left: 5px;
     margin-right: 20px;
-    margin-left: -70px;
+    margin-left: -130px;
+    margin-top: -6px;
+
 }
 footer .right .outer .inner{
     width: 30px;
-    height: 50px;
+    height: 20px;
     background-color: aqua;
-
 }
 
 footer .right .view{
-    margin-top: 10px;
+    margin-top: -5px;
 }
