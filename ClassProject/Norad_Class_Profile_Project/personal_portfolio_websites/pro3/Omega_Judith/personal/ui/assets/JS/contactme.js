@@ -8,11 +8,12 @@ function contact(){
         document.getElementById('name').style.borderColor = 'red';
     }
 
+/*email field validation */
     if(document.getElementById('email').value == ""){
         errmessage +='Email records required \n';
         document.getElementById('name').style.borderColor = 'red';
     }
-
+    /*sunjectand below text area */
     if(document.getElementById('subject').value == ""){
         errmessage +='Subject helps us understand your chat content\n';
         document.getElementById('subject').style.borderColor = 'red';
