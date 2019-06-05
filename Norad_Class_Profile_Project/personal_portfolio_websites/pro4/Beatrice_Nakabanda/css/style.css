@@ -138,8 +138,8 @@ Skills page */
 #top_1 {
   text-align: right;
   padding-bottom: 15px;
-
 }
+
 /* 
 references page */
 #references {
@@ -161,10 +161,7 @@ references page */
     height: 80%;
     margin-bottom: 35px;
 }
-#top_2 {
-    text-align: right;
-    padding-top: 55px;
-}
+
 /* 
 projects page */
 #projects {
@@ -198,7 +195,12 @@ contact page */
 /* 
 footer section*/
 #footer {
-    text-align: center;
-    padding-top:20px; 
+    text-align: right;
+    padding-bottom:10px; 
     background-color: #e6e6e6;
+    /* height: 50px; */
 }
+#top_footer {
+padding-right: 10px;
+}
+
