@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<meta charset="utf-8">
 		<title>Login Form Tutorial</title>
 		<style>
@@ -12,7 +13,7 @@
 		}
 		.login-form h1 {
 			text-align: center;
-			color: green;
+			color: rgb(10, 26, 10);
 			font-size: 24px;
 			padding: 20px 0 20px 0;
 		}
@@ -28,7 +29,7 @@
 		.login-form input[type="submit"] {
 			width: 100%;
 			padding: 15px;
-			background-color: green;
+			background-color: #163a16;
 			border-radius: 8px;
 			box-sizing: border-box;
 			cursor: pointer;
@@ -36,20 +37,22 @@
 			color: #ffffff;
 			font-size: 20px;
 		}
+
 		::placeholder{
-			color: green;
+			color: #163a16;
 			font-size: 20px;
 		}
 		</style>
 	</head>
 	<body>
-		<div class="login-form">
-			<h1>Login Form</h1>
-			<form action="./index.html" method="POST">
+		<div class="login-form"> 
+			<h1>Login Here</h1>
+			<form action="/ui/index.html" method="POST">
 				<input type="text" name="username" placeholder="Your Name" required>
 				<input type="password" name="password" placeholder="Password" required>
 				<input type="submit" value="Login">
 			</form>
 		</div>
+		<script src="/ui/assets/js/script.js"></script>
 	</body>
 </html>

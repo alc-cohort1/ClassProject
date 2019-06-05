@@ -1,11 +1,15 @@
+/*Stying for the mail hmtl document.*/
 body, html
 {
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
     color: #3c3939;
+    width: 100%;
+    height: 100%;
 }
 
+/*Styling for the menu bar.*/
 #menu 
 {
     background-color: black;
