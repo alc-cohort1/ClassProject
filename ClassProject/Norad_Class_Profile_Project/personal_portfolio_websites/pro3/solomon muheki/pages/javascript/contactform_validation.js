@@ -3,7 +3,6 @@
     <!--
         // Validation function that checks for all the fields of the HTML Registration form when submitted.
         function validate() {
-        // Variable to check whether the length of the userId input field is between 5 and 12 characters.  
         
 
         // Variable to check whether the name input field has alphabets only.
@@ -24,7 +23,7 @@
                 }
 
 
-           // Variable to check whether the name input field has alphabets only.
+           // Variable to check whether the comment input field has alphabets only.
         var comm = document.myform.comment.value;
         if ( comm==null || comm==""){
             document.getElementById("comm_error").innerHTML="<b>Required .</b>";
