@@ -26,14 +26,11 @@
     align-items: center;
   }
   
-  hr{
-    display: flex;
-    width: 80%;
-    margin: 0 auto;
-    border: 0;
-    border-top: 1px solid #bebebe;
-  }
   
+.links{
+  margin-left: 900px;
+} 
+
   header{
     display: flex;
     flex-direction: row;
@@ -46,13 +43,9 @@
     padding: 5px;
     padding-right: 0.5em;
     padding-left: 0.5em;
-    box-shadow: 0px 1px 3px #060606;
+    background-color: #163a1d;
   }
-  
-  header, footer{
-    background-color: white;
-  }
-  
+
   #nav-bar a{
     font-size: 20px;
     text-decoration: none;
@@ -63,7 +56,7 @@
   
   #nav-bar a:hover{
     color: ghostwhite;
-    background-color: #bebebe;
+    background-color: #163a;
     padding: 15px;
     border-radius: 8px;
   }
@@ -79,7 +72,7 @@
       font-size: 20px;
       text-decoration: none;
       margin-right: 0.5em;
-      color: rgb(92, 150, 17);
+      color: white;
     }
   
   section{
@@ -117,7 +110,6 @@
     font-size: 4em;
     font-family: 'Muli', sans-serif;
     color: #ffffff;
-    text-shadow: 0px 1px 2px black;
     text-align: center;
   }
   
@@ -150,7 +142,7 @@
   }
   
   #email:focus{
-    outline-color: rgb(29, 185, 8);
+    outline-color: rgb(2, 14, 1);
     background-color: rgb(93, 134, 93);
   }
   
@@ -158,17 +150,22 @@
    #submit{
      width: 10em;
      height: 2em;
-     background-color: olivedrab;
+     background-color: #163a1d;
      color: white;
      border-radius: 8px;
      font-size: 18px;
      font-weight: 800;
      text-transform: uppercase;
    }
+   .judith{
+     margin-right: 300px;
+     color: yellow;
+
+   }
   
   #submit:hover{
-    background-color: gray;
-    color: greenyellow;
+    background-color: white;
+    color: #163a1d;
     cursor:pointer;
   }
   
