@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my contact page</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <center>
+        <fieldset>
+            <form action="">
+                <table>
+                    <div id="adress">
+                         <tr>
+                              <td>Adress</td>
+                         </tr>
+                    </div>
+
+                                <div id="top">
+                                    <tr>
+                                        <td><p>Mutungo Hll</p></td>
+                                     </tr>
+                
+                                     <tr>
+                                         <td><p>Plot 52a</p></td>
+                                     </tr>
+                                    <tr>
+                                         <td><p>Kampala uganda</p></td>
+                                    </tr>
+                              </div>
+                              
+                      <tr>
+                            <p>drop me aline</p>
+                         <td><label for="fname">First Name</label></td>
+                         <td><input type="text" name="name" id="fname"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lname">Last Name</label></td>
+                        <td><input type="text" name="lname" id="lname"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="country">country</label></td>
+                        <td><select name="country" id="country">
+                                <option value="uganda">Select your country</option>
+                                <option value="uganda">Uganda</option>
+                               <option value="nigeria">Nigeria</option>
+                               <option value="namibia">Nambia</option>
+                               <option value="mozambigue">Mozambigue</option>
+                               <option value="australia">Australia</option>
+                               <option value="sweden">Sweden</option>
+                               <option value="norway">Norway</option>
+                               <option value="germany">Germany</option>
+                               <option value="malaysia">Malaysia</option>
+                               <option value="china">China</option>
+                        </select></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="textarea">Hello Buddy!</label></td>
+                        <td><textarea name="textarea" id="textea" cols="20" rows="5" placeholder="hello, say your heart"></textarea></td>
+                    </tr>
+                   
+                    <tr>
+                        <td><label for="button"></label></td>
+                        <td><button>Lets Chat!</button></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </center>
+    
+</body>
+</html>

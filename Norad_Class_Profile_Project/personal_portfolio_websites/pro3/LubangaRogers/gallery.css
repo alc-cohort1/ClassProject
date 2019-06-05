@@ -1,0 +1,95 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image:url(images/lg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.navigation1{
+    text-align: center;
+    background: black;
+    padding: 3px;
+  }
+  .navigation1 li{
+  display: inline-block;
+  list-style: none;
+  margin: 5px;
+  
+  }
+  .navigation1 a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+.container{
+    font-size: 30px;
+    color: white;
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
+.main_section{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+    -webkit-box-pack:center;
+    background: rgba(0,0,0,.7);
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+}
+.colm1 img{
+    width: 200px;
+    height: 300px;
+
+}
+.colm2{
+    margin-left: -30px;
+}
+.colm2 img{
+    width: 150px;
+    height: 150px;
+  
+
+}
+.colm4{
+    margin-left: -30px;
+}
+.colm3{
+    margin-left: -30px;
+}
+.colm3 img{
+    width: 180px;
+    height: 300px;
+
+}
+img{
+    border: 1px solid white;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius: 5px;
+}
+.colm4 img{
+    width: 200px;
+    height: 400px;
+
+}
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    padding: 20px;
+    text-align: right;
+}
+footer a{
+    text-decoration: none;
+    padding: 10px 50px;
+    background: purple;
+    color: white;
+    border-radius: 20px;
+}
