@@ -6,7 +6,7 @@ function noSpace(){
         errmessage +='yyyyyyyyyyyyyyyyyy \n';
         document.getElementById('userId').style.borderColor = 'red';
     }
-    
+
     if(document.getElementById('password').value == ""){
         errmessage +='Emayyyyyyyyyyyyyyyyyy \n';
         document.getElementById('password').style.borderColor = 'red';
