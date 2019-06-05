@@ -138,7 +138,7 @@ a:hover { COLOR: yellow; TEXT-DECORATION: none; font-weight: none }
                 margin-left: 70px;
                 opacity: 0.6;
               color: #f2f2f2;
-              font-size: 20px;
+              font-size: 35px;
               padding: 8px 12px;
               position: absolute;
               bottom: 30%;
@@ -179,14 +179,14 @@ a:hover { COLOR: yellow; TEXT-DECORATION: none; font-weight: none }
             }
 
             .button {
-              background-color: orange; /* Green */
+              background-color: #306754; /* Green */
               border: none;
               color: white;
               padding: 15px 32px;
               text-align: center;
               text-decoration: none;
               margin-left: 0px;
-              font-size: 16px;
+              font-size: 35px;
               
               cursor: pointer;
             }
@@ -228,7 +228,7 @@ a:hover { COLOR: yellow; TEXT-DECORATION: none; font-weight: none }
 
 .about-container button{
     width: 70%;
-    background-color: #368BC1;;
+    background-color: #306754;;
     color: white;
     padding: 14px;
     margin: 8px;
@@ -350,7 +350,7 @@ div.desc {
     
 }
 .button-services {
-              background-color: orange; /* Green */
+              background-color: #306754; /* Green */
               border: none;
               color: white;
               padding: 15px 32px;
@@ -410,7 +410,7 @@ div.desc {
 }
 .contact-container button{
     width: 90%;
-    background-color: #4CAF50;
+    background-color: #306754;
     color: white;
     padding: 14px;
     margin: 19px;
@@ -460,7 +460,7 @@ div.desc {
     
 }
 .button-projects {
-              background-color: orange; /* Green */
+              background-color:#306754; /* Green */
               border: none;
               color: white;
               padding: 15px 32px;
@@ -482,11 +482,19 @@ div.desc {
 .js_grey{height:24px;
   width:50%;
    background:#667C26;
-    margin-left: 60;
+   
     color: white;
     font-size: 16px
     font-weight:200px;
     text-align: center;
+  }
+  .skill_bar{
+    height:24px;
+  background-color:#E5E4E2;
+   
+    margin-left: 60;
+   width: 90%
+   
   }
 /*Refferences*/
 .refferences-container{

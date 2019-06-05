@@ -1,143 +1,123 @@
-body, html{
-    padding: 0px;
-    margin: 0px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.headSection{
-    background-color: white;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    padding-top: 15px;
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: rgb(238,238,238);
+  scroll-behavior: smooth;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+/*body content*/
+
+.wrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 4em;
+  position: fixed;
+  top: 0;
+  padding: 5px;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  background-color: #163a1d;
 }
 
 
-/* mouse hovers effects over the menu*/
-.headSection a:hover{
-    background-color: lightgray;
-    color: white;
-    border-radius: 5px;
-    padding: 15px; 
-}
-.headSection a{
-    text-decoration: none;
-    color: olive;
-    padding-left: 50px;
-    font-size: 25px;
-}
-.bodySection{
-    background-color:darkgray;
-    width: 100%;
-    height: 582px;
-    display: flex;
-}
-
-h1{
-  margin-top: 100px;
-  margin-left: 550px;
-  color: green;
-}
-.cont{
-  margin-left: 500px;
+fieldset{
+  width: 700px;
+  height: 420px;
+  padding-top: 50px;
+  text-align: center;
+  border: none;
 }
 input{
-  padding: 10px;
-  width: 380px;
-  border-radius: 8px;
-  border: 1px solid green;
+  padding-bottom: 10px;
+  margin: 10px;
+  width: 400px;
+  border-radius: 9px;
+  color: #163a1d;
+  border: none;
+  padding:10px;
 }
-.name{
-  padding: 10px;
-}
-.email{
-  padding: 10px;
-  border-radius: 5px;
-
-}
-.subject{
-  padding: 10px
-}
-
 ::placeholder{
-  color: green;
-
+  padding-left: 15px;
 }
 textarea{
-  border-radius: 8px;
   width: 400px;
-  margin-left: 10px;
-  border: 1px solid green;
+  border-radius: 9px;
+  color: #163a1d;
+  margin-top: 10px;
 }
 button{
-  margin-top: 5px;
-  padding: 15px;
-  border-radius: 8px;
-  margin-left: 13px;
-  width: 405px;
-  background-color: green;
+  width: 400px;
+  padding: 10px;
+  border-radius: 9px;
   color: white;
+  background-color: #163a1d;
   font-size: 20px;
-  border: 1px solid white;
-  
+  margin-top: 10px;
+  border: none;
+}
+button:hover{
+  background-color: white;
+  color: #163a1d;
+}
+h1{
+  color: white;
+  padding-bottom: 20px;
 }
 
+#nav-bar a{
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  padding-left: 30px;
+}
+#nav-bar a:hover{
+  color: ghostwhite;
+  background-color: #163a;
+  border-radius: 8px;
+  padding: 15px;
+}
+@media (min-width: 700px){
 
-/*styling the footer section*/
-.footerSection{
-    background-color:gray;
-    width: 100%;
-    height: 50px;
-    position: fixed;
-    display: flex;
+  #nav-bar a{
+    font-size: 20px;
+    text-decoration: none;
     color: white;
-    padding-left: 80px;
+  }
+  
+.banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  
+  /*height: 30em;*/
+  height: 100vh;
+  background-image: url('https://i.ibb.co/WVyfKzF/programming.jpg');
+  background-position: center;
+  background-size: cover;
 }
-.footerSection .call{
-    width: 25%;    
-    display: flex;
-}
-.footerSection .call .footerImage img{
-    background-color:grey;    
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-}
-.footerSection .email{
-    width: 25%;    
-    display: flex;
-}
-.footerSection .email img{
-    background-color:grey;    
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;;
-}
-.footerSection .followMe{
-    width: 25%;   
-    display: flex; 
-}
-.footerSection .followMe .footerImage img{
-    background-color:grey;    
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;;
-}
-.footerSection .followMe .followMeContent .socialIcons img{
-    width: 20px;
-    height: 20px;
-    border-radius: none;
-}
-.footerSection .copyright{
-    width: 25%;   
-    display: flex; 
-}
-.footerSection .copyright img{
-    background-color:grey;    
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;;
-}
-img{
-    padding-right: 20px;
+.polarize{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.78);
 }
