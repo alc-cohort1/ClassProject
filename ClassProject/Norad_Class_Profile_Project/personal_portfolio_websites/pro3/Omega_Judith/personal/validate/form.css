@@ -10,9 +10,7 @@ margin: 60px;
 width: 50%;
 margin-left:250px; 
 position: absolute;
--webkit-box-shadow: 0 7px 4px #777;
--moz-box-shadow: 0 7px 4px olive;
-box-shadow: 0 7px 4px darkgreen;
+box-shadow: 0 7px 4px rgb(2, 76, 110);
 border-radius: 10px;
 }
 table{
@@ -34,7 +32,7 @@ border-radius: 10px;
 
 }
 button{
-  background-color: rgb(42, 44, 42);
+  background-color: rgb(4, 97, 81);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -43,14 +41,15 @@ button{
   display: inline-block;
   font-size: 10px;
   border-radius: 8px;
+  font-size: 18px;
 }
 
 
 button:hover{
 background-color: rgb(11, 219, 219);
+color: rgb(4, 97, 81);
 font-size: 20px;
 font-family: Arial, Helvetica, sans-serif;
-color: white;
 }
 
 
