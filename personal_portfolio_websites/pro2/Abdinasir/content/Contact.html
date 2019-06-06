@@ -1,7 +1,6 @@
 <html>
     <header>
-        <title>best-pro</title>
-        <link rel="stylesheet" type="text/css" href="beuty.css">
+        <title>Contact</title>
     </header>
     <style>
         body
@@ -15,63 +14,36 @@
             font-weight: 300;
         
         }
-        
-        #login-box
+
+        form
         {
             position: relative;
-            margin: 2% auto;
-            height: 610px;
-            width: 70%;
-            background: #fff;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-        
+            margin: 0% auto;
+            height: 600px;
+            width: 100%;
+            background: #fff;    
+            float: center;    
         }
         
-        .left-box
-        {
-            position: absolute;
-            top: 0;
-            left: 0;
-            box-sizing: border-box;
-            padding: 40px;
-            width: 300px;
-            height: 500px;
-        
-        }
         
         h1
         {
             margin: 0 0 20px 0;
             font-weight: 300;
             font-size: 28px;
-            color: green;
+            color: rgb(36, 90, 90);;
         }
         
         input[type="text"], 
         input[type="password"]
         {
+           
             display: block;
+            text-align:center;
             box-sizing: border-box;
             margin-bottom: 20PX;
             padding: 4px;
-            width: 320PX;
-            height: 32PX;
-            border: none;
-            outline: none;
-            border-bottom: 1px solid #aaa;
-            font-family: sans-serif;
-            font-weight: 400;
-            font-size: 15px;
-            transition: 0.25 ease;
-        }
-
-        input [type="datetime-local"]
-        {
-            display: block;
-            box-sizing: border-box;
-            margin-bottom: 20PX;
-            padding: 4px;
-            width: 320PX;
+            width: 390PX;
             height: 32PX;
             border: none;
             outline: none;
@@ -87,7 +59,7 @@
             margin: 28px;
             width: 200px;
             height: 32px;
-            background: green;
+            background: rgb(36, 90, 90);
             border: none;
             border-radius: 2px;
             color: #fff;
@@ -101,65 +73,10 @@
         input[type="submit"]:hover,
         input[type="submit"]:focus
         {
-            background: green;
+            background: skyblue;
             transition: 0.2s ease;
         }
         
-        
-        .right-box 
-        {
-            position: absolute;
-            top: 0;
-            right: 0;
-            box-sizing: border-box;
-            padding: 40px;
-            width: 500px;
-            height: 590px;
-            background-image: url(images/nas.jpg);
-            background-size: cover;
-            background-position: center; 
-            color: black;
-        }
-     
-        .or 
-        {
-            
-                position: absolute;
-                top: 290px;
-                left: 407px;
-                width: 40px;
-                height: 40px;
-                background: #efefef;
-                border-radius: 40%;
-                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-                line-height: 40px;
-                text-align: center;
-        }
-        
-        .right-box .signinwith
-        {
-            display: block;
-            margin-bottom: 40px;
-            font-size: 28px;
-            color: #fff;
-            text-align: center;
-            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
-        
-        }
-        
-        button.social
-        {
-            margin-bottom: 20px;
-            width: 220px;
-            height: 36px;
-            border: none;
-            border-radius: 2px;
-            color: #fff;
-            font-family: sans-serif;
-            font-weight: 500;
-            transition:  0.25 ease;
-            cursor: pointer;
-        }
         
         .Sign-in
         {
@@ -167,85 +84,82 @@
         
         }
 
-        .Contact {
-            width: 20%;
-            height: 50px;
-            background: #dd4b39;
-        }
-
-        .heading a {
-    color: green;
-    padding: 19px 58.9px;
-    text-decoration: none;
-    display: block;
-    background: ;
-    float: left;
-    clip: auto;
-    
+        .heading{
+    color:white;
+    background: rgb(36, 90, 90);
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
 }
-.heading a:hover {background-color: #f1f1f1}
+
+
+        .heading a{                                                                                                                                                                                                                                                                                             
+    padding: 14px 10px;                                                                                                                                                                                                                                                                                                                            
+    text-decoration: none;
+    position: block;
+    cursor: pointer;
+    text-emphasis: none;
+    color: white;
+    text-align: center;
+}
+
+.heading a:hover{
+background: skyblue;
+color: white;
+}
+
+.footer{
+    color:white;
+    background: black;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;  
+}
+
+
 
         </style>
     <body>
-        
-        <form action="user_create" hreff="https://www.google,twitter&facebook.com" method="POST">
-                            <div class="heading">
-                       <div> <a href="../pro2.html">Home</a></div>
-                        <div><br>
-                    
-                        <a href="Contact.html" style="float: right;" >Contact Me</a></div>
-                
-            </div>        
-    
+        <!--this heading is fin the rest of pages-->
+            <div class="heading"> 
+                    <ol>
+                        <a href="../index.html">Home</a>
+                        <a href="skills.html">Skills</a>
+                        <a href="Gallery.html">Gallery</a>
+                        <a href="Contact.html" >Contact</a>
+                    </ol>
+                    </div>
 
-        <div id="login-box">
-            
+    <!--This form required to fill in in-order the client to reach my form-->
+    <form action="Aboutme.html"  method="POST">
+            <center>            
 
+            <h1>Contact Me</h1>
 
-            <div class="left-box">
-
-
-                <h1>Sign in</h1>
-
+                <!--required to Enter UserName-->
                 Name<input type="text" name="username" placeholder="" required />
                 
+                <!--Requied to fill out by user-Email-->
                 Email<input type="text" name="email" placeholder="" required="@#!%^~"  />
                 Password<input type="password" name="password" placeholder="" required  minlength="8" />
                 <p></p>
-                <input type="datetime-local" name="" placeholder="date of birth" required role="alert" id="">
                 <p></p>
+
+                <!--required to input the client's info-->
                 About:
                 <textarea name="About" id="" cols="30" rows="10" placeholder="write about yourself not more than 125 words" required maxlength="125" ></textarea>
+                <p></p>
                 <input type="submit" name="signup-button" value="Sign In"  required to sign in/>
 
-            </div>
+            </center>
 
-            <div class="right-box">
-                <span class="signinwith" > Sign in with <br/> Social Network
-                </span>
-
-                <ol>
-
-                <a href="https://www.facebook.com"> 
-                <img src="images/face.png"  style="width: 50px; height:50px">
-                </a> <b> Abdinaasir Love Beershe</b><p></p>
-                <a href="https://www.twitter.com"></a><img src="images/twiter_favicon.png" 
-                style="width: 50px; height:50px" ></a>@abdinaasir12<p></p>
-                <a href="mailto:cabdinaasirc15@gmail.com"><img src="images/favicon_gmail.png"  
-                style="width: 60px; height:60px; color: black; ">  Cabdinaasirc15@gmail.com </a><p></p>
-                <button class="Contact" > Contact </button>
-            </ol>
-            <b>
-             <p>This well help you <br>
-                to find my pro 2</p>
-             <p> Sing in to
-                 know <br> About me </p>
-            </b>
-            </div>
-
-            <div class="or">Or</div>
-
-        </div>
     </form>
+        
+        <!--info about -->
+    <div class="footer" style="text-align: center; padding: 20px; color: white; background: black;" >
+            @Abdinasir Abdullahi 2019 || Right Copy
+        </div>
+        
+        
     </body>
 </html>
