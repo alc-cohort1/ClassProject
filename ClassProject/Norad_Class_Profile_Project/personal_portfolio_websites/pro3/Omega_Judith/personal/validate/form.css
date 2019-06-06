@@ -13,6 +13,7 @@ position: absolute;
 box-shadow: 0 7px 4px rgb(2, 76, 110);
 border-radius: 10px;
 }
+
 table{
 padding: 7px;
 cellspacing:10;
@@ -43,7 +44,6 @@ button{
   border-radius: 8px;
   font-size: 18px;
 }
-
 
 button:hover{
 background-color: rgb(11, 219, 219);

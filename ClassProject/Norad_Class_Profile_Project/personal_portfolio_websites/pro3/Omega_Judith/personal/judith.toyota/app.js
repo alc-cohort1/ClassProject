@@ -1,101 +1,121 @@
+var express = require('express');
+var bodyParser = require('body-parser');
+var app = express();
+// var mysql = require('mysql');
 
-// /*below are variables holding id values */
-// document.getElementById("customer_id_input").addEventListener('blur', validateCustomerId);
-// document.getElementById("name_value_input").addEventListener('blur', validateName);
-// document.getElementById("state_input").addEventListener('blur', validateState);
-// document.getElementById("part_number_value_input").addEventListener('blur', validatePartNumber);
-// document.getElementById("description_value_input").addEventListener('blur', validateDescription);
-// document.getElementById("price_part_input").addEventListener('blur', validatePrice);
-// document.getElementById("quantity_input").addEventListener('blur', validateQuantity);
+const mariadb = require('mariadb');
+// const pool = mariadb.createPool({
+//      host: 'localhost', 
+//      user:'judith', 
+//      password: '',
+//     database: 'ALC',
+//      connectionLimit: 5
+// });
+// async function asyncFunction() {
+//   let conn;
+//   try {
+// 	conn = await pool.getConnection();
+// 	const rows = await conn.query("SELECT 1 as val");
+// 	console.log(rows); //[ {val: 1}, meta: ... ]
+// 	const res = await conn.query("INSERT INTO myTable value (?, ?)", [1, "mariadb"]);
+// 	console.log(res); // { affectedRows: 1, insertId: 1, warningStatus: 0 }
+//     console.log('Connected!');
 
-
-// /*funtion name */
-// function validateCustomerId(){
-//     const customerID = document.getElementById("customer_id_input");
-//     const re = /^[(A-Z)(0-9)-]{2,15}$/;
-
-//     if(!re.test(customerID.value)){
-//         // document.getElementById("customer_span").innerHTML="Please Enter a Valid ID";
-//     }
-
-//     else{
-//         document.getElementById("customer_span").innerText=""
-//     }
+//   } catch (err) {
+// 	throw err;
+//   } finally {
+// 	if (conn) return conn.end();
+//   }
 // }
+ 
+// var Client = require('mariasql');
+// var connection = new Client({
+//   host: '127.0.0.1',
+//   user: 'root',
+//   db: 'toyota',
+//   port: 3306
+// });
 
-// function validateName(){
-//     const name = document.getElementById("name_value_input");
-//     const re = /^[a-zA-Z]{3,10}$/;
+// const mysql = require('mysql');
+const pool = mariadb.createPool({
+     host: 'localhost', 
+     user:'judith', 
+     password: '',
+    database: 'ALC',
+     connectionLimit: 5
+});
+async function asyncFunction() {
+  let conn;
+  try {
+	conn = await pool.getConnection();
+  } catch (err) {
+	throw err;
+  } finally {
+	if (conn) {
+     console.log('Connected!');
+  };
+  }
+}
+ 
 
-//     if(!re.test(name.value)){
-//         document.getElementById("name_span").innerHTML = "Please Enter a Valid Name"
-//     }
-
-//     else{
-//         document.getElementById("name_span").innerHTML = ""
-//     }
-// }
-
-// function validateState(){
-//     const state = document.getElementById("state_input");
-//     const re = /^[A-Z1-9]{3}$/;
-
-//     if(!re.test(state.value)){
-//         document.getElementById("state_span").innerHTML = "Please Enter a Valid State"
-//     }
-//     else{
-//         document.getElementById("state_span").innerHTML = ""
-//     }
-// }
-
-// function validatePartNumber(){
-//     const partNumber = document.getElementById("part_number_value_input");
-//     const re = /^[0-9]{2,6}$/;
-
-//     if(!re.test(partNumber.value)){
-//         document.getElementById("number_span").innerHTML = "Please Enter a Valid Number"
-//     }
-
-//     else{
-//         document.getElementById("number_span").innerHTML = "";
-//     }
-// }
-
-// function validateDescription(){
-//     const description = document.getElementById("description_value_input");
-//     const re = /^[a-zA-Z ]{5,20}$/;
-
-//     if(!re.test(description.value)){
-//         document.getElementById("description_span").innerHTML = "Please Enter a valid description"
-//     }
-//     else{
-//         document.getElementById("description_span").innerHTML = ""
-//     }
-// }
-
-// function validatePrice(){
-//     const price = document.getElementById("price_part_input");
-//     const re = /^[[1-9].([0-9])?$/;
-
-//     if(!re.test(price.value)){
-//         document.getElementById("price_span").innerHTML = "Enter Valid Price"
-//     }
-
-//     else{
-//         document.getElementById("price_span").innerHTML="";
-//     }
-// }
-
-// function validateQuantity(){
-//     const quantity = document.getElementById("quantity_input");
-//     const re = /^[1-9]([0-9])?$/;
-
-//     if(!re.test(quantity.value)){
-//         document.getElementById("qtn_span").innerHTML = "Enter Valid Qty"
-//     }
-
-//     else{
-//         document.getElementById("qtn_span").innerHTML = "";
-//     }
-// };
-// /*end of this form validation */
+ 
+//start body-parser configuration
+app.use( bodyParser.json() );       // to support JSON-encoded bodies
+app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
+  extended: true
+}));
+//end body-parser configuration
+ 
+//create app server
+var server = app.listen(3000,  "127.0.0.1", function () {
+ 
+  var host = server.address().address
+  var port = server.address().port
+ 
+  console.log("Example app listening at http://%s:%s", host, port)
+ 
+});
+ 
+// //rest api to get all results
+// app.get('/employees', function (req, res) {
+//    connection.query('select * from employee', function (error, results, fields) {
+    
+// 	  if (error) throw error;
+// 	  res.end(JSON.stringify(results));
+// 	});
+// });
+ 
+// //rest api to get a single employee data
+// app.get('/employees/:id', function (req, res) {
+//    console.log(req);
+//    connection.query('select * from employee where id=?', [req.params.id], function (error, results, fields) {
+// 	  if (error) throw error;
+// 	  res.end(JSON.stringify(results));
+// 	});
+// });
+ 
+//rest api to create a new record into mysql database
+app.post('/employees', function (req, res) {
+   var postData  = req.body;
+   connection.query('INSERT INTO employee SET ?', postData, function (error, results, fields) {
+	  if (error) throw error;
+	  res.end(JSON.stringify(results));
+	});
+});
+ 
+// //rest api to update record into mysql database
+// app.put('/employees', function (req, res) {
+//    connection.query('UPDATE `employee` SET `employee_name`=?,`employee_salary`=?,`employee_age`=? where `id`=?', [req.body.employee_name,req.body.employee_salary, req.body.employee_age, req.body.id], function (error, results, fields) {
+// 	  if (error) throw error;
+// 	  res.end(JSON.stringify(results));
+// 	});
+// });
+ 
+// //rest api to delete record from mysql database
+// app.delete('/employees', function (req, res) {
+//    console.log(req.body);
+//    connection.query('DELETE FROM `employee` WHERE `id`=?', [req.body.id], function (error, results, fields) {
+// 	  if (error) throw error;
+// 	  res.end('Record has been deleted!');
+// 	});
+// });
