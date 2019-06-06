@@ -1,5 +1,5 @@
 body{
-    font-family: roboto-regular;
+    font-family: Arial 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 .panel-body{
     -webkit-box-shadow: 0 3px 2px #777;
@@ -16,8 +16,42 @@ img{
 .panel-footer{
     padding: 15px;
 }
+/* .panel-body{
+    height: 650px;
+} */
+#btn{
+    color:white;
+    background:#006455;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+#btn:hover{
+    size: 20px;
+    padding: 15px;
+    color: black;
+
+}
+span:hover{
+    padding: 15px;
+}
+hr{
+    background: #006455;
+    height:0.1px;
+    padding: 5px;
+}
 .panel-body{
     height: 650px;
+    overflow: hidden;
 }
+
+.panel-body img {
+    transition: transform .5s ease;
+  }
+
+  .panel-body:hover img {
+      border-radius: 10px;
+    transform: scale(1.2);
+  }
 
 
