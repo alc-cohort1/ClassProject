@@ -88,9 +88,9 @@
 /* Add photo the background */
 .menu-branding .portrait {
   width: 250px;
-  height: 250px;
-  background: url("../img/large.jpg");
-  border-radius: 50%;
+  height: 188px;
+  background: url("../img/p1.jpg");
+  border-radius: 10%;
   border: solid 3px #eece1a;
 }
 
@@ -232,7 +232,7 @@ main#home h1 {
 .about-info .bio-image {
   grid-area: bioimage;
   margin: auto;
-  border-radius: 50%;
+  border-radius: 5%;
   border: #eece1a 3px solid;
 }
 
@@ -410,7 +410,7 @@ form input[type="submit"]:hover {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("../img/small.jpg");
+    background: url("../img/p2.jpg");
     width: 150px;
     height: 120px;
   }
