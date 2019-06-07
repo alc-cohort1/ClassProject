@@ -10,6 +10,7 @@ let showMenu = false;
 
 menuBtn.addEventListener("click", toggleMenu);
 
+// the function is use for toggling
 function toggleMenu() {
   if (!showMenu) {
     menuBtn.classList.add("close");
