@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Solomon portifolio</title>
+	<title>Solomon portifolio</title>	
 	<link rel="stylesheet" href="CSS/main.css">
 	<!--<script src="javascript/main.js"></script>-->
 	<script src="javascript/contactform_validation.js"></script>
@@ -12,20 +12,19 @@
 	<body bgcolor:black;>
 		 <section id="section-home" style="padding: 0em 0;">
 			<header class="header">
-					<nav class="navTwo">			
-			<div>
-				<ul>				
-					<li ><a href="#section-home">HOME</i></a>
-					<li><a href="#section-about">ABOUT ME</a></li>
-					<li><a href="#section-services">SERVICES</a></li>	
-					<li><a href="#section-skills">SKILLS</a></li>							
-					<li><a href="#section-projects">PROJECTS</a></li>
-					<li><a href="#section-gallery">GALLERY</a></li>	
-					<li><a href="#section-refference">REFFERENCES</a></li>	
-					<li><a href="#section-contact">CONTACT ME</a></li>	
-				</ul>
-
-			</div>
+					<nav class="navTwo" id="myTopnav">						
+					<a href="#section-home">HOME</a>
+					<a href="#section-about">ABOUT ME</a>
+					<a href="#section-services">SERVICES</a>	
+					<a href="#section-skills">SKILLS</a>							
+					<a href="#section-projects">PROJECTS</a>				
+						<a href="#section-gallery">GALLERY</a>	
+					<a href="#section-contact">CONTACT ME</a>
+					<a href="#section-refference">REFFERENCES</a>	
+					 <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+    <i> <img src="images/tog1.png" width="40px" height="40px" /> </i>
+ 
+			
 		</nav>	
 		<div id="main">
 		<div class="navOne">
@@ -342,6 +341,51 @@
 		<div class="clearfix"></div>	
 	
 		</section>
+
+		<!-- Contact section -->
+			<section id="section-contact" id="grad1" class="site-section">
+				
+				<div id="grad1" >
+			
+				<CENTER><h1 style="color: #5C5858;font-family: cursive;text-shadow: ;">Lets Keep In Touch</h1></CENTER>
+				<CENTER><p style="color: indigo;">Thank you for visiting out my Profile.If you would like to get into contact with me,please fill out the form below</p></CENTER>
+				<div class="contact-container" >
+			
+			<div class="contact-container1" style="width: 80%" >
+				
+				<form name="myform"  onsubmit="return validate()" method="post" action="user_create" >
+					<center><img src="Images/pic.png" height="90" width="90" style="border-radius: 50px;"></center>
+				<input type="text" name="Name" placeholder="Name"><br/><label id="name_error" style="color: red; margin-left: 40px"></label><br/>
+				<input type="text" name="email" placeholder="Email Address">
+				<label id="email_error" style="color: red; margin-left: 40px"></label>
+					<textarea placeholder="Message" style="margin-top: 24px;" name="comment"></textarea>
+					<label id="comm_error" style="color: red; margin-left: 40px"></label>
+				<center><button>submit</button></center>
+			</form>
+			
+		</div>
+		
+		<div class="contact-container1" style="">
+			
+			<h3>Address</h3>
+<p>Le Palm Building<br/> Plot 244/245, Lubbobo Close, <br/>Kampala-Muyenga Tank Hill Road<br/> P.O.Box 7782 Kampala, Uganda.<br/></p>
+<h3>Email</h3>
+<p>solomonwit@gmail.com <br>
+ solomonmuheki@gmail.com</p>
+<h3>Phone</h3>
+<p>
++256 785810824<br/>
++256 700136452</p>
+
+				
+		</div>
+			
+			</div>
+		</div>
+		</section>
+	
+
+		</div>
 <!-- refferences -->
 					<section id="section-refference" class="site-section">
 			<CENTER><h1 style="color: #5C5858; font-family: cursive">REFFERENCES</h1>
@@ -403,51 +447,6 @@ Dependable, with high personal and professional integrity, able to relate well, 
 		</div>
 		
 		</section>
-		<!-- Contact section -->
-			<section id="section-contact" id="grad1" class="site-section">
-				
-				<div id="grad1" >
-			
-				<CENTER><h1 style="color: #5C5858;font-family: cursive;text-shadow: ;">Lets Keep In Touch</h1></CENTER>
-				<CENTER><p style="color: indigo;">Thank you for visiting out my Profile.If you would like to get into contact with me,please fill out the form below</p></CENTER>
-				<div class="contact-container" >
-			
-			<div class="contact-container1" style="width: 80%" >
-				
-				<form name="myform"  onsubmit="return validate()" method="post" action="user_create" >
-					<center><img src="Images/pic.png" height="90" width="90" style="border-radius: 50px;"></center>
-				<input type="text" name="Name" placeholder="Name"><br/><label id="name_error" style="color: red; margin-left: 40px"></label><br/>
-				<input type="text" name="email" placeholder="Email Address">
-				<label id="email_error" style="color: red; margin-left: 40px"></label>
-					<textarea placeholder="Message" style="margin-top: 24px;" name="comment"></textarea>
-					<label id="comm_error" style="color: red; margin-left: 40px"></label>
-				<center><button>submit</button></center>
-			</form>
-			
-		</div>
-		
-		<div class="contact-container1" style="">
-			
-			<h3>Address</h3>
-<p>Le Palm Building<br/> Plot 244/245, Lubbobo Close, <br/>Kampala-Muyenga Tank Hill Road<br/> P.O.Box 7782 Kampala, Uganda.<br/></p>
-<h3>Email</h3>
-<p>solomonwit@gmail.com <br>
- solomonmuheki@gmail.com</p>
-<h3>Phone</h3>
-<p>
-+256 785810824<br/>
-+256 700136452</p>
-
-				
-		</div>
-			
-			</div>
-		</div>
-		</section>
-	
-
-		</div>
-
 <!-- FOOTER -->
 		<section>
 
@@ -481,6 +480,17 @@ Dependable, with high personal and professional integrity, able to relate well, 
 			<div style="color: white; text-align: center;">Copyright Reserved 2019 | By Muheki Solomon</div>
 		</div>
 		</section>
+		<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+
+  if (x.className === "navTwo") {
+    x.className += " responsive";
+  } else {
+    x.className = "navTwo";
+  }
+}
+</script>
 	</body>
 </html>
 <script type="text/javascript">

@@ -1,3 +1,5 @@
+/* css block to style traits and skills bars */
+
 .skillBox1 {
   box-sizing: border-box;
   width: 100%;
@@ -59,7 +61,7 @@ table {
 .section-padding {
   padding: 60px 0px;
 }
-
+/* big and small heading */
 h1,
 h2,
 h3,
@@ -67,7 +69,7 @@ h4,
 h5,
 h6 {
   font-family: "Baloo Bhai", sans-serif;
-  color: black;
+  color: rgb(85, 79, 79);
 }
 .Social {
   color: white;
@@ -79,14 +81,14 @@ h6 {
 }
 
 .main-header {
-  background: url(../img/take.jpeg);
+  background: url("../img/banner.jpg") no-repeat;
   background-size: cover;
-  min-height: 800px;
+  min-height: 810px;
 }
 
-.bg-color {
-  background-color: #000;
-}
+/* .bg-color {
+  background-color: grey;
+} */
 
 .nav > li > a {
   padding: 0px;
@@ -95,7 +97,7 @@ h6 {
 .navbar-brand {
   padding: 0px;
   height: inherit;
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
 }
 
 .navbar-default .navbar-brand {
@@ -130,7 +132,7 @@ h6 {
 }
 
 .navbar-fixed-top {
-  padding: 40px 0;
+  padding: 25px 0;
   transition: all 0.5s;
 }
 
@@ -142,8 +144,9 @@ h6 {
 }
 
 .top-nav-collapse {
-  background: rgba(0, 0, 0, 0.8);
-  padding: 25px 0;
+  background: rgb(225, 222, 222);
+  padding: 5px 0;
+  min-height: 25px;
 }
 
 .wrapper {
@@ -432,10 +435,14 @@ a:hover {
 }
 
 /****/
+.footer {
+  position: fixed;
+  /* padding: 20px 0px; */
+}
 
 #footer {
-  background-color: #191919;
-  padding: 20px 0px;
+  background-color: #b1abab;
+  /* padding: 20px 0px; */
 }
 
 .footer-copyright {

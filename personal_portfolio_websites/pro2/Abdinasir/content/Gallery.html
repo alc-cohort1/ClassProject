@@ -3,80 +3,245 @@
     <title>Gallery</title>
 </header>
 <style>
-body{
-    top: 0;;
-    margin: 0% auto;
-    padding: 0;
-    box-shadow: 0 2px 11px grey;
-    background: rgb(255, 245, 227);
-
+        body {
+          font-family: Arial;
+          margin: 0;
+        }
+        /* alows kind of pages*/
+        .heading{
+color:white;
+background: rgb(36, 90, 90);
+padding: 10px;
+width: 100%;
+font-size: 16px;
+text-align: center;
 }
 
-.heading{
-    padding: 2px;
+        /* make up for the buttom/ href*/
+
+    .heading a{                                                                                                                                                                                                                                                                                             
+padding: 14px 10px;                                                                                                                                                                                                                                                                                                                            
+text-decoration: none;
+position: block;
+cursor: pointer;
+text-emphasis: none;
+color: white;
+text-align: center;
 }
 
-.heading a {
-    color: black;
-    padding: 19px 58.9px;
-    text-decoration: none;
-    display: block;
-    background: skyblue;
-    float: left;
-    clip: auto;
-    
+        /* position over of the buttom hover by color*/
+
+.heading a:hover{
+background: skyblue;
+color: white;
 }
-.heading a:hover {background-color: #f1f1f1}
 
+        * {
+          box-sizing: border-box;
+        }
+        
+        img {
+          vertical-align: middle;
+        }
+        
+        /* Position the image container (needed to position the left and right arrows) */
+        .container {
+          position: relative;
+        }
+        
+        /* Hide the images by default */
+        .mySlides {
+          display: none;
+        }
+        
+        /* Add a pointer when hovering over the thumbnail images */
+        .cursor {
+          cursor: pointer;
+        }
+        
+        /* Next & previous buttons */
+        .prev,
+        .next {
+          cursor: pointer;
+          position: absolute;
+          top: 40%;
+          width: auto;
+          padding: 16px;
+          margin-top: -50px;
+          color: white;
+          font-weight: bold;
+          font-size: 20px;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+          -webkit-user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover,
+        .next:hover {
+          background-color: rgba(0, 0, 0, 0.8);
+        }
+        
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        
+        /* Container for image text */
+        .caption-container {
+          text-align: center;
+          background-color: #222;
+          padding: 20px 16px;
+          color: white;
+        }
+        
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Six columns side by side */
+        .column {
+          float: left;
+          width: 16.66%;
+        }
+        
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+          opacity: 0.6;
+        }
+        
+        .active,
+        .demo:hover {
+          opacity: 1;
+        }
 
-</style>    
+        .caption-container{
+            background: green;
+        }
+
+        h1{
+            text-align: center;
+        }
+        </style>
+
 <body>     
     
-    <div class="heading">
-
-                    <a href="../pro2.html">Home</a>
-                    <a href="#">Profile</a>
-                    <a href="Aboutme.html">About Me</a>
+        <div class="heading"> 
+                <ol>
+                    <a href="../index.html">Home</a>
                     <a href="skills.html">Skills</a>
-                    <a href="#">Experiences</a>
                     <a href="Gallery.html">Gallery</a>
-                    <a href="Contact.html">Contact Me</a>
+                    <a href="Contact.html" >Contact</a>
+                </ol>
+                </div>            
+            <h1>My Gallery</h1>
             
-        </div>        
-        
+            <div class="container">
+              <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="images/nas.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="images/young.jpg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="images/na.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="images/pro.JPG" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="images/meyonyo.jpg" style="width:100%">
+              </div>
+                
+              <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="images/from nekival.jpg" style="width:100%">
+              </div>
+                
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+            
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(1)" alt="Happy">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(2)" alt="home">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(3)" alt="On way">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(4)" alt="CIU">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(5)" alt="Meyonyo">
+                </div>    
+                <div class="column">
+                  <img class="demo cursor" src="" style="width:100%" onclick="currentSlide(6)" alt="Rem">
+                </div>
+              </div>
+            </div>
 
-                          </div>
+            <div class="footer" style="text-align: center; padding: 10px; color: white; background: black;" >
+                    @Abdinasir's Pictures 2019 || Right Copy
+                </div>
+                
 
-                          <div class="my-pic">
-                           <center> <b style="font-size: 59px; text-align: center;  " >My pictures</b></center>  
-
-                            <div>
-                                <img src="images/young.jpg" style="width:20%; height: 400px;" alt="">
-                                <img src="images/pro.JPG" style="width:32%; height: 400px; " alt="">
-                                <img src="images/na.jpg" style="width:20%; height: 400px;" alt="">
-                                <img src="images/meyonyo.jpg" style="width:26%; height: 400px; " alt=""><br>
-                                <hr>
-                               <center> <b style="font-size: 59px; text-align: center;" ></b> That was kinds of years</b></center>
-                               <hr>
-                               <center> <u style="font-size: 59px; text-align: center;" >See more pictures</u></center>  
-                               <img src="images/nas.jpg" style="width:20%; height: 400px;" alt="">
-                               <img src="images/" style="width:32%; height: 400px; " alt="">
-                               <img src="images/from nekival.jpg" style="width:20%; height: 400px;" alt="">
-                               <img src="images/Remember.jpg" style="width:26%; height: 400px; " alt=""><br>
-                               <hr>
-                              <center> <b style="font-size: 59px; text-align: center;" ></b> That was kinds of years</b></center>
-                              <hr>
-
-
-
-                            </div>
-
-                          </div>
-                         
-
-<div class="footer" style="text-align: center; padding: 20px; color: white; background: black;" >
-    Copy Right by @ Abdinasir's Pictures 
-</div>
-
-    </body>
+            </body>
+            <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+            </script>
 </html>
