@@ -24,11 +24,11 @@ app.post("/sendMe", (req, res) => {
   const message = req.body.message;
 
   const querystring =
-    "INSERT INTO infotable (`name`, `email`,`subject`, `message`) VALUES (?,?,?,?)";
+    "INSERT INTO Message (`name`, `email`,`subject`, `message`) VALUES (?,?,?,?)";
 
   connection.query(
     querystring,
-    [name, email,subject, message],
+    [name, email, subject, message],
     (err, results, field) => {
       if (err) {
         console.log("An error occured" + err);
@@ -40,6 +40,6 @@ app.post("/sendMe", (req, res) => {
 });
 
 // the port
-app.listen(3000, () => {
-  console.log("Express server started at port 3000");
+app.listen(3500, () => {
+  console.log("Express server started at port 3500");
 });

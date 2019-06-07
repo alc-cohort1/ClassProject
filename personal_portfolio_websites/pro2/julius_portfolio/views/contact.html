@@ -85,9 +85,16 @@
       <hr />
       <!-- Contact me form -->
 
-      <form action="">
-        <input type="email" placeholder="john@gmail.com" />
-        <input type="text" placeholder="Your message" />
+      <form name="messageForm" onsubmit="return validate()" netlify>
+        <input name="name" type="text" placeholder="Your name..." /><span
+          id="name"
+        ></span>
+        <input name="email" type="email" placeholder="john@gmail.com" /><span
+          id="email"
+        ></span>
+        <input name="message" type="text" placeholder="Your message..." /><span
+          id="message"
+        ></span>
         <input type="submit" value="Submit" />
       </form>
     </main>

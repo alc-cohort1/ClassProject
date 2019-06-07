@@ -438,3 +438,11 @@ form input[type="submit"]:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* The validation errors output span */
+span {
+  color: #eece1a;
+  font-weight: bold;
+  margin: 0px;
+  padding-right: 150px;
+}
