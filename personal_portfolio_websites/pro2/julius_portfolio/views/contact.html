@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Link to the fontawesome -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
@@ -17,6 +18,11 @@
   <body>
     <!-- The header section of the contact me page -->
     <header>
+      <div
+        style="float: right; margin-right: 80px; margin-top: 30px; color: #eece1a; font-size: 18px; font-weight: bold;"
+      >
+        Menu
+      </div>
       <!-- Three bars for the transition menu -->
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -47,9 +53,14 @@
               My Work
             </a>
           </li>
+          <li class="nav-item">
+            <a href="./gallery.html" class="nav-link">
+              Gallery
+            </a>
+          </li>
           <li class="nav-item current">
             <a href="./contact.html" class="nav-link">
-              How To Reach Me
+              Contact Me
             </a>
           </li>
         </ul>
@@ -71,13 +82,28 @@
         <div><span class="text-secondary">Phone: </span> (+256) 782872856</div>
         <div><span class="text-secondary">Address: </span> Kampala Uganda</div>
       </div>
+      <hr />
+      <!-- Contact me form -->
+
+      <form name="messageForm" onsubmit="return validate()" netlify>
+        <input name="name" type="text" placeholder="Your name..." /><span
+          id="name"
+        ></span>
+        <input name="email" type="email" placeholder="john@gmail.com" /><span
+          id="email"
+        ></span>
+        <input name="message" type="text" placeholder="Your message..." /><span
+          id="message"
+        ></span>
+        <input type="submit" value="Submit" />
+      </form>
     </main>
 
     <!-- the footer of the contact me page -->
     <footer id="main-footer">
       Julius Peter Oketayot | Copyright &copy; 2019
     </footer>
-
+    <!-- Link to the JavaScript files -->
     <script src="../js/main.js"></script>
   </body>
 </html>

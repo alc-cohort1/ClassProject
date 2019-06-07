@@ -7,63 +7,110 @@
     <title>skills</title>
 </head>
 <style>
-body{
-    top: 0;;
-    margin: 0% auto;
-    padding: 0;
-    box-shadow: 0 2px 11px grey;
-
-}
-
-.heading{
-    padding: 2px;
-}
-
-.heading a {
-    color: black;
-    padding: 19px 59.5px;
-    text-decoration: none;
-    display: block;
-    background: skyblue;
-    float: left;
-    clip: auto;
+    body
+    {
+        margin: 0;
+        padding: 0;
+        background: #efefef;
+        font-size: 16px;
+        color: black;
+        font-family: sans-serif;
     
-}
-.heading a:hover {background-color: #f1f1f1}
+    }
 
-</style>
+    .heading{
+color:white;
+background: rgb(36, 90, 90);
+padding: 10px;
+width: 98.5%;
+font-size: 16px;
+text-align: center;
+}
+
+
+    .heading a{                                                                                                                                                                                                                                                                                             
+padding: 14px 10px;                                                                                                                                                                                                                                                                                                                            
+text-decoration: none;
+position: block;
+cursor: pointer;
+text-emphasis: none;
+color: white;
+text-align: center;
+}
+
+.heading a:hover{
+background: skyblue;
+color: white;
+}
+.upset{
+margin:0;
+padding:0;
+float:right;
+width: 100%;
+height:465px;
+font-weight: bold;
+color:black;
+font-size: 13px;
+text-align: center;
+background-image: url(images/alt.jpg); 
+}
+.footer{
+color:white;
+background: black;
+padding: 10px;
+width: 98.5%;
+font-size: 16px;
+text-align: center;
+}
+
+.skills {
+    float: right; 
+    margin-right: 300px;
+}
+
+.project{
+    float: left;
+    margin-left: 300px;
+
+}
+
+.project a{
+    color:white;
+    text-decoration: none;
+}
+  </style>
 <body>
 
-    <div class="heading">                                         
-        <a href="../pro2.html">Home</a>
-        <a href="#">Profile</a>
-        <a href="Aboutme.html">About Me</a>
-        <a href="skills.html">Skills</a>
-        <a href="#">Experiences</a>
-        <a href="Gallery.html">Gallery</a>
-        <a href="Contact.html">Contact Me</a>
-</div>
+        <div class="heading"> 
+                <ol>
+                    <a href="../index.html">Home</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="Gallery.html">Gallery</a>
+                    <a href="Contact.html" >Contact</a>
+                </ol>
+                </div>         
+                
 
-        <div class="upset" style="background-image: url(images/alt.jpg); width: 100%; height: 600px;" >
-                       <center style="top: 30px" >  
-                        <label for="skills"> 
-  
-    <b>Well come to know about my skills</b><br><p></p>
+        <div class="upset" style="margin:0; width: 100%; height: 565px;" >  
+            <div class="look" style="text-align: center; font-size:40px; color:rgb(24, 236, 236); text-shadow: 0 2px 4px regba(0, 0, 0, 0.6); ">Have look at My skills and Projects</div>
+
+            <div class="skills" >
+                   <h1>Look at my skills</h1><br><p></p>
         
-   SKILLS <br><p></p>
-                    This page is viewed by my skills<br><p></p>
-<p></p>
+                        SKILLS <br><p></p>
+
+                       
                       <il>
                         <a href="https://www.w3schools.com/html/html5_intro.asp">
                         <img src="images/html5.jpeg" style="width: 110px;" ></a>
                         <a style="margin-left: 30px"></a>
-                        <a href="https://www.w3schools.com/css/">
-                        <img src="images/css3.jpeg" style="width: 110px;" ><p></p>
+                        <a href="https://www.w3schools.com/sql/">
+                         <img src="images/php-icon.png" style="width: 110px;" ><p></p>
                         <a href="https://www.w3schools.com/nodejs/">
                         <img src="images/nodejs.jpg" style="width: 110px;" >
                         <a style="margin-left: 30px"></a>
-                        <a href="https://www.w3schools.com/sql/">
-                        <img src="images/php-icon.png" style="width: 110px;" ><p></p>
+                        <a href="https://www.w3schools.com/css/">
+                            <img src="images/css3.jpeg" style="width: 110px;" ><p></p>
                         <a href="https://www.w3schools.in/cplusplus-tutorial/intro/">
                         <img src="images/c++.jpg" style="width: 110px;" >
                         <a style="margin-left: 30px"></a>
@@ -71,18 +118,23 @@ body{
                         <img src="images/js.jpg" style="width: 110px;" >
 
                       </il>   
-                    </label>
-                       </div>
-                      </center>    
-        
-                    
-    
-        </div>  
-        
-            </div>
-            <div class="footer" style="background: black; color:white;  width:97.5%; text-align: center; padding:17px;" >
+        </div>
+                      
+        <div class="project" >
+            <h1>Pojects</h1>
+            <li style="float:right"  >
+                <a href="">
+                   <h1>Portfolio</h1> 
+                    <img src="images/pro2.JPG" alt="worked individual" width="200px" srcset="">
+                </a>
+                <a href="">
+                    <h2>ToyotApp</h2>
+                    <img src="images/toyota.jpg" width="200px" alt="" srcset="">
+                </a>
+            </li>
+        </div>
+        </div>
+            <div class="footer">
                 Copy Right @ Abdinaasir Abdullahi's Skills</div>
-        
-    
 </body>
 </html>
