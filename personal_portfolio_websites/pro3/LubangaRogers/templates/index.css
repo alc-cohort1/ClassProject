@@ -1,0 +1,239 @@
+html,body{
+    
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   overflow-x:hidden;
+}
+.Top_header{
+    background: rgb(231, 231, 231);
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+     font-weight: 500;
+}
+.Top_header div{
+    background: white;
+    margin: 1px;
+    padding: 5px;
+}
+#colm1{
+width: 300px;
+}
+#colm2{
+    width: 600px;
+}
+#colm3{
+    width: 320px;
+}
+#colm3 input{
+    border: 0px;
+}
+.main_section{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: vivaldi;
+    font-style: italic;
+   shadow:23px 23px 42px rgb(240, 233, 233);
+}
+
+.image_slider{
+position: relative;
+}
+.navigation{
+    text-align: center;
+}
+.navigation li{
+display: inline-block;
+list-style: none;
+margin: 5px;
+
+}
+.navigation a{
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation1{
+  text-align: center;
+  background: black;
+}
+.navigation1 li{
+display: inline-block;
+list-style: none;
+margin: 5px;
+
+}
+.navigation1 a{
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    height: 40%;
+    position: relative;
+    margin: auto;
+   
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor:pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+svg{
+  width: 30px;
+}
+li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}
+footer{
+  text-align: center;
+}
+#heading{
+text-align: center;
+padding: 10px;
+font-weight: 500;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+textarea{
+   width: 300px;
+   border-radius: 5px;
+   outline: none;
+}
+button{
+  width: 300px;
+  background: black;
+  border: 0px;
+  color: white;
+  padding: 10px;
+}
+
+
+/* Container for skill bars */
+.container {
+    width: 45%; 
+    background-color: #ddd; 
+    margin: 20px;
+    height: 40px;
+    border-radius: 50px;
+    
+}
+
+.skills {
+    text-align: right;
+    padding: 10px; 
+    color: white; 
+  
+}
+
+
+.html {
+  width: 90%;
+  background: black;
+  border-radius: 50px;
+   
+  } 
+.css {
+  width: 80%; 
+  background: black;
+  border-radius: 50px;
+} 
+.js {
+  width: 65%;
+  background: black;
+  border-radius: 50px;
+  } 
+.node {
+  width: 40%;
+  background: black;
+  border-radius: 50px;
+} 
+p{
+  margin-left: 50px;
+}
