@@ -1,114 +1,224 @@
 <!DOCTYPE html>
-
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="We design your Landing Page"/>
-    <meta name="keywords" content="web design, landingpage, join us"/>
-    <link rel="stylesheet" href="styles/master.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/index.css">
-    <title>Home</title>
-    <!-- A simple landing page-->
-  </head>
 
-  <body>
-    <div class="wrap">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <style>
+    .showcase {
+      margin: 0;
+      padding: 0;
+      height: 600px;
+      overflow: hidden;
+    }
 
-    <header id="header">
-      <nav id="nav-bar" class="link">
-          <div class="headSection">
-              <center>
-                <div class="up">
-                  <a href="#">Home</a>
-                  <a href="./experince.html">Experience</a>
-                  <a href="./skills.html">Skills</a>
-                  <a href="./projects.html">Projects</a>
-                  <a href="./gallery.html">Gallery</a>
-                  <a href="./ref.html">References</a>
-                  <a href="./contactme.html">ContactMe</a>
-                  </div>
-              </center>
+    .mySlides {
+      display: none;
+    }
+  </style>
+  <script src="./js/main.js"></script>
+  <title>Norad ALC Cohort 1 Portfolio</title>
+</head>
+
+<body>
+  <div class="top-contents">
+    <!-- Navigation bar -->
+    <div class="nav-bar">
+      <div class="profile">Norad ALC Cohort 1</div>
+      <div class="menu-bar">
+        <a href="#">Home</a>
+        <a href="./views/about.html">About Us</a>
+        <a href="./views/project.html">Projects</a>
+        <a href="./views/gallery.html">Gallery</a>
+        <a href="./views/contact.html">Contact Us</a>
+        <a href="#partners">Our Partners</a>
+      </div>
+    </div>
+    <!-- Dropdown students names and links-->
+    <div class="student-dropdown-menu">
+      <div class="students">
+        <button class="dropdown">
+          List of all the students &nbsp; &nbsp;<i class="down"></i>
+        </button>
+        <div class="names">
+          <div class="dropdown-contents">
+            <div>
+              <a href="personal_portfolio_websites/pro4/Nakiyemba/index.html" target="_blank">Nakiyemba Olive</a>
+            </div>
+            <div>
+              <img src="./images/avator.png" alt="Nakiyemba Olive" />
+            </div>
+            <div>
+              <a href="personal_portfolio_websites/pro2/julius_portfolio/index.html" target="_blank">Oketayot Julius
+                Peter</a>
+            </div>
+            <div>
+              <img src="./images/passport.jpeg" alt="Oketayot Julius Peter" />
+            </div>
+            <div>
+              <a href="personal_portfolio_websites/pro3/solomon%20muheki/pages/index.html" target="_blank">Muheki Solomon</a>
+            </div>
+            <div>
+              <img src="./images/mypic.png" alt="" />
+            </div>
+            <div>
+              <a href="https://benjaminkyamanywa.netlify.com" target="_blank">Kyamanywa Benjamin</a>
+            </div>
+            <div>
+              <img src="./images/benjamin.jpeg" alt="" />
+            </div>
+            <div>
+              <a href="personal_portfolio_websites/pro3/LubangaRogers/profile.html" target="_blank">Lubanga Rogers</a>
+            </div>
+            <div>
+              <img src="./images/icon.jpg" alt="" />
+            </div>
+            <div>
+              <a href="personal_portfolio_websites/pro2/Obwot%20Solomon/index.html" target="_blank">Obwot Solomon</a>
+            </div>
+            <div>
+              <img src="./images/home-bg.jpg" alt="" />
+            </div>
+            <div>
+              <a href="#">Kintu Declan Trevor</a>
+            </div>
+            <div>
+              <img src="./images/image1.jpg" alt="" />
+            </div>
+            <div>
+              <a href="personal_portfolio_websites/pro4/Beatrice_Nakabanda/templates/index.html" target="_blank">Nakabanda Beatrice</a>
+            </div>
+            <div>
+              <img src="./images/iii.jpg" alt="" />
+            </div>
+            <div>
+              <a href="#">Mugonyi Peter</a>
+            </div>
+            <div>
+              <img src="./images/im4.jpg" alt="" />
+            </div>
+            <div>
+              <a href="https://oketafred.ga" taregt="_blank">Oketa Fred</a>
+            </div>
+            <div>
+              <img src="./images/oketafred.png" alt="" />
+            </div>
+            <div>
+              <a href="personal_portfolio_websites/pro2/Odong%20Sunday/profile/index.html" target="_blank">Odong Sunday</a>
+            </div>
+            <div>
+              <img src="./images/foto.jpg" alt="" />
+            </div>
+            <div>
+              <a href="personal_portfolio_websites/pro5/Tendo_Martyn/index.html" target="_blank">Tendo Martin</a>
+            </div>
+            <div>
+              <img src="./images/me1.jpg" alt="" />
+            </div>
+            <div>
+              <a href="personal_portfolio_websites/pro3/Oyee James/Porfolio/index.html" target="_blank">Oyee James</a>
+            </div>
+            <div>
+              <img src="./images/james2.jpg" alt="" />
+            </div>
+            <div>
+              <a href="#" target="_blank">Biel Chah</a>
+            </div>
+            <div>
+              <img src="./images/biel.jpeg" alt="" />
+            </div>
+            <div>
+              <a href="#" target="_blank">Omega Judith</a>
+            </div>
+            <div>
+              <img src="./images/myPhoto.jpg" alt="" />
+            </div>
+            <div>
+              <a href="#" target="_blank">Katungye Johnson</a>
+            </div>
+            <div>
+              <img src="./images/katungye.png" alt="" />
+            </div>
+            <div>
+              <a href="personal_portfolio_websites/pro3/Bongomin%20Daniel/Profile/index.html" target="_blank">Bongomin Daniel</a>
+            </div>
+            <div>
+              <img src="./images/profile-avatar.jpg" alt="" />
+            </div>
+            <div>
+              <a href="personal_portfolio_websites/pro2/Abdinasir/pro2.html" target="_blank">Abdinaasir</a>
+            </div>
+            <div>
+              <img src="./images/pc1.png" alt="" />
+            </div>
+            <div>
+              <a href="personal_portfolio_websites/pro5/kimbugweronnie/templates/index.html" target="_blank">Kimbugwe Ronnie</a>
+            </div>
+            <div>
+              <img src="./images/hero.jpg" alt="" />
+            </div>
+            <div>
+              <a href="#" target="_blank">Otaala Samuel</a>
+            </div>
+            <div>
+              <img src="./images/pc1.png" alt="" />
+            </div>
           </div>
-      </nav>
-    </header>
-      <div class="banner">
-        <div class="polarize">
-            <div class="bodySection">            
-                <div class="myPhoto">
-                    <img src="./assets/Images/myPhoto.jpg">
-                </div>
-                <div class="aboutMe">
-                    <div>
-                        <div class="para">
-                            <p><strong>Hullo!</strong> I am <br><strong>judith Omega</strong><br>And This is Alittle About Me,<br>Check Out My sit And lets Interact <br></p>
-                        </div>
-                    </div>
-                    <div class="mid">
-                    <div class="topLinks">
-                       <div  class="skills">
-                            <a href="">##Skills.....</a>
-                       </div>
-                       <div class="experience">
-                            <a href="Static/experience.html">Experience</a>
-                       </div>        
-                       <div class="projects">
-                            <a href="">#Projects...</a>
-                       </div>
-                    </div>
-                    </div>
-    
-                  
-                </div>
-            </div>
-            <div class="footerSection">
-                <div class="call">
-                    <div class="footerImage">
-                        <img src="./assets/Images/phone.png">
-                    </div>
-                    <div>
-                        <p><strong>Call</strong><br>Tel: +256 757 773 330</p>
-                    </div>
-                </div>
-                <div class="email">
-                    <div class="footerImage">
-                        <img src="./assets/Images/email.png">
-                    </div>
-                    <div>
-                        <p><strong>Email</strong><br>omegajudith@gmail.com</p>
-                    </div>
-                </div>
-                <div class="followMe">
-                    <div class="footerImage">
-                        <img src="./assets/Images/followMe.png">
-                    </div>
-                    <div class="followMeContent">
-                        <div class="follow">
-                            <p><strong>Follow Me</strong></p>
-                        </div>
-                        <!--
-                        <div class="socialIcons">
-                            <img src="Images/facebook.png">
-                            <img src="Images/twitter.png">
-                            <img src="Images/linkedin.png">
-                        </div>>
-                        -->
-                    </div>
-                </div>
-                <div class="copyright">
-                    <div class="footerImage">
-                        <img src="./assets/Images/copyright.png">
-                    </div>
-                    <div>
-                        <p>2019 by Judith<br>All Right Reserved</p>    
-                    </div>
-                </div>
-            </div>
         </div>
-        </div>
-     </div>
-
-  </body>
-
+      </div>
+    </div>
+  </div>
+  <!-- Showcase section showing the moving background -->
+  <div class="showcase">
+    <img class="mySlides" src="images/clerk_univ.png" style="width: 100%;" />
+    <img class="mySlides" src="images/pic2.jpg" style="width: 100%;" />
+    <img class="mySlides" src="images/pic3.jpg" style="width: 100%;" />
+    <img class="mySlides" src="images/clerk_univ.png" style="width: 100%;" />
+  </div>
+  <!-- Our partners section -->
+  <div class="partners" id="partners">
+    <p style="font-weight: bold; text-align: left">Our Partners</p>
+    <hr />
+    <a href="https://norad.no/en/front/" target="_blank"><img src="./images/Norad_logo.png" alt="Norad logo" /></a>
+    <a href="http://ciu.ac.ug/" target="_blank"><img src="./images/ciu_logo.png" alt="CIU logo" /></a>
+    <a href="http://fontes.no/foundation/" target="_blank"><img src="./images/fontes_logo.jpg" alt="Fontes logo" /></a>
+    <a href="https://www.laboremus.ug/" target="_blank"><img src="./images/laboremus_logo.png"
+        alt="Laboremus logo" /></a>
+    <a href="https://www.microsoft.com/africa/4afrika/" target="_blank"><img src="./images/miscrosoft_logo.png"
+        alt="Microsoft logo" /></a>
+  </div>
+  <!-- Footer section -->
+  <footer>
+    <div>
+      <p>Stay connected with us</p>
+      <a href="#!">
+        <i class="fab fa-twitter fa-2x"></i>
+      </a>
+      <a href="#!">
+        <i class="fab fa-facebook fa-2x"></i>
+      </a>
+      <a href="#!">
+        <i class="fab fa-linkedin fa-2x"></i>
+      </a>
+      <a href="#!">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+    </div>
+    <p>&copy; Copyright | Norad ALC Cohort 1 2019</p>
+    <div>
+      <span>Navigate</span>
+      <a href="#">Home</a>
+      <a href="./views/about.html">About Us</a>
+      <a href="./views/project.html">Projects</a>
+      <a href="./views/gallery.html">Gallery</a>
+      <a href="./views/contact.html">Contact Us</a>
+    </div>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
 
 </html>
