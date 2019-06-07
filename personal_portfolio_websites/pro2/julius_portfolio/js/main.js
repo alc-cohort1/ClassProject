@@ -31,3 +31,28 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// The function to validate the message form values
+function validate() {
+  // variables for keeping the form values
+  const name = document.messageForm.name.value;
+  const email = document.messageForm.email.value;
+  const message = document.messageForm.message.value;
+
+  // checking the name, email and messages are provided and are also correct
+  if (!name.match(/^[a-zA-Z]+$/)) {
+    document.getElementById("name").innerHTML = "Enter a correct name.";
+    return false;
+  } else if (/\S+@\S+/.test(email) === false) {
+    document.getElementById("email").innerHTML =
+      "Enter a correct email address";
+    return false;
+  } else if (message.length < 5) {
+    document.getElementById("message").innerHTML =
+      "Enter a reasonable message!";
+    return false;
+  } else {
+    // return true when all the form values passed the validation
+    return true;
+  }
+}
