@@ -8,13 +8,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="top" id="home"></div>
+
+    <!-- A geneneral section having all the contents on the website page -->
+
     <div class="container">
         <div class="background">
             <div class="nav">
+
+                <!-- The top section of the Web-page containing the various links to the sections within the web-page -->
         <nav>
-            <div class="name">
+            <a href="#home">
+            <div class="name" >
                 <img src="images/name_and_prof.png" alt="" srcset="">
             </div>
+            </a>    
             <div class="project">
             <a href="#annoymous_one" style="text-decoration: none">
                 <label>
@@ -51,6 +59,8 @@
                 </a>
             </div>
         </nav>
+
+        <!-- This section contains the profile image and the various details about the owner of the website -->
     </div>
         <div class="content">
             <div class="profile_image">
@@ -146,27 +156,45 @@
                 </div>
                 <div class="social_media">
                     <div class="facebook">
-                        <img src="images/facebook.png" alt="facebook image">
+                        <a href="https://www.facebook.com/odong.sandie" target="_blank">
+                            <img src="images/facebook.png" alt="facebook image">
+                        </a>
                     </div>
                     <div class="twitter">
-                        <img src="images/twitter.png" alt="twitter image">
+                        <a href="https://twitter.com/odongsandie" target="_blank">
+                            <img src="images/twitter.png" alt="twitter image">
+                        </a>
                     </div>
                     <div class="google">
-                        <img src="images/google+.png" alt="google+ image">
+                        <a href="https://aboutme.google.com/?hl=en" target="_blank">
+                            <img src="images/google+.png" alt="google+ image">
+                        </a>
                     </div>
                     <div class="linkedIN">
-                        <img src="images/linkedin.png" alt="linkedIN image">
+                        <a href="https://www.linkedin.com/in/sunday-alican-odong-b99226b7/" target="_blank">
+                            <img src="images/linkedin.png" alt="linkedIN image">
+                        </a>
                     </div>
                     <div class="gitHub">
-                        <img src="images/gitHub.png" alt="gitHub image">
+                        <a href="https://github.com/OdongAlican" target="_blank">
+                            <img src="images/gitHub.png" alt="gitHub image">
+                        </a>
                     </div>
                     <div class="skype">
-                        <img src="images/skype.png" alt="skype image">
+                        <a href="https://secure.skype.com/portal/profile" target="_blank">
+                            <img src="images/skype.png" alt="skype image">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!--This section describes the various skills of the owner of the profile page
+    it consists of list display of various skills in different areas.
+    The skills are displayed in seperate divisions
+    -->
+
     <div id="annoymous_one" style="margin-top: 355px"></div>
         <div class="skills">
             <img src="images/skills.png" alt="skills">
@@ -476,6 +504,14 @@
                 </div>
             </div>
         </div>
+
+        <!--  
+            This section is about the education background.
+            There two divisions seperated by an horizontal line.
+            The various divisions explains breiefly about certain education achievemnet
+        -->
+
+
     <div id="annoymous_two" style="margin-top: 5px"></div>
         <div class="education">
             <img src="images/education.png" alt="" srcset="">
@@ -668,6 +704,13 @@
                 </div>
             </div>
         </div>
+
+        <!-- 
+            The block of codes below describes the various projects done.
+            The are layed out on seperate divisions and other small divisions below it 
+            explaining the details about the projects
+         -->
+
         <div id="annoymous_three" style="margin-top:5px"></div>
         <div class="project_head">
             <img src="images/projects.png" alt="project">
@@ -728,6 +771,14 @@
                 </div>
             </div>
         </div>
+
+        <!-- 
+            The section below is the galary section. There are divisions having images placed as a background
+            Another division is provided that explains a brief information about the background image.
+            This smaller division disappers on hover
+         -->
+
+
         <div id="annoymous_four" style="margin-top:1px"></div>
         <div class="gallery_heading">
             <img src="images/gallary.png" alt="Projects" srcset="">
@@ -780,11 +831,19 @@
                 </div>
             </div>
         </div>
+
+        <!-- 
+            This section is used to contact the owner of the website.
+            There are several inputs for entering information about name, email phone number and the massage.
+            The submit button below sends the information to the owner of the website
+         -->
+
         <div id="annoymous_five" style="margin-top:1px"></div>
         <div class="contact_me">
             <img src="images/contact_me.png" alt="contact me">
         </div>
-        <div class="contact_me_text">
+        <form name="contact_user" netlify>
+        <div class="contact_me_text" >
             <div class="left_main">
                 <div class="one">
                     <label>
@@ -876,11 +935,12 @@
                         </div>
                     </div>
                     <div class="btn_send">
-                        <input type="button" value="Send">
+                        <input type="submit" value="Send">
                     </div>
                 </div>
             </div>
         </div>
+    </form>
         <footer>
             <div class="left">
                 <label>
